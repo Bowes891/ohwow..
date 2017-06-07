@@ -1,0 +1,1320 @@
+﻿Log file open, 06/06/17 21:57:20
+LogInit:Display: Running engine for game: TowerDefence-3
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1249214890) SRandInit(1249214890).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.065121
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3416026
+LogInit: Engine Version: 4.15.2-3416026+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): May  1 2017 13:11:28
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line:  
+LogInit: Base directory: E:/Unreal 4/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.06.06-20.57.21:531][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.06-20.57.21:531][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.06.06-20.57.21:539][  0]LogInit: Computer: PCBOI
+[2017.06.06-20.57.21:539][  0]LogInit: User: Henry891
+[2017.06.06-20.57.21:539][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.06.06-20.57.21:539][  0]LogInit: High frequency timer resolution =3.903988 MHz
+[2017.06.06-20.57.21:540][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.06.06-20.57.21:540][  0]LogMemory: Platform Memory Stats for Windows
+[2017.06.06-20.57.21:540][  0]LogMemory: Process Physical Memory: 263.01 MB used, 263.01 MB peak
+[2017.06.06-20.57.21:540][  0]LogMemory: Process Virtual Memory: 262.58 MB used, 262.58 MB peak
+[2017.06.06-20.57.21:540][  0]LogMemory: Physical Memory: 6563.41 MB used,  9763.34 MB free, 16326.74 MB total
+[2017.06.06-20.57.21:540][  0]LogMemory: Virtual Memory: 644.97 MB used,  9763.34 MB free, 134217728.00 MB total
+[2017.06.06-20.57.21:590][  0]LogTextLocalizationManager: No specific translations for ('en-GB') exist, so ('en') translations will be used.
+[2017.06.06-20.57.22:074][  0]LogD3D11RHI: D3D11 adapters:
+[2017.06.06-20.57.22:556][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
+[2017.06.06-20.57.22:556][  0]LogD3D11RHI:       8110/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.06.06-20.57.22:557][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.06.06-20.57.22:557][  0]LogD3D11RHI:       0/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.06.06-20.57.22:557][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.06.06-20.57.22:561][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.06.06-20.57.22:561][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
+[2017.06.06-20.57.22:561][  0]LogWindows: EnumDisplayDevices:
+[2017.06.06-20.57.22:561][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
+[2017.06.06-20.57.22:561][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:0 D:1)
+[2017.06.06-20.57.22:561][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2017.06.06-20.57.22:561][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2017.06.06-20.57.22:561][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.06.06-20.57.22:561][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
+[2017.06.06-20.57.22:561][  0]LogD3D11RHI:   Driver Version: 382.33 (internal:22.21.13.8233, unified:382.33)
+[2017.06.06-20.57.22:561][  0]LogD3D11RHI:      Driver Date: 5-17-2017
+[2017.06.06-20.57.22:561][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.06.06-20.57.23:023][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2017.06.06-20.57.23:023][  0]LogD3D11RHI: Async texture creation enabled
+[2017.06.06-20.57.23:056][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.06.06-20.57.23:146][  0]LogShaderCompilers: Guid format shader working directory is 7 characters bigger than the processId version (../../../../UE4 projects/TowerDefence3/Intermediate/Shaders/WorkingDirectory/11504/).
+[2017.06.06-20.57.23:146][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Henry/AppData/Local/Temp/UnrealShaderWorkingDir/9874931640C8E1E12C8AE2BD0B9F908A/'.
+[2017.06.06-20.57.23:146][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.06.06-20.57.23:946][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.06.06-20.57.23:979][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.06.06-20.57.24:012][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.06.06-20.57.24:046][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.06.06-20.57.24:079][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.06.06-20.57.24:112][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.06.06-20.57.24:146][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.06.06-20.57.24:180][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.06.06-20.57.24:206][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.06.06-20.57.24:239][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.06.06-20.57.24:272][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.06.06-20.57.24:304][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.06.06-20.57.24:337][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.06.06-20.57.24:370][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.06.06-20.57.24:403][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.06.06-20.57.24:469][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.06.06-20.57.24:469][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.06.06-20.57.24:489][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.06.06-20.57.24:555][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.06.06-20.57.24:577][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.06.06-20.57.24:610][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.06.06-20.57.24:643][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.06.06-20.57.24:677][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.06.06-20.57.24:709][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.06.06-20.57.24:709][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.06.06-20.57.24:945][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.06.06-20.57.24:986][  0]LogDerivedDataCache: Loaded boot cache 0.04s 50MB C:/Users/Henry/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.06.06-20.57.24:986][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Henry/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.06.06-20.57.24:986][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../UE4 projects/TowerDefence3/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.06.06-20.57.24:986][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.06.06-20.57.24:986][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../UE4 projects/TowerDefence3/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.06.06-20.57.24:986][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.06.06-20.57.25:001][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.06.06-20.57.25:013][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Henry/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.06.06-20.57.25:021][  0]LogSlate: Using Freetype 2.6.0
+[2017.06.06-20.57.25:022][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.06-20.57.25:022][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.06-20.57.25:216][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.06-20.57.25:218][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.06.06-20.57.25:351][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.06.06-20.57.25:374][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.06.06-20.57.25:399][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.06.06-20.57.25:399][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.06.06-20.57.25:399][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.06.06-20.57.25:782][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: towerdefence-3, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 468272438
+[2017.06.06-20.57.25:817][  0]LogAssetRegistry: FAssetRegistry took 0.0209 seconds to start up
+[2017.06.06-20.57.25:843][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.014776 seconds
+[2017.06.06-20.57.25:847][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2017.06.06-20.57.25:847][  0]LogUObjectAllocator: 7077024 out of 0 bytes used by permanent object pool.
+[2017.06.06-20.57.25:847][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.06.06-20.57.25:879][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.06.06-20.57.26:913][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.06.06-20.57.26:940][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.06.06-20.57.27:214][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.06.06-20.57.27:432][  0]SourceControl: Info Source control is disabled
+[2017.06.06-20.57.27:433][  0]SourceControl: Info Source control is disabled
+[2017.06.06-20.57.27:458][  0]SourceControl: Info Source control is disabled
+[2017.06.06-20.57.27:482][  0]SourceControl: Info Source control is disabled
+[2017.06.06-20.57.27:638][  0]LogLinker:Warning: Can't find file '/Game/TopDownBP/TopDownOverview'
+[2017.06.06-20.57.27:638][  0]LogLinker:Warning: Can't find file '/Game/TopDownBP/TopDownOverview'
+[2017.06.06-20.57.27:638][  0]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/TopDownBP/TopDownOverview.TopDownOverview_C'
+[2017.06.06-20.57.28:156][  0]LogEngine: Initializing Engine...
+[2017.06.06-20.57.28:157][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.06.06-20.57.28:239][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.06.06-20.57.28:239][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.06.06-20.57.28:304][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.06.06-20.57.28:322][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.06-20.57.28:332][  0]LogInit: FAudioDevice initialized.
+[2017.06.06-20.57.28:352][  0]LogDerivedDataCache: Saved boot cache 0.02s 50MB C:/Users/Henry/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.06.06-20.57.28:357][  0]LogInit: Texture streaming: Enabled
+[2017.06.06-20.57.28:408][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.06.06-20.57.28:455][  0]LogInit: Transaction tracking system initialized
+[2017.06.06-20.57.28:640][  0]BlueprintLog: New page: Editor Load
+[2017.06.06-20.57.29:104][  0]LocalizationService: Info Localization service is disabled
+[2017.06.06-20.57.29:468][  0]LogConsoleResponse:Display: 
+[2017.06.06-20.57.29:568][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.06.06-20.57.29:568][  0]LogCook:Display: Mobile HDR setting 1
+[2017.06.06-20.57.29:891][  0]LogFileCache: Scanning file cache for directory 'E:/Unreal 4/UE4 projects/TowerDefence3/Content/' took 0.02s
+[2017.06.06-20.57.30:150][  0]SourceControl: Info Source control is disabled
+[2017.06.06-20.57.30:150][  0]Cmd: MAP LOAD FILE="../../../../UE4 projects/TowerDefence3/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.06.06-20.57.30:150][  0]LightingResults: New page: Lighting Build
+[2017.06.06-20.57.30:173][  0]MapCheck: New page: Map Check
+[2017.06.06-20.57.30:173][  0]LightingResults: New page: Lighting Build
+[2017.06.06-20.57.30:823][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.06.06-20.57.30:845][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.06.06-20.57.30:846][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.06.06-20.57.30:875][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 29.631ms to complete.
+[2017.06.06-20.57.30:876][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.726
+[2017.06.06-20.57.30:948][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.06.06-20.57.30:974][  0]LogCollectionManager: Loaded 0 collections in 0.000662 seconds
+[2017.06.06-20.57.31:037][  0]LogFileCache: Scanning file cache for directory 'E:/Unreal 4/UE4 projects/TowerDefence3/Saved/Collections/' took 0.01s
+[2017.06.06-20.57.31:037][  0]LogFileCache: Scanning file cache for directory 'E:/Unreal 4/UE4 projects/TowerDefence3/Content/Developers/Henry891/Collections/' took 0.01s
+[2017.06.06-20.57.31:037][  0]LogFileCache: Scanning file cache for directory 'E:/Unreal 4/UE4 projects/TowerDefence3/Content/Collections/' took 0.01s
+[2017.06.06-20.57.31:037][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.06.06-20.57.31:044][  0]LogContentBrowser: Native class hierarchy populated in 0.0066 seconds. Added 2252 classes and 455 folders.
+[2017.06.06-20.57.31:078][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.06.06-20.57.31:105][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.06.06-20.57.31:192][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.06.06-20.57.31:223][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.06.06-20.57.31:229][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.06.06-20.57.31:274][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.06.06-20.57.31:274][  0]LogLoad: (Engine Initialization) Total time: 10.97 seconds
+[2017.06.06-20.57.31:274][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.27 seconds
+[2017.06.06-20.57.31:274][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.06.06-20.57.31:284][  0]LogOcInput: OculusInput pre-init called
+[2017.06.06-20.57.31:304][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.06.06-20.57.31:305][  0]LogSlate: Took 0.000187 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.06.06-20.57.31:308][  0]LogSlate: Took 0.000267 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.06.06-20.57.31:309][  0]LogSlate: Took 0.000141 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.06.06-20.57.31:453][  0]LogRenderer: Reallocating scene render targets to support 1508x1284 NumSamples 1 (Frame:2).
+[2017.06.06-20.57.31:518][  1]LogAssetRegistry: Asset discovery search completed in 5.7229 seconds
+[2017.06.06-20.57.31:518][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000005 seconds (found 0 objects)
+[2017.06.06-20.57.31:518][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000019 seconds (updated 0 objects)
+[2017.06.06-20.57.32:317][ 89]LogSlate: Took 0.000208 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.06-20.57.34:391][336]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.06-20.57.34:404][336]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.06-20.57.34:404][336]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.06-20.57.34:405][336]PIE: New page: PIE session: ThirdPersonExampleMap (6 Jun 2017 22:57:34)
+[2017.06.06-20.57.34:405][336]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.06.06-20.57.34:426][336]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021664s)
+[2017.06.06-20.57.34:427][336]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.06.06-20.57.34:428][336]LogPlayLevel: PIE: World Init took: (0.001049s)
+[2017.06.06-20.57.34:428][336]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.023024s)
+[2017.06.06-20.57.34:461][336]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.06-20.57.34:469][336]LogInit: FAudioDevice initialized.
+[2017.06.06-20.57.34:512][336]LogLoad: Game class is 'GDG_GameMode_C'
+[2017.06.06-20.57.34:514][336]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.06.06-21.57.34
+[2017.06.06-20.57.34:515][336]LogWorld: Bringing up level for play took: 0.002004
+[2017.06.06-20.57.34:538][336]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 11 classes and 0 folders.
+[2017.06.06-20.57.34:539][336]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.883
+[2017.06.06-20.57.34:539][336]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.06-20.57.41:980][221]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.06-20.57.42:011][221]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.06-20.57.43:328][343]LogSlate: Took 0.000139 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.06-20.57.43:662][343]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 112 classes and 0 folders.
+[2017.06.06-20.57.44:142][343]LogSlate: Took 0.000140 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.06.06-20.57.44:202][343]LogSlate: Took 0.000183 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.06.06-20.58.06:070][371]LogSlate: Took 0.000160 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.06.06-20.59.20:682][530]BlueprintLog: New page: Compile TwinStickProjectile
+[2017.06.06-20.59.21:228][567]LogSavePackage: Save=14.58ms
+[2017.06.06-20.59.21:228][567]LogSavePackage: Moving '../../../../UE4 projects/TowerDefence3/Saved/TwinStickProjectileDD5EB9B842F3142FCE37EB8B4DF0E92C.tmp' to '../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/Units/Friendly/Gun/TwinStickProjectile.uasset'
+[2017.06.06-20.59.21:230][567]LogSavePackage:Display: Finished SavePackage ../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/Units/Friendly/Gun/TwinStickProjectile.uasset
+[2017.06.06-20.59.35:681][865]LogSavePackage: Save=8.65ms
+[2017.06.06-20.59.35:681][865]LogSavePackage: Moving '../../../../UE4 projects/TowerDefence3/Saved/TwinStickProjectileB01019114E39B45AC4DE639A037C022B.tmp' to '../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/Units/Friendly/Gun/TwinStickProjectile.uasset'
+[2017.06.06-20.59.35:682][865]LogSavePackage:Display: Finished SavePackage ../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/Units/Friendly/Gun/TwinStickProjectile.uasset
+[2017.06.06-20.59.36:512][947]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.06-20.59.36:528][947]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.06-20.59.36:528][947]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.06-20.59.36:528][947]PIE: New page: PIE session: ThirdPersonExampleMap (6 Jun 2017 22:59:36)
+[2017.06.06-20.59.36:528][947]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.06.06-20.59.36:545][947]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016468s)
+[2017.06.06-20.59.36:545][947]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.06.06-20.59.36:546][947]LogPlayLevel: PIE: World Init took: (0.000954s)
+[2017.06.06-20.59.36:546][947]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.017722s)
+[2017.06.06-20.59.36:575][947]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.06-20.59.36:583][947]LogInit: FAudioDevice initialized.
+[2017.06.06-20.59.36:611][947]LogLoad: Game class is 'GDG_GameMode_C'
+[2017.06.06-20.59.36:614][947]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.06.06-21.59.36
+[2017.06.06-20.59.36:614][947]LogWorld: Bringing up level for play took: 0.001908
+[2017.06.06-20.59.36:616][947]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.96
+[2017.06.06-20.59.36:616][947]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.06-20.59.52:639][534]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.06-20.59.52:685][534]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.06-21.00.44:755][ 38]BlueprintLog: New page: Compile TwinStickProjectile
+[2017.06.06-21.00.45:570][100]LogSavePackage: Save=16.66ms
+[2017.06.06-21.00.45:570][100]LogSavePackage: Moving '../../../../UE4 projects/TowerDefence3/Saved/TwinStickProjectile3D7E5E884DD1EE13C11349874F685608.tmp' to '../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/Units/Friendly/Gun/TwinStickProjectile.uasset'
+[2017.06.06-21.00.45:572][100]LogSavePackage:Display: Finished SavePackage ../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/Units/Friendly/Gun/TwinStickProjectile.uasset
+[2017.06.06-21.01.04:448][305]BlueprintLog: New page: Compile TwinStickProjectile
+[2017.06.06-21.01.05:088][363]LogSavePackage: Save=16.66ms
+[2017.06.06-21.01.05:088][363]LogSavePackage: Moving '../../../../UE4 projects/TowerDefence3/Saved/TwinStickProjectileAA654FD24A75928A35069587B6685EC0.tmp' to '../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/Units/Friendly/Gun/TwinStickProjectile.uasset'
+[2017.06.06-21.01.05:089][363]LogSavePackage:Display: Finished SavePackage ../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/Units/Friendly/Gun/TwinStickProjectile.uasset
+[2017.06.06-21.01.12:226][110]LogSavePackage: Save=106.35ms
+[2017.06.06-21.01.12:226][110]LogSavePackage: Moving '../../../../UE4 projects/TowerDefence3/Saved/ThirdPersonExampleMapEA734F394E1C879DEE62A890008C37CF.tmp' to '../../../../UE4 projects/TowerDefence3/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2017.06.06-21.01.12:228][110]LogSavePackage:Display: Finished SavePackage ../../../../UE4 projects/TowerDefence3/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2017.06.06-21.01.12:253][110]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.192
+[2017.06.06-21.01.12:815][175]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.06-21.01.12:831][175]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.06-21.01.12:831][175]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.06-21.01.12:831][175]PIE: New page: PIE session: ThirdPersonExampleMap (6 Jun 2017 23:01:12)
+[2017.06.06-21.01.12:831][175]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.06.06-21.01.12:846][175]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014875s)
+[2017.06.06-21.01.12:847][175]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.06.06-21.01.12:847][175]LogPlayLevel: PIE: World Init took: (0.000682s)
+[2017.06.06-21.01.12:847][175]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.015775s)
+[2017.06.06-21.01.12:878][175]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.06-21.01.12:886][175]LogInit: FAudioDevice initialized.
+[2017.06.06-21.01.12:918][175]LogLoad: Game class is 'GDG_GameMode_C'
+[2017.06.06-21.01.12:920][175]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.06.06-22.01.12
+[2017.06.06-21.01.12:921][175]LogWorld: Bringing up level for play took: 0.002230
+[2017.06.06-21.01.12:922][175]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.734
+[2017.06.06-21.01.12:923][175]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.06-21.01.31:368][367]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.06-21.01.31:400][367]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.06-21.03.11:729][329]BlueprintLog: New page: Compile BaseUnit
+[2017.06.06-21.03.12:489][386]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MOBA_Minion_AI/Units/Friendly/BaseUnit" FILE="../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/Units/Friendly/BaseUnit.uasset" SILENT=true
+[2017.06.06-21.03.12:558][386]LogSavePackage: Save=63.60ms
+[2017.06.06-21.03.12:558][386]LogSavePackage: Moving '../../../../UE4 projects/TowerDefence3/Saved/BaseUnitDEEA346B4C6581E7CB02A28A63236A9F.tmp' to '../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/Units/Friendly/BaseUnit.uasset'
+[2017.06.06-21.03.12:560][386]LogSavePackage:Display: Finished SavePackage ../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/Units/Friendly/BaseUnit.uasset
+[2017.06.06-21.03.29:093][ 63]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.06-21.03.29:108][ 63]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.06-21.03.29:108][ 63]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.06-21.03.29:108][ 63]PIE: New page: PIE session: ThirdPersonExampleMap (6 Jun 2017 23:03:29)
+[2017.06.06-21.03.29:108][ 63]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.06.06-21.03.29:125][ 63]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015598s)
+[2017.06.06-21.03.29:125][ 63]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.06.06-21.03.29:125][ 63]LogPlayLevel: PIE: World Init took: (0.000799s)
+[2017.06.06-21.03.29:126][ 63]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.016673s)
+[2017.06.06-21.03.29:157][ 63]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.06-21.03.29:165][ 63]LogInit: FAudioDevice initialized.
+[2017.06.06-21.03.29:192][ 63]LogLoad: Game class is 'GDG_GameMode_C'
+[2017.06.06-21.03.29:195][ 63]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.06.06-22.03.29
+[2017.06.06-21.03.29:196][ 63]LogWorld: Bringing up level for play took: 0.002155
+[2017.06.06-21.03.29:197][ 63]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.459
+[2017.06.06-21.03.29:197][ 63]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.06-21.03.41:834][414]LogBlueprintDebug:Warning: Hit breakpoint on node 'CallFunc_PrintString', from offset 15
+[2017.06.06-21.03.41:834][414]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/MOBA_Minion_AI/Units/Friendly/BaseUnit.BaseUnit_C:ExecuteUbergraph_BaseUnit
+
+[2017.06.06-21.03.46:734][414]LogBlueprintUserMessages: [ThirdPersonCharacter6] Hello
+[2017.06.06-21.03.47:838][536]LogBlueprintDebug:Warning: Hit breakpoint on node 'CallFunc_PrintString', from offset 15
+[2017.06.06-21.03.47:838][536]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/MOBA_Minion_AI/Units/Friendly/BaseUnit.BaseUnit_C:ExecuteUbergraph_BaseUnit
+
+[2017.06.06-21.03.54:198][536]LogBlueprintUserMessages: [ThirdPersonCharacter6] Hello
+[2017.06.06-21.03.54:815][605]LogBlueprintDebug:Warning: Hit breakpoint on node 'CallFunc_PrintString', from offset 15
+[2017.06.06-21.03.54:815][605]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/MOBA_Minion_AI/Units/Friendly/BaseUnit.BaseUnit_C:ExecuteUbergraph_BaseUnit
+
+[2017.06.06-21.03.58:839][605]LogBlueprintUserMessages: [ThirdPersonCharacter6] Hello
+[2017.06.06-21.03.59:941][726]LogBlueprintDebug:Warning: Hit breakpoint on node 'CallFunc_PrintString', from offset 15
+[2017.06.06-21.03.59:941][726]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/MOBA_Minion_AI/Units/Friendly/BaseUnit.BaseUnit_C:ExecuteUbergraph_BaseUnit
+
+[2017.06.06-21.04.05:851][726]LogBlueprintUserMessages: [ThirdPersonCharacter6] Hello
+[2017.06.06-21.04.06:470][793]LogBlueprintDebug:Warning: Hit breakpoint on node 'CallFunc_PrintString', from offset 15
+[2017.06.06-21.04.06:471][793]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/MOBA_Minion_AI/Units/Friendly/BaseUnit.BaseUnit_C:ExecuteUbergraph_BaseUnit
+
+[2017.06.06-21.04.07:892][793]LogBlueprintUserMessages: [ThirdPersonCharacter6] Hello
+[2017.06.06-21.04.09:003][913]LogBlueprintDebug:Warning: Hit breakpoint on node 'CallFunc_PrintString', from offset 15
+[2017.06.06-21.04.09:003][913]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/MOBA_Minion_AI/Units/Friendly/BaseUnit.BaseUnit_C:ExecuteUbergraph_BaseUnit
+
+[2017.06.06-21.04.12:321][913]LogBlueprintUserMessages: [ThirdPersonCharacter6] Hello
+[2017.06.06-21.04.13:429][ 33]LogBlueprintDebug:Warning: Hit breakpoint on node 'CallFunc_PrintString', from offset 15
+[2017.06.06-21.04.13:429][ 33]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/MOBA_Minion_AI/Units/Friendly/BaseUnit.BaseUnit_C:ExecuteUbergraph_BaseUnit
+
+[2017.06.06-21.04.15:609][ 33]LogBlueprintUserMessages: [ThirdPersonCharacter6] Hello
+[2017.06.06-21.04.16:721][151]LogBlueprintDebug:Warning: Hit breakpoint on node 'CallFunc_PrintString', from offset 15
+[2017.06.06-21.04.16:721][151]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/MOBA_Minion_AI/Units/Friendly/BaseUnit.BaseUnit_C:ExecuteUbergraph_BaseUnit
+
+[2017.06.06-21.04.18:446][151]LogBlueprintUserMessages: [ThirdPersonCharacter6] Hello
+[2017.06.06-21.04.19:553][270]LogBlueprintDebug:Warning: Hit breakpoint on node 'CallFunc_PrintString', from offset 15
+[2017.06.06-21.04.19:553][270]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/MOBA_Minion_AI/Units/Friendly/BaseUnit.BaseUnit_C:ExecuteUbergraph_BaseUnit
+
+[2017.06.06-21.04.21:500][270]LogBlueprintUserMessages: [ThirdPersonCharacter6] Hello
+[2017.06.06-21.04.22:601][387]LogBlueprintDebug:Warning: Hit breakpoint on node 'CallFunc_PrintString', from offset 15
+[2017.06.06-21.04.22:601][387]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/MOBA_Minion_AI/Units/Friendly/BaseUnit.BaseUnit_C:ExecuteUbergraph_BaseUnit
+
+[2017.06.06-21.04.28:342][387]LogBlueprintUserMessages: [ThirdPersonCharacter6] Hello
+[2017.06.06-21.04.28:344][387]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.06-21.04.28:388][387]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.06-21.04.45:122][231]BlueprintLog: New page: Compile BaseUnit
+[2017.06.06-21.04.45:547][259]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MOBA_Minion_AI/Units/Friendly/BaseUnit" FILE="../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/Units/Friendly/BaseUnit.uasset" SILENT=true
+[2017.06.06-21.04.45:613][259]LogSavePackage: Save=63.52ms
+[2017.06.06-21.04.45:613][259]LogSavePackage: Moving '../../../../UE4 projects/TowerDefence3/Saved/BaseUnitEC52CEEB4F31D77041D0CEA4388E9B87.tmp' to '../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/Units/Friendly/BaseUnit.uasset'
+[2017.06.06-21.04.45:614][259]LogSavePackage:Display: Finished SavePackage ../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/Units/Friendly/BaseUnit.uasset
+[2017.06.06-21.04.46:930][406]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.06-21.04.46:946][406]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.06-21.04.46:946][406]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.06-21.04.46:946][406]PIE: New page: PIE session: ThirdPersonExampleMap (6 Jun 2017 23:04:46)
+[2017.06.06-21.04.46:946][406]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.06.06-21.04.46:961][406]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015183s)
+[2017.06.06-21.04.46:962][406]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.06.06-21.04.46:962][406]LogPlayLevel: PIE: World Init took: (0.000677s)
+[2017.06.06-21.04.46:962][406]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.016089s)
+[2017.06.06-21.04.46:993][406]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.06-21.04.47:001][406]LogInit: FAudioDevice initialized.
+[2017.06.06-21.04.47:032][406]LogLoad: Game class is 'GDG_GameMode_C'
+[2017.06.06-21.04.47:035][406]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.06.06-22.04.47
+[2017.06.06-21.04.47:036][406]LogWorld: Bringing up level for play took: 0.002571
+[2017.06.06-21.04.47:037][406]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.619
+[2017.06.06-21.04.47:037][406]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.06-21.04.53:848][152]LogBlueprintUserMessages: [ThirdPersonCharacter6] DERRP
+[2017.06.06-21.04.54:357][207]LogBlueprintUserMessages: [ThirdPersonCharacter6] DERRP
+[2017.06.06-21.04.55:356][313]LogBlueprintUserMessages: [ThirdPersonCharacter6] DERRP
+[2017.06.06-21.04.58:304][637]LogBlueprintUserMessages: [ThirdPersonCharacter6] DERRP
+[2017.06.06-21.04.59:300][745]LogBlueprintUserMessages: [ThirdPersonCharacter6] DERRP
+[2017.06.06-21.05.02:369][ 73]LogBlueprintUserMessages: [ThirdPersonCharacter6] DERRP
+[2017.06.06-21.05.03:811][230]LogBlueprintUserMessages: [ThirdPersonCharacter6] DERRP
+[2017.06.06-21.05.05:454][407]LogBlueprintUserMessages: [ThirdPersonCharacter6] DERRP
+[2017.06.06-21.05.06:454][516]LogBlueprintUserMessages: [ThirdPersonCharacter6] DERRP
+[2017.06.06-21.05.09:028][797]LogBlueprintUserMessages: [ThirdPersonCharacter6] DERRP
+[2017.06.06-21.05.09:578][857]LogBlueprintUserMessages: [ThirdPersonCharacter6] DERRP
+[2017.06.06-21.05.10:081][911]LogBlueprintUserMessages: [ThirdPersonCharacter6] DERRP
+[2017.06.06-21.05.11:077][ 22]LogBlueprintUserMessages: [ThirdPersonCharacter6] DERRP
+[2017.06.06-21.05.11:584][ 76]LogBlueprintUserMessages: [ThirdPersonCharacter6] DERRP
+[2017.06.06-21.05.11:911][111]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.06-21.05.11:957][111]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.06-21.05.20:631][971]BlueprintLog: New page: Compile BaseUnit
+[2017.06.06-21.05.21:183][  8]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MOBA_Minion_AI/Units/Friendly/BaseUnit" FILE="../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/Units/Friendly/BaseUnit.uasset" SILENT=true
+[2017.06.06-21.05.21:253][  8]LogSavePackage: Save=67.96ms
+[2017.06.06-21.05.21:253][  8]LogSavePackage: Moving '../../../../UE4 projects/TowerDefence3/Saved/BaseUnitCB89FF8D4EBFA01C19614FAE7452C9F4.tmp' to '../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/Units/Friendly/BaseUnit.uasset'
+[2017.06.06-21.05.21:254][  8]LogSavePackage:Display: Finished SavePackage ../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/Units/Friendly/BaseUnit.uasset
+[2017.06.06-21.05.23:904][271]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.06-21.05.23:920][271]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.06-21.05.23:920][271]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.06-21.05.23:920][271]PIE: New page: PIE session: ThirdPersonExampleMap (6 Jun 2017 23:05:23)
+[2017.06.06-21.05.23:920][271]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.06.06-21.05.23:933][271]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012939s)
+[2017.06.06-21.05.23:934][271]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.06.06-21.05.23:934][271]LogPlayLevel: PIE: World Init took: (0.000640s)
+[2017.06.06-21.05.23:934][271]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.013798s)
+[2017.06.06-21.05.23:967][271]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.06-21.05.23:975][271]LogInit: FAudioDevice initialized.
+[2017.06.06-21.05.24:008][271]LogLoad: Game class is 'GDG_GameMode_C'
+[2017.06.06-21.05.24:011][271]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.06.06-22.05.24
+[2017.06.06-21.05.24:012][271]LogWorld: Bringing up level for play took: 0.002091
+[2017.06.06-21.05.24:013][271]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.357
+[2017.06.06-21.05.24:013][271]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.06-21.05.31:236][984]LogBlueprintUserMessages: [ThirdPersonCharacter6] DERRP
+[2017.06.06-21.05.32:239][ 79]LogBlueprintUserMessages: [ThirdPersonCharacter6] DERRP
+[2017.06.06-21.05.33:240][174]LogBlueprintUserMessages: [ThirdPersonCharacter6] DERRP
+[2017.06.06-21.05.34:234][268]LogBlueprintUserMessages: [ThirdPersonCharacter6] DERRP
+[2017.06.06-21.05.35:230][366]LogBlueprintUserMessages: [ThirdPersonCharacter6] DERRP
+[2017.06.06-21.05.37:307][564]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.06-21.05.37:354][564]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.06-21.05.44:309][267]BlueprintLog: New page: Compile BaseUnit
+[2017.06.06-21.05.45:084][331]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MOBA_Minion_AI/Units/Friendly/BaseUnit" FILE="../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/Units/Friendly/BaseUnit.uasset" SILENT=true
+[2017.06.06-21.05.45:150][331]LogSavePackage: Save=63.80ms
+[2017.06.06-21.05.45:151][331]LogSavePackage: Moving '../../../../UE4 projects/TowerDefence3/Saved/BaseUnitEBCB9F244E1BDADD86C4F28F7570C71E.tmp' to '../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/Units/Friendly/BaseUnit.uasset'
+[2017.06.06-21.05.45:152][331]LogSavePackage:Display: Finished SavePackage ../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/Units/Friendly/BaseUnit.uasset
+[2017.06.06-21.05.46:000][417]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.06-21.05.46:016][417]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.06-21.05.46:016][417]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.06-21.05.46:016][417]PIE: New page: PIE session: ThirdPersonExampleMap (6 Jun 2017 23:05:46)
+[2017.06.06-21.05.46:016][417]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.06.06-21.05.46:028][417]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012256s)
+[2017.06.06-21.05.46:029][417]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.06.06-21.05.46:029][417]LogPlayLevel: PIE: World Init took: (0.000653s)
+[2017.06.06-21.05.46:029][417]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.013155s)
+[2017.06.06-21.05.46:064][417]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.06-21.05.46:072][417]LogInit: FAudioDevice initialized.
+[2017.06.06-21.05.46:105][417]LogLoad: Game class is 'GDG_GameMode_C'
+[2017.06.06-21.05.46:107][417]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.06.06-22.05.46
+[2017.06.06-21.05.46:107][417]LogWorld: Bringing up level for play took: 0.001956
+[2017.06.06-21.05.46:109][417]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.453
+[2017.06.06-21.05.46:109][417]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.06-21.05.54:944][301]LogBlueprintUserMessages: [ThirdPersonCharacter6] DERRP
+[2017.06.06-21.05.55:948][401]LogBlueprintUserMessages: [ThirdPersonCharacter6] DERRP
+[2017.06.06-21.05.56:942][501]LogBlueprintUserMessages: [ThirdPersonCharacter6] DERRP
+[2017.06.06-21.05.57:947][602]LogBlueprintUserMessages: [ThirdPersonCharacter6] DERRP
+[2017.06.06-21.05.58:950][702]LogBlueprintUserMessages: [ThirdPersonCharacter6] DERRP
+[2017.06.06-21.05.59:947][801]LogBlueprintUserMessages: [ThirdPersonCharacter6] DERRP
+[2017.06.06-21.06.00:945][900]LogBlueprintUserMessages: [ThirdPersonCharacter6] DERRP
+[2017.06.06-21.06.06:130][416]LogBlueprintUserMessages: [ThirdPersonCharacter6] DERRP
+[2017.06.06-21.06.07:331][537]LogBlueprintUserMessages: [ThirdPersonCharacter6] DERRP
+[2017.06.06-21.06.08:330][637]LogBlueprintUserMessages: [ThirdPersonCharacter6] DERRP
+[2017.06.06-21.06.09:323][736]LogBlueprintUserMessages: [ThirdPersonCharacter6] DERRP
+[2017.06.06-21.06.11:630][965]LogBlueprintUserMessages: [ThirdPersonCharacter6] DERRP
+[2017.06.06-21.06.12:628][ 65]LogBlueprintUserMessages: [ThirdPersonCharacter6] DERRP
+[2017.06.06-21.06.13:634][165]LogBlueprintUserMessages: [ThirdPersonCharacter6] DERRP
+[2017.06.06-21.06.14:637][265]LogBlueprintUserMessages: [ThirdPersonCharacter6] DERRP
+[2017.06.06-21.06.15:635][364]LogBlueprintUserMessages: [ThirdPersonCharacter6] DERRP
+[2017.06.06-21.06.19:118][706]LogBlueprintUserMessages: [ThirdPersonCharacter6] DERRP
+[2017.06.06-21.06.20:114][806]LogBlueprintUserMessages: [ThirdPersonCharacter6] DERRP
+[2017.06.06-21.06.21:127][907]LogBlueprintUserMessages: [ThirdPersonCharacter6] DERRP
+[2017.06.06-21.06.23:239][118]LogBlueprintUserMessages: [ThirdPersonCharacter6] DERRP
+[2017.06.06-21.06.24:244][219]LogBlueprintUserMessages: [ThirdPersonCharacter6] DERRP
+[2017.06.06-21.06.25:235][317]LogBlueprintUserMessages: [ThirdPersonCharacter6] DERRP
+[2017.06.06-21.06.26:567][448]LogBlueprintUserMessages: [ThirdPersonCharacter6] DERRP
+[2017.06.06-21.06.27:566][548]LogBlueprintUserMessages: [ThirdPersonCharacter6] DERRP
+[2017.06.06-21.06.28:564][648]LogBlueprintUserMessages: [ThirdPersonCharacter6] DERRP
+[2017.06.06-21.06.29:564][748]LogBlueprintUserMessages: [ThirdPersonCharacter6] DERRP
+[2017.06.06-21.06.30:567][848]LogBlueprintUserMessages: [ThirdPersonCharacter6] DERRP
+[2017.06.06-21.06.31:563][947]LogBlueprintUserMessages: [ThirdPersonCharacter6] DERRP
+[2017.06.06-21.06.36:114][390]LogSlate: Took 0.024832 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2017.06.06-21.06.47:043][520]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.06-21.06.47:090][520]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.06-21.06.48:266][619]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.06-21.06.48:281][619]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.06-21.06.48:282][619]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.06-21.06.48:282][619]PIE: New page: PIE session: ThirdPersonExampleMap (6 Jun 2017 23:06:48)
+[2017.06.06-21.06.48:282][619]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.06.06-21.06.48:296][619]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013374s)
+[2017.06.06-21.06.48:296][619]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.06.06-21.06.48:297][619]LogPlayLevel: PIE: World Init took: (0.000833s)
+[2017.06.06-21.06.48:297][619]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.014698s)
+[2017.06.06-21.06.48:328][619]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.06-21.06.48:336][619]LogInit: FAudioDevice initialized.
+[2017.06.06-21.06.48:371][619]LogLoad: Game class is 'GDG_GameMode_C'
+[2017.06.06-21.06.48:373][619]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.06.06-22.06.48
+[2017.06.06-21.06.48:374][619]LogWorld: Bringing up level for play took: 0.002086
+[2017.06.06-21.06.48:375][619]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.719
+[2017.06.06-21.06.48:375][619]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.06-21.06.55:718][385]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.06-21.06.55:763][385]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.06-21.07.15:727][323]BlueprintLog: New page: Compile BaseUnit
+[2017.06.06-21.07.16:229][355]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MOBA_Minion_AI/Units/Friendly/BaseUnit" FILE="../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/Units/Friendly/BaseUnit.uasset" SILENT=true
+[2017.06.06-21.07.16:299][355]LogSavePackage: Save=67.29ms
+[2017.06.06-21.07.16:299][355]LogSavePackage: Moving '../../../../UE4 projects/TowerDefence3/Saved/BaseUnit1D8ECBC7443ECF2B0DCA2F876BCBC53D.tmp' to '../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/Units/Friendly/BaseUnit.uasset'
+[2017.06.06-21.07.16:301][355]LogSavePackage:Display: Finished SavePackage ../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/Units/Friendly/BaseUnit.uasset
+[2017.06.06-21.07.17:188][440]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.06-21.07.17:204][440]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.06-21.07.17:204][440]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.06-21.07.17:204][440]PIE: New page: PIE session: ThirdPersonExampleMap (6 Jun 2017 23:07:17)
+[2017.06.06-21.07.17:204][440]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.06.06-21.07.17:216][440]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011728s)
+[2017.06.06-21.07.17:217][440]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.06.06-21.07.17:217][440]LogPlayLevel: PIE: World Init took: (0.000714s)
+[2017.06.06-21.07.17:217][440]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.012911s)
+[2017.06.06-21.07.17:250][440]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.06-21.07.17:257][440]LogInit: FAudioDevice initialized.
+[2017.06.06-21.07.17:290][440]LogLoad: Game class is 'GDG_GameMode_C'
+[2017.06.06-21.07.17:292][440]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.06.06-22.07.17
+[2017.06.06-21.07.17:292][440]LogWorld: Bringing up level for play took: 0.002012
+[2017.06.06-21.07.17:294][440]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.362
+[2017.06.06-21.07.17:294][440]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.06-21.07.24:793][149]LogBlueprintUserMessages: [ThirdPersonCharacter6] Hello
+[2017.06.06-21.07.25:298][196]LogBlueprintUserMessages: [ThirdPersonCharacter6] DERRP
+[2017.06.06-21.07.25:795][243]LogBlueprintUserMessages: [ThirdPersonCharacter6] Hello
+[2017.06.06-21.07.26:304][291]LogBlueprintUserMessages: [ThirdPersonCharacter6] DERRP
+[2017.06.06-21.07.26:791][337]LogBlueprintUserMessages: [ThirdPersonCharacter6] Hello
+[2017.06.06-21.07.27:299][385]LogBlueprintUserMessages: [ThirdPersonCharacter6] DERRP
+[2017.06.06-21.07.27:792][432]LogBlueprintUserMessages: [ThirdPersonCharacter6] Hello
+[2017.06.06-21.07.28:300][480]LogBlueprintUserMessages: [ThirdPersonCharacter6] DERRP
+[2017.06.06-21.07.28:796][527]LogBlueprintUserMessages: [ThirdPersonCharacter6] Hello
+[2017.06.06-21.07.29:296][574]LogBlueprintUserMessages: [ThirdPersonCharacter6] DERRP
+[2017.06.06-21.07.29:789][621]LogBlueprintUserMessages: [ThirdPersonCharacter6] Hello
+[2017.06.06-21.07.30:298][669]LogBlueprintUserMessages: [ThirdPersonCharacter6] DERRP
+[2017.06.06-21.07.30:790][716]LogBlueprintUserMessages: [ThirdPersonCharacter6] Hello
+[2017.06.06-21.07.31:300][764]LogBlueprintUserMessages: [ThirdPersonCharacter6] DERRP
+[2017.06.06-21.07.31:793][810]LogBlueprintUserMessages: [ThirdPersonCharacter6] Hello
+[2017.06.06-21.07.32:300][857]LogBlueprintUserMessages: [ThirdPersonCharacter6] DERRP
+[2017.06.06-21.07.32:791][903]LogBlueprintUserMessages: [ThirdPersonCharacter6] Hello
+[2017.06.06-21.07.33:298][950]LogBlueprintUserMessages: [ThirdPersonCharacter6] DERRP
+[2017.06.06-21.07.35:364][142]LogBlueprintUserMessages: [ThirdPersonCharacter6] Hello
+[2017.06.06-21.07.35:866][189]LogBlueprintUserMessages: [ThirdPersonCharacter6] DERRP
+[2017.06.06-21.07.38:513][434]LogBlueprintUserMessages: [ThirdPersonCharacter6] Hello
+[2017.06.06-21.07.39:014][481]LogBlueprintUserMessages: [ThirdPersonCharacter6] DERRP
+[2017.06.06-21.07.39:508][528]LogBlueprintUserMessages: [ThirdPersonCharacter6] Hello
+[2017.06.06-21.07.40:010][574]LogBlueprintUserMessages: [ThirdPersonCharacter6] DERRP
+[2017.06.06-21.07.41:769][736]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.06-21.07.41:813][736]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.06-21.08.35:983][915]BlueprintLog: New page: Compile BaseUnit
+[2017.06.06-21.08.36:382][935]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MOBA_Minion_AI/Units/Friendly/BaseUnit" FILE="../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/Units/Friendly/BaseUnit.uasset" SILENT=true
+[2017.06.06-21.08.36:454][935]LogSavePackage: Save=65.17ms
+[2017.06.06-21.08.36:454][935]LogSavePackage: Moving '../../../../UE4 projects/TowerDefence3/Saved/BaseUnit6CDB827B4AC710B7283AB1898206A4A1.tmp' to '../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/Units/Friendly/BaseUnit.uasset'
+[2017.06.06-21.08.36:456][935]LogSavePackage:Display: Finished SavePackage ../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/Units/Friendly/BaseUnit.uasset
+[2017.06.06-21.10.41:685][349]BlueprintLog: New page: Compile BaseUnit
+[2017.06.06-21.10.42:264][392]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MOBA_Minion_AI/Units/Friendly/BaseUnit" FILE="../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/Units/Friendly/BaseUnit.uasset" SILENT=true
+[2017.06.06-21.10.42:335][392]LogSavePackage: Save=68.08ms
+[2017.06.06-21.10.42:336][392]LogSavePackage: Moving '../../../../UE4 projects/TowerDefence3/Saved/BaseUnit2023A96D47FF73A6436AFDA2E94D540B.tmp' to '../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/Units/Friendly/BaseUnit.uasset'
+[2017.06.06-21.10.42:337][392]LogSavePackage:Display: Finished SavePackage ../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/Units/Friendly/BaseUnit.uasset
+[2017.06.06-21.12.28:865][336]LogSlate: Took 0.000170 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.06.06-21.13.06:371][604]BlueprintLog: New page: Compile BaseUnit
+[2017.06.06-21.13.07:117][649]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MOBA_Minion_AI/Units/Friendly/BaseUnit" FILE="../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/Units/Friendly/BaseUnit.uasset" SILENT=true
+[2017.06.06-21.13.07:194][649]LogSavePackage: Save=73.08ms
+[2017.06.06-21.13.07:194][649]LogSavePackage: Moving '../../../../UE4 projects/TowerDefence3/Saved/BaseUnitAA2BEDEE4B325D6B9C295EA97A23B89D.tmp' to '../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/Units/Friendly/BaseUnit.uasset'
+[2017.06.06-21.13.07:195][649]LogSavePackage:Display: Finished SavePackage ../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/Units/Friendly/BaseUnit.uasset
+[2017.06.06-21.13.25:689][295]BlueprintLog: New page: Compile BaseUnit
+[2017.06.06-21.13.26:270][326]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MOBA_Minion_AI/Units/Friendly/BaseUnit" FILE="../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/Units/Friendly/BaseUnit.uasset" SILENT=true
+[2017.06.06-21.13.26:346][326]LogSavePackage: Save=73.05ms
+[2017.06.06-21.13.26:346][326]LogSavePackage: Moving '../../../../UE4 projects/TowerDefence3/Saved/BaseUnitF71D7EAD4218559686DA26B4FE7EE9C9.tmp' to '../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/Units/Friendly/BaseUnit.uasset'
+[2017.06.06-21.13.26:348][326]LogSavePackage:Display: Finished SavePackage ../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/Units/Friendly/BaseUnit.uasset
+[2017.06.06-21.13.40:237][489]BlueprintLog: New page: Compile BaseUnit
+[2017.06.06-21.13.40:873][526]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MOBA_Minion_AI/Units/Friendly/BaseUnit" FILE="../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/Units/Friendly/BaseUnit.uasset" SILENT=true
+[2017.06.06-21.13.40:952][526]LogSavePackage: Save=73.03ms
+[2017.06.06-21.13.40:952][526]LogSavePackage: Moving '../../../../UE4 projects/TowerDefence3/Saved/BaseUnit346AA82649135681AD0F0AB0E26422F7.tmp' to '../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/Units/Friendly/BaseUnit.uasset'
+[2017.06.06-21.13.40:953][526]LogSavePackage:Display: Finished SavePackage ../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/Units/Friendly/BaseUnit.uasset
+[2017.06.06-21.14.44:426][991]LogSavePackage: Save=108.10ms
+[2017.06.06-21.14.44:426][991]LogSavePackage: Moving '../../../../UE4 projects/TowerDefence3/Saved/ThirdPersonExampleMap_Auto1CE641E4041B71133267403824DA2047B.tmp' to '../../../../UE4 projects/TowerDefence3/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto1.umap'
+[2017.06.06-21.14.44:427][991]LogSavePackage:Display: Finished SavePackage ../../../../UE4 projects/TowerDefence3/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto1.umap
+[2017.06.06-21.14.44:429][991]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.136
+[2017.06.06-21.14.44:429][991]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.136
+[2017.06.06-21.19.01:381][608]BlueprintLog: New page: Compile BaseUnit
+[2017.06.06-21.19.01:819][616]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MOBA_Minion_AI/Units/Friendly/BaseUnit" FILE="../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/Units/Friendly/BaseUnit.uasset" SILENT=true
+[2017.06.06-21.19.01:890][616]LogSavePackage: Save=64.41ms
+[2017.06.06-21.19.01:890][616]LogSavePackage: Moving '../../../../UE4 projects/TowerDefence3/Saved/BaseUnit852B65D14B3164B158DC4A9B55E9DECC.tmp' to '../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/Units/Friendly/BaseUnit.uasset'
+[2017.06.06-21.19.01:892][616]LogSavePackage:Display: Finished SavePackage ../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/Units/Friendly/BaseUnit.uasset
+[2017.06.06-21.19.05:314][865]LogSavePackage: Save=106.43ms
+[2017.06.06-21.19.05:314][865]LogSavePackage: Moving '../../../../UE4 projects/TowerDefence3/Saved/ThirdPersonExampleMapEEF3B62B47007C9016A5CAB84A2D90D6.tmp' to '../../../../UE4 projects/TowerDefence3/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2017.06.06-21.19.05:316][865]LogSavePackage:Display: Finished SavePackage ../../../../UE4 projects/TowerDefence3/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2017.06.06-21.19.05:341][865]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.183
+[2017.06.06-21.19.06:752][ 16]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.06-21.19.06:767][ 16]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.06-21.19.06:768][ 16]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.06-21.19.06:768][ 16]PIE: New page: PIE session: ThirdPersonExampleMap (6 Jun 2017 23:19:06)
+[2017.06.06-21.19.06:768][ 16]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.06.06-21.19.06:784][ 16]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016002s)
+[2017.06.06-21.19.06:785][ 16]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.06.06-21.19.06:785][ 16]LogPlayLevel: PIE: World Init took: (0.000706s)
+[2017.06.06-21.19.06:785][ 16]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.017203s)
+[2017.06.06-21.19.06:818][ 16]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.06-21.19.06:826][ 16]LogInit: FAudioDevice initialized.
+[2017.06.06-21.19.06:857][ 16]LogLoad: Game class is 'GDG_GameMode_C'
+[2017.06.06-21.19.06:860][ 16]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.06.06-22.19.06
+[2017.06.06-21.19.06:860][ 16]LogWorld: Bringing up level for play took: 0.002354
+[2017.06.06-21.19.06:861][ 16]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.794
+[2017.06.06-21.19.06:862][ 16]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.06-21.19.14:126][740]LogBlueprintUserMessages: [ThirdPersonCharacter6] Hello
+[2017.06.06-21.19.14:436][771]LogBlueprintUserMessages: [ThirdPersonCharacter6] derp
+[2017.06.06-21.19.14:619][789]LogBlueprintUserMessages: [ThirdPersonCharacter6] Hello
+[2017.06.06-21.19.14:921][819]LogBlueprintUserMessages: [ThirdPersonCharacter6] derp
+[2017.06.06-21.19.15:122][839]LogBlueprintUserMessages: [ThirdPersonCharacter6] Hello
+[2017.06.06-21.19.15:427][870]LogBlueprintUserMessages: [ThirdPersonCharacter6] derp
+[2017.06.06-21.19.15:625][890]LogBlueprintUserMessages: [ThirdPersonCharacter6] Hello
+[2017.06.06-21.19.15:927][920]LogBlueprintUserMessages: [ThirdPersonCharacter6] derp
+[2017.06.06-21.19.16:118][939]LogBlueprintUserMessages: [ThirdPersonCharacter6] Hello
+[2017.06.06-21.19.16:425][969]LogBlueprintUserMessages: [ThirdPersonCharacter6] derp
+[2017.06.06-21.19.16:627][989]LogBlueprintUserMessages: [ThirdPersonCharacter6] Hello
+[2017.06.06-21.19.16:930][ 19]LogBlueprintUserMessages: [ThirdPersonCharacter6] derp
+[2017.06.06-21.19.27:132][ 85]LogBlueprintUserMessages: [ThirdPersonCharacter6] Hello
+[2017.06.06-21.19.27:438][115]LogBlueprintUserMessages: [ThirdPersonCharacter6] derp
+[2017.06.06-21.19.27:631][134]LogBlueprintUserMessages: [ThirdPersonCharacter6] Hello
+[2017.06.06-21.19.27:939][165]LogBlueprintUserMessages: [ThirdPersonCharacter6] derp
+[2017.06.06-21.19.28:128][184]LogBlueprintUserMessages: [ThirdPersonCharacter6] Hello
+[2017.06.06-21.19.28:427][214]LogBlueprintUserMessages: [ThirdPersonCharacter6] derp
+[2017.06.06-21.19.28:636][235]LogBlueprintUserMessages: [ThirdPersonCharacter6] Hello
+[2017.06.06-21.19.28:941][266]LogBlueprintUserMessages: [ThirdPersonCharacter6] derp
+[2017.06.06-21.19.29:131][285]LogBlueprintUserMessages: [ThirdPersonCharacter6] Hello
+[2017.06.06-21.19.29:434][315]LogBlueprintUserMessages: [ThirdPersonCharacter6] derp
+[2017.06.06-21.19.29:631][335]LogBlueprintUserMessages: [ThirdPersonCharacter6] Hello
+[2017.06.06-21.19.29:940][366]LogBlueprintUserMessages: [ThirdPersonCharacter6] derp
+[2017.06.06-21.19.30:129][385]LogBlueprintUserMessages: [ThirdPersonCharacter6] Hello
+[2017.06.06-21.19.30:430][415]LogBlueprintUserMessages: [ThirdPersonCharacter6] derp
+[2017.06.06-21.19.30:636][436]LogBlueprintUserMessages: [ThirdPersonCharacter6] Hello
+[2017.06.06-21.19.30:940][466]LogBlueprintUserMessages: [ThirdPersonCharacter6] derp
+[2017.06.06-21.19.31:129][485]LogBlueprintUserMessages: [ThirdPersonCharacter6] Hello
+[2017.06.06-21.19.31:439][515]LogBlueprintUserMessages: [ThirdPersonCharacter6] derp
+[2017.06.06-21.19.31:635][535]LogBlueprintUserMessages: [ThirdPersonCharacter6] Hello
+[2017.06.06-21.19.31:938][565]LogBlueprintUserMessages: [ThirdPersonCharacter6] derp
+[2017.06.06-21.19.32:128][584]LogBlueprintUserMessages: [ThirdPersonCharacter6] Hello
+[2017.06.06-21.19.32:433][614]LogBlueprintUserMessages: [ThirdPersonCharacter6] derp
+[2017.06.06-21.19.32:633][634]LogBlueprintUserMessages: [ThirdPersonCharacter6] Hello
+[2017.06.06-21.19.32:940][664]LogBlueprintUserMessages: [ThirdPersonCharacter6] derp
+[2017.06.06-21.19.34:306][799]LogBlueprintUserMessages: [ThirdPersonCharacter6] Hello
+[2017.06.06-21.19.34:606][829]LogBlueprintUserMessages: [ThirdPersonCharacter6] derp
+[2017.06.06-21.19.34:808][849]LogBlueprintUserMessages: [ThirdPersonCharacter6] Hello
+[2017.06.06-21.19.35:110][879]LogBlueprintUserMessages: [ThirdPersonCharacter6] derp
+[2017.06.06-21.19.35:309][899]LogBlueprintUserMessages: [ThirdPersonCharacter6] Hello
+[2017.06.06-21.19.35:614][930]LogBlueprintUserMessages: [ThirdPersonCharacter6] derp
+[2017.06.06-21.19.35:811][950]LogBlueprintUserMessages: [ThirdPersonCharacter6] Hello
+[2017.06.06-21.19.36:113][980]LogBlueprintUserMessages: [ThirdPersonCharacter6] derp
+[2017.06.06-21.19.36:309][  0]LogBlueprintUserMessages: [ThirdPersonCharacter6] Hello
+[2017.06.06-21.19.36:362][  5]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.06-21.19.36:408][  5]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.06-21.20.05:788][995]BlueprintLog: New page: Compile BaseUnit
+[2017.06.06-21.20.06:236][ 21]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MOBA_Minion_AI/Units/Friendly/BaseUnit" FILE="../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/Units/Friendly/BaseUnit.uasset" SILENT=true
+[2017.06.06-21.20.06:302][ 21]LogSavePackage: Save=63.78ms
+[2017.06.06-21.20.06:302][ 21]LogSavePackage: Moving '../../../../UE4 projects/TowerDefence3/Saved/BaseUnit31A3E5CC4F80FF619BA976BC09779656.tmp' to '../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/Units/Friendly/BaseUnit.uasset'
+[2017.06.06-21.20.06:304][ 21]LogSavePackage:Display: Finished SavePackage ../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/Units/Friendly/BaseUnit.uasset
+[2017.06.06-21.20.21:867][525]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array Waypoints of length 0!
+[2017.06.06-21.21.27:212][362]BlueprintLog: New page: Compile BaseUnit
+[2017.06.06-21.21.27:974][414]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MOBA_Minion_AI/Units/Friendly/BaseUnit" FILE="../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/Units/Friendly/BaseUnit.uasset" SILENT=true
+[2017.06.06-21.21.28:039][414]LogSavePackage: Save=62.98ms
+[2017.06.06-21.21.28:039][414]LogSavePackage: Moving '../../../../UE4 projects/TowerDefence3/Saved/BaseUnitE6F5A9BA4062DFDF91C34F8565E0D106.tmp' to '../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/Units/Friendly/BaseUnit.uasset'
+[2017.06.06-21.21.28:040][414]LogSavePackage:Display: Finished SavePackage ../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/Units/Friendly/BaseUnit.uasset
+[2017.06.06-21.22.35:357][260]BlueprintLog: New page: Compile BaseUnit
+[2017.06.06-21.22.35:776][284]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MOBA_Minion_AI/Units/Friendly/BaseUnit" FILE="../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/Units/Friendly/BaseUnit.uasset" SILENT=true
+[2017.06.06-21.22.35:842][284]LogSavePackage: Save=63.87ms
+[2017.06.06-21.22.35:842][284]LogSavePackage: Moving '../../../../UE4 projects/TowerDefence3/Saved/BaseUnit63A55DF04DD26DD7EBF4659A55335A09.tmp' to '../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/Units/Friendly/BaseUnit.uasset'
+[2017.06.06-21.22.35:844][284]LogSavePackage:Display: Finished SavePackage ../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/Units/Friendly/BaseUnit.uasset
+[2017.06.06-21.23.00:264][919]BlueprintLog: New page: Compile Attackable
+[2017.06.06-21.23.00:827][968]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MOBA_Minion_AI/Interfaces/Attackable" FILE="../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/Interfaces/Attackable.uasset" SILENT=true
+[2017.06.06-21.23.00:840][968]LogSavePackage: Save=6.86ms
+[2017.06.06-21.23.00:840][968]LogSavePackage: Moving '../../../../UE4 projects/TowerDefence3/Saved/Attackable040FFC3B4B0589AF1F38E49BEE84E69F.tmp' to '../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/Interfaces/Attackable.uasset'
+[2017.06.06-21.23.00:841][968]LogSavePackage:Display: Finished SavePackage ../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/Interfaces/Attackable.uasset
+[2017.06.06-21.23.04:570][334]BlueprintLog: New page: Compile Minion
+[2017.06.06-21.23.05:032][353]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MOBA_Minion_AI/Units/Enemy/Minion" FILE="../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/Units/Enemy/Minion.uasset" SILENT=true
+[2017.06.06-21.23.05:065][353]LogSavePackage: Save=26.19ms
+[2017.06.06-21.23.05:065][353]LogSavePackage: Moving '../../../../UE4 projects/TowerDefence3/Saved/MinionADF7AB174483E094FE166EB021A657D1.tmp' to '../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/Units/Enemy/Minion.uasset'
+[2017.06.06-21.23.05:066][353]LogSavePackage:Display: Finished SavePackage ../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/Units/Enemy/Minion.uasset
+[2017.06.06-21.23.05:906][417]BlueprintLog: New page: Compile BaseUnit
+[2017.06.06-21.23.06:285][418]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MOBA_Minion_AI/Units/Friendly/BaseUnit" FILE="../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/Units/Friendly/BaseUnit.uasset" SILENT=true
+[2017.06.06-21.23.06:352][418]LogSavePackage: Save=64.26ms
+[2017.06.06-21.23.06:352][418]LogSavePackage: Moving '../../../../UE4 projects/TowerDefence3/Saved/BaseUnitA87C22A04124E68ED7CBE38542991B62.tmp' to '../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/Units/Friendly/BaseUnit.uasset'
+[2017.06.06-21.23.06:353][418]LogSavePackage:Display: Finished SavePackage ../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/Units/Friendly/BaseUnit.uasset
+[2017.06.06-21.23.44:709][838]BlueprintLog: New page: Compile BaseUnit
+[2017.06.06-21.23.45:308][877]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MOBA_Minion_AI/Units/Friendly/BaseUnit" FILE="../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/Units/Friendly/BaseUnit.uasset" SILENT=true
+[2017.06.06-21.23.45:378][877]LogSavePackage: Save=65.30ms
+[2017.06.06-21.23.45:378][877]LogSavePackage: Moving '../../../../UE4 projects/TowerDefence3/Saved/BaseUnit1614BCD946B5CA469E3596BCA17B5281.tmp' to '../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/Units/Friendly/BaseUnit.uasset'
+[2017.06.06-21.23.45:379][877]LogSavePackage:Display: Finished SavePackage ../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/Units/Friendly/BaseUnit.uasset
+[2017.06.06-21.24.46:511][935]BlueprintLog: New page: Compile Minion
+[2017.06.06-21.24.47:037][967]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MOBA_Minion_AI/Units/Enemy/Minion" FILE="../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/Units/Enemy/Minion.uasset" SILENT=true
+[2017.06.06-21.24.47:067][967]LogSavePackage: Save=26.80ms
+[2017.06.06-21.24.47:067][967]LogSavePackage: Moving '../../../../UE4 projects/TowerDefence3/Saved/Minion77B07B574439BA25C65A2AA2A88F2B8D.tmp' to '../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/Units/Enemy/Minion.uasset'
+[2017.06.06-21.24.47:068][967]LogSavePackage:Display: Finished SavePackage ../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/Units/Enemy/Minion.uasset
+[2017.06.06-21.27.13:075][185]BlueprintLog: New page: Compile BaseUnit
+[2017.06.06-21.27.13:710][216]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MOBA_Minion_AI/Units/Friendly/BaseUnit" FILE="../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/Units/Friendly/BaseUnit.uasset" SILENT=true
+[2017.06.06-21.27.13:781][216]LogSavePackage: Save=64.09ms
+[2017.06.06-21.27.13:781][216]LogSavePackage: Moving '../../../../UE4 projects/TowerDefence3/Saved/BaseUnit2383DE36404761F449555BA3A98CA654.tmp' to '../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/Units/Friendly/BaseUnit.uasset'
+[2017.06.06-21.27.13:783][216]LogSavePackage:Display: Finished SavePackage ../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/Units/Friendly/BaseUnit.uasset
+[2017.06.06-21.28.02:520][531]BlueprintLog: New page: Compile Attackable
+[2017.06.06-21.28.02:898][559]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MOBA_Minion_AI/Interfaces/Attackable" FILE="../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/Interfaces/Attackable.uasset" SILENT=true
+[2017.06.06-21.28.02:909][559]LogSavePackage: Save=4.82ms
+[2017.06.06-21.28.02:909][559]LogSavePackage: Moving '../../../../UE4 projects/TowerDefence3/Saved/Attackable9C43908841320AB91577F38042B70689.tmp' to '../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/Interfaces/Attackable.uasset'
+[2017.06.06-21.28.02:910][559]LogSavePackage:Display: Finished SavePackage ../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/Interfaces/Attackable.uasset
+[2017.06.06-21.28.05:463][832]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MOBA_Minion_AI/Units/Enemy/Minion" FILE="../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/Units/Enemy/Minion.uasset" SILENT=true
+[2017.06.06-21.28.05:497][832]LogSavePackage: Save=26.42ms
+[2017.06.06-21.28.05:497][832]LogSavePackage: Moving '../../../../UE4 projects/TowerDefence3/Saved/MinionB43B66F14F2B3E597E893AAD85E053EF.tmp' to '../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/Units/Enemy/Minion.uasset'
+[2017.06.06-21.28.05:498][832]LogSavePackage:Display: Finished SavePackage ../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/Units/Enemy/Minion.uasset
+[2017.06.06-21.28.06:515][914]BlueprintLog: New page: Compile BaseUnit
+[2017.06.06-21.28.06:898][916]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MOBA_Minion_AI/Units/Friendly/BaseUnit" FILE="../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/Units/Friendly/BaseUnit.uasset" SILENT=true
+[2017.06.06-21.28.06:966][916]LogSavePackage: Save=65.22ms
+[2017.06.06-21.28.06:966][916]LogSavePackage: Moving '../../../../UE4 projects/TowerDefence3/Saved/BaseUnitE6C6C17F4410E23FCBADA2A2E8188558.tmp' to '../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/Units/Friendly/BaseUnit.uasset'
+[2017.06.06-21.28.06:967][916]LogSavePackage:Display: Finished SavePackage ../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/Units/Friendly/BaseUnit.uasset
+[2017.06.06-21.28.14:296][570]BlueprintLog: New page: Compile BaseUnit
+[2017.06.06-21.28.15:005][619]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MOBA_Minion_AI/Units/Friendly/BaseUnit" FILE="../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/Units/Friendly/BaseUnit.uasset" SILENT=true
+[2017.06.06-21.28.15:073][619]LogSavePackage: Save=64.87ms
+[2017.06.06-21.28.15:073][619]LogSavePackage: Moving '../../../../UE4 projects/TowerDefence3/Saved/BaseUnit59437A8A4CD20C6CC2A5A2BB025D8180.tmp' to '../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/Units/Friendly/BaseUnit.uasset'
+[2017.06.06-21.28.15:074][619]LogSavePackage:Display: Finished SavePackage ../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/Units/Friendly/BaseUnit.uasset
+[2017.06.06-21.29.03:298][563]BlueprintLog: New page: Compile Minion
+[2017.06.06-21.29.03:650][574]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MOBA_Minion_AI/Units/Enemy/Minion" FILE="../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/Units/Enemy/Minion.uasset" SILENT=true
+[2017.06.06-21.29.03:682][574]LogSavePackage: Save=28.68ms
+[2017.06.06-21.29.03:682][574]LogSavePackage: Moving '../../../../UE4 projects/TowerDefence3/Saved/Minion49D8A7994448ACAB4A8A1EBE98B167DA.tmp' to '../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/Units/Enemy/Minion.uasset'
+[2017.06.06-21.29.03:683][574]LogSavePackage:Display: Finished SavePackage ../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/Units/Enemy/Minion.uasset
+[2017.06.06-21.30.01:629][885]BlueprintLog: New page: Compile Minion
+[2017.06.06-21.30.01:643][885]LogBlueprint:Warning: [MinionAICON] 'bisRanged' variable not found. Base class was probably changed.
+[2017.06.06-21.30.01:643][885]LogBlueprint:Warning: [MinionAICON] 'AttackRange' variable not found. Base class was probably changed.
+[2017.06.06-21.30.01:903][885]LogBlueprint:Warning: [Compiler MinionAICON] Warning Could not find a variable named "AttackRange" in 'Minion_C'.
+Make sure 'Minion_C' has been compiled for  Get AttackRange
+[2017.06.06-21.30.01:903][885]LogBlueprint:Warning: [Compiler MinionAICON] Warning Could not find a variable named "bisRanged" in 'Minion_C'.
+Make sure 'Minion_C' has been compiled for  Get bisRanged
+[2017.06.06-21.30.01:924][885]LogBlueprint:Error: [Compiler MinionAICON] Error The property associated with  Attack Range  could not be found
+[2017.06.06-21.30.01:925][885]LogBlueprint:Error: [Compiler MinionAICON] Error The property associated with  Bis Ranged  could not be found
+[2017.06.06-21.30.02:643][917]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MOBA_Minion_AI/Units/Enemy/Minion" FILE="../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/Units/Enemy/Minion.uasset" SILENT=true
+[2017.06.06-21.30.02:674][917]LogSavePackage: Save=28.05ms
+[2017.06.06-21.30.02:674][917]LogSavePackage: Moving '../../../../UE4 projects/TowerDefence3/Saved/Minion2C8C637C4A7EBB7D8BADAFB1CA56660D.tmp' to '../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/Units/Enemy/Minion.uasset'
+[2017.06.06-21.30.02:676][917]LogSavePackage:Display: Finished SavePackage ../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/Units/Enemy/Minion.uasset
+[2017.06.06-21.30.22:988][874]BlueprintLog: New page: Compile Minion
+[2017.06.06-21.30.23:003][874]LogBlueprint:Warning: [MinionAICON] 'bisRanged' variable not found. Base class was probably changed.
+[2017.06.06-21.30.23:003][874]LogBlueprint:Warning: [MinionAICON] 'AttackRange' variable not found. Base class was probably changed.
+[2017.06.06-21.30.23:015][874]LogBlueprint:Warning: [Compiler MinionAICON] Warning Could not find a variable named "AttackRange" in 'Minion_C'.
+Make sure 'Minion_C' has been compiled for  Get AttackRange
+[2017.06.06-21.30.23:015][874]LogBlueprint:Warning: [Compiler MinionAICON] Warning Could not find a variable named "bisRanged" in 'Minion_C'.
+Make sure 'Minion_C' has been compiled for  Get bisRanged
+[2017.06.06-21.30.23:016][874]LogBlueprint:Error: [Compiler MinionAICON] Error The property associated with  Attack Range  could not be found
+[2017.06.06-21.30.23:016][874]LogBlueprint:Error: [Compiler MinionAICON] Error The property associated with  Bis Ranged  could not be found
+[2017.06.06-21.30.23:813][910]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MOBA_Minion_AI/Units/Enemy/Minion" FILE="../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/Units/Enemy/Minion.uasset" SILENT=true
+[2017.06.06-21.30.23:843][910]LogSavePackage: Save=27.59ms
+[2017.06.06-21.30.23:843][910]LogSavePackage: Moving '../../../../UE4 projects/TowerDefence3/Saved/MinionAC419D34472ADAE008683481EAD5413E.tmp' to '../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/Units/Enemy/Minion.uasset'
+[2017.06.06-21.30.23:845][910]LogSavePackage:Display: Finished SavePackage ../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/Units/Enemy/Minion.uasset
+[2017.06.06-21.30.38:002][256]BlueprintLog: New page: Compile Minion
+[2017.06.06-21.30.38:016][256]LogBlueprint:Warning: [MinionAICON] 'bisRanged' variable not found. Base class was probably changed.
+[2017.06.06-21.30.38:017][256]LogBlueprint:Warning: [MinionAICON] 'AttackRange' variable not found. Base class was probably changed.
+[2017.06.06-21.30.38:028][256]LogBlueprint:Warning: [Compiler MinionAICON] Warning Could not find a variable named "AttackRange" in 'Minion_C'.
+Make sure 'Minion_C' has been compiled for  Get AttackRange
+[2017.06.06-21.30.38:028][256]LogBlueprint:Warning: [Compiler MinionAICON] Warning Could not find a variable named "bisRanged" in 'Minion_C'.
+Make sure 'Minion_C' has been compiled for  Get bisRanged
+[2017.06.06-21.30.38:029][256]LogBlueprint:Error: [Compiler MinionAICON] Error The property associated with  Attack Range  could not be found
+[2017.06.06-21.30.38:029][256]LogBlueprint:Error: [Compiler MinionAICON] Error The property associated with  Bis Ranged  could not be found
+[2017.06.06-21.30.38:970][305]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MOBA_Minion_AI/Units/Enemy/Minion" FILE="../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/Units/Enemy/Minion.uasset" SILENT=true
+[2017.06.06-21.30.39:000][305]LogSavePackage: Save=27.61ms
+[2017.06.06-21.30.39:000][305]LogSavePackage: Moving '../../../../UE4 projects/TowerDefence3/Saved/MinionA35699FF486CF083F940A1AFA7F98DB1.tmp' to '../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/Units/Enemy/Minion.uasset'
+[2017.06.06-21.30.39:002][305]LogSavePackage:Display: Finished SavePackage ../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/Units/Enemy/Minion.uasset
+[2017.06.06-21.31.34:930][365]LogEditorTransaction: Undo Move Node
+[2017.06.06-21.31.41:913][ 67]BlueprintLog: New page: Compile Minion
+[2017.06.06-21.31.41:934][ 67]LogBlueprint:Warning: [MinionAICON] 'bisRanged' variable not found. Base class was probably changed.
+[2017.06.06-21.31.41:934][ 67]LogBlueprint:Warning: [MinionAICON] 'AttackRange' variable not found. Base class was probably changed.
+[2017.06.06-21.31.42:285][ 85]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MOBA_Minion_AI/Units/Enemy/Minion" FILE="../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/Units/Enemy/Minion.uasset" SILENT=true
+[2017.06.06-21.31.42:319][ 85]LogSavePackage: Save=30.74ms
+[2017.06.06-21.31.42:319][ 85]LogSavePackage: Moving '../../../../UE4 projects/TowerDefence3/Saved/Minion8B7495AC41BDAFE2F1D20C8E92F7C62B.tmp' to '../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/Units/Enemy/Minion.uasset'
+[2017.06.06-21.31.42:320][ 85]LogSavePackage:Display: Finished SavePackage ../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/Units/Enemy/Minion.uasset
+[2017.06.06-21.32.45:345][932]LogBlueprint:Warning: [Minion] 'MeshMat' variable not found. Base class was probably changed.
+[2017.06.06-21.32.59:314][215]LogEditorTransaction: Undo Add Component Nodes
+[2017.06.06-21.32.59:646][233]LogEditorTransaction: Undo Delete current selection
+[2017.06.06-21.33.15:638][792]BlueprintLog: New page: Compile Minion
+[2017.06.06-21.33.15:657][792]LogBlueprint:Warning: [MinionAICON] 'bisRanged' variable not found. Base class was probably changed.
+[2017.06.06-21.33.15:657][792]LogBlueprint:Warning: [MinionAICON] 'AttackRange' variable not found. Base class was probably changed.
+[2017.06.06-21.33.16:165][832]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MOBA_Minion_AI/Units/Enemy/Minion" FILE="../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/Units/Enemy/Minion.uasset" SILENT=true
+[2017.06.06-21.33.16:207][832]LogSavePackage: Save=34.50ms
+[2017.06.06-21.33.16:207][832]LogSavePackage: Moving '../../../../UE4 projects/TowerDefence3/Saved/Minion445430954F78CCD19946B5ACF8867B43.tmp' to '../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/Units/Enemy/Minion.uasset'
+[2017.06.06-21.33.16:208][832]LogSavePackage:Display: Finished SavePackage ../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/Units/Enemy/Minion.uasset
+[2017.06.06-21.33.24:502][534]BlueprintLog: New page: Compile BaseUnit
+[2017.06.06-21.33.25:049][562]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MOBA_Minion_AI/Units/Friendly/BaseUnit" FILE="../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/Units/Friendly/BaseUnit.uasset" SILENT=true
+[2017.06.06-21.33.25:123][562]LogSavePackage: Save=66.94ms
+[2017.06.06-21.33.25:123][562]LogSavePackage: Moving '../../../../UE4 projects/TowerDefence3/Saved/BaseUnit38E48AD547698C0486E2408EE905D16D.tmp' to '../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/Units/Friendly/BaseUnit.uasset'
+[2017.06.06-21.33.25:124][562]LogSavePackage:Display: Finished SavePackage ../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/Units/Friendly/BaseUnit.uasset
+[2017.06.06-21.33.40:942][136]BlueprintLog: New page: Compile Minion
+[2017.06.06-21.33.40:960][136]LogBlueprint:Warning: [MinionAICON] 'bisRanged' variable not found. Base class was probably changed.
+[2017.06.06-21.33.40:960][136]LogBlueprint:Warning: [MinionAICON] 'AttackRange' variable not found. Base class was probably changed.
+[2017.06.06-21.33.41:471][172]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MOBA_Minion_AI/Units/Enemy/Minion" FILE="../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/Units/Enemy/Minion.uasset" SILENT=true
+[2017.06.06-21.33.41:509][172]LogSavePackage: Save=34.09ms
+[2017.06.06-21.33.41:509][172]LogSavePackage: Moving '../../../../UE4 projects/TowerDefence3/Saved/Minion908C3C2D4F9828B3AB9653B84EF85D09.tmp' to '../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/Units/Enemy/Minion.uasset'
+[2017.06.06-21.33.41:509][172]LogSavePackage:Display: Finished SavePackage ../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/Units/Enemy/Minion.uasset
+[2017.06.06-21.33.55:474][448]LogSavePackage: Save=113.24ms
+[2017.06.06-21.33.55:474][448]LogSavePackage: Moving '../../../../UE4 projects/TowerDefence3/Saved/ThirdPersonExampleMap90E92F9449AB2F04B226D3A943D39B0F.tmp' to '../../../../UE4 projects/TowerDefence3/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2017.06.06-21.33.55:475][448]LogSavePackage:Display: Finished SavePackage ../../../../UE4 projects/TowerDefence3/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2017.06.06-21.33.55:503][448]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.206
+[2017.06.06-21.33.55:506][448]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MOBA_Minion_AI/Units/Enemy/Minion" FILE="../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/Units/Enemy/Minion.uasset" SILENT=true
+[2017.06.06-21.33.55:537][448]LogSavePackage: Save=27.67ms
+[2017.06.06-21.33.55:537][448]LogSavePackage: Moving '../../../../UE4 projects/TowerDefence3/Saved/MinionE8D8819D43A0424E659BAAB7105B94DC.tmp' to '../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/Units/Enemy/Minion.uasset'
+[2017.06.06-21.33.55:538][448]LogSavePackage:Display: Finished SavePackage ../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/Units/Enemy/Minion.uasset
+[2017.06.06-21.33.55:541][448]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MOBA_Minion_AI/Game/GDG_PlayerController" FILE="../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/Game/GDG_PlayerController.uasset" SILENT=true
+[2017.06.06-21.33.55:592][448]LogSavePackage: Save=43.75ms
+[2017.06.06-21.33.55:593][448]LogSavePackage: Moving '../../../../UE4 projects/TowerDefence3/Saved/GDG_PlayerControllerC74BFBF74500C8F894CA978F7A8E6274.tmp' to '../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/Game/GDG_PlayerController.uasset'
+[2017.06.06-21.33.55:594][448]LogSavePackage:Display: Finished SavePackage ../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/Game/GDG_PlayerController.uasset
+[2017.06.06-21.33.55:596][448]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MOBA_Minion_AI/AI/Tasks/Task_SpiderAttack" FILE="../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/AI/Tasks/Task_SpiderAttack.uasset" SILENT=true
+[2017.06.06-21.33.55:625][448]LogSavePackage: Save=18.32ms
+[2017.06.06-21.33.55:625][448]LogSavePackage: Moving '../../../../UE4 projects/TowerDefence3/Saved/Task_SpiderAttackA162191F456EEEEEFD6F99924A10D6AC.tmp' to '../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/AI/Tasks/Task_SpiderAttack.uasset'
+[2017.06.06-21.33.55:627][448]LogSavePackage:Display: Finished SavePackage ../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/AI/Tasks/Task_SpiderAttack.uasset
+[2017.06.06-21.33.56:190][508]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.06-21.33.56:214][508]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.06-21.33.56:214][508]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.06.06-21.33.56:214][508]LogPlayLevel: [PlayLevel] Compiling GDG_PlayerController before play...
+[2017.06.06-21.33.56:324][508]LogPlayLevel: [PlayLevel] Compiling Task_SpiderAttack before play...
+[2017.06.06-21.33.56:423][508]LogPlayLevel: PlayLevel: Blueprint regeneration took 208 ms (2 blueprints)
+[2017.06.06-21.34.59:708][313]BlueprintLog: New page: Compile MinionAICON
+[2017.06.06-21.35.00:593][388]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MOBA_Minion_AI/AI/MinionAICON" FILE="../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/AI/MinionAICON.uasset" SILENT=true
+[2017.06.06-21.35.00:615][388]LogSavePackage: Save=16.52ms
+[2017.06.06-21.35.00:616][388]LogSavePackage: Moving '../../../../UE4 projects/TowerDefence3/Saved/MinionAICON38761CF14580FB34DB028BB8C9CFFA1A.tmp' to '../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/AI/MinionAICON.uasset'
+[2017.06.06-21.35.00:617][388]LogSavePackage:Display: Finished SavePackage ../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/AI/MinionAICON.uasset
+[2017.06.06-21.35.52:768][933]BlueprintLog: New page: Compile MinionAICON
+[2017.06.06-21.35.53:473][993]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MOBA_Minion_AI/AI/MinionAICON" FILE="../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/AI/MinionAICON.uasset" SILENT=true
+[2017.06.06-21.35.53:492][993]LogSavePackage: Save=16.06ms
+[2017.06.06-21.35.53:492][993]LogSavePackage: Moving '../../../../UE4 projects/TowerDefence3/Saved/MinionAICON77FC5B524B08FCC426543D970E752B1E.tmp' to '../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/AI/MinionAICON.uasset'
+[2017.06.06-21.35.53:493][993]LogSavePackage:Display: Finished SavePackage ../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/AI/MinionAICON.uasset
+[2017.06.06-21.35.57:607][374]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.06-21.35.57:627][374]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.06-21.35.57:628][374]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.06-21.35.57:628][374]PIE: New page: PIE session: ThirdPersonExampleMap (6 Jun 2017 23:35:57)
+[2017.06.06-21.35.57:628][374]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.06.06-21.35.57:645][374]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016723s)
+[2017.06.06-21.35.57:646][374]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.06.06-21.35.57:646][374]LogPlayLevel: PIE: World Init took: (0.000802s)
+[2017.06.06-21.35.57:646][374]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.018047s)
+[2017.06.06-21.35.57:680][374]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.06-21.35.57:688][374]LogInit: FAudioDevice initialized.
+[2017.06.06-21.35.57:720][374]LogLoad: Game class is 'GDG_GameMode_C'
+[2017.06.06-21.35.57:723][374]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.06.06-22.35.57
+[2017.06.06-21.35.57:723][374]LogWorld: Bringing up level for play took: 0.001889
+[2017.06.06-21.35.57:725][374]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.069
+[2017.06.06-21.35.57:725][374]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.06-21.36.17:434][616]LogBlueprintDebug:Warning: Hit breakpoint on node 'CallFunc_UnPossess', from offset 538
+[2017.06.06-21.36.17:435][616]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/MOBA_Minion_AI/Units/Enemy/Minion.Minion_C:ReceiveAnyDamage
+	Function /Game/MOBA_Minion_AI/Units/Enemy/Minion.Minion_C:ExecuteUbergraph_Minion
+
+[2017.06.06-21.36.26:464][650]LogBlueprintDebug:Warning: Hit breakpoint on node 'CallFunc_UnPossess', from offset 538
+[2017.06.06-21.36.26:464][650]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/MOBA_Minion_AI/Units/Enemy/Minion.Minion_C:ReceiveAnyDamage
+	Function /Game/MOBA_Minion_AI/Units/Enemy/Minion.Minion_C:ExecuteUbergraph_Minion
+
+[2017.06.06-21.36.45:177][650]LogScript:Warning: Accessed None trying to read property CallFunc_GetController_ReturnValue
+	Minion_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Minion_C_1
+	Function /Game/MOBA_Minion_AI/Units/Enemy/Minion.Minion_C:ExecuteUbergraph_Minion:0225
+[2017.06.06-21.36.45:177][650]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetController_ReturnValue from function: 'ExecuteUbergraph_Minion' from node: Un Possess in graph: EventGraph in object: Minion with description: Accessed None trying to read property CallFunc_GetController_ReturnValue
+[2017.06.06-21.36.45:288][661]LogScript:Warning: Attempted to access Minion_C_1 via property K2Node_Event_AttackTarget, but Minion_C_1 is pending kill
+	BaseUnit_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter6
+	Function /Game/MOBA_Minion_AI/Units/Friendly/BaseUnit.BaseUnit_C:ExecuteUbergraph_BaseUnit:0F33
+[2017.06.06-21.36.45:289][661]PIE:Error: Error Blueprint Runtime Error: Attempted to access Minion_C_1 via property K2Node_Event_AttackTarget, but Minion_C_1 is pending kill from function: 'ExecuteUbergraph_BaseUnit' from node: LineTraceByChannel in graph: EventGraph in object: BaseUnit with description: Attempted to access Minion_C_1 via property K2Node_Event_AttackTarget, but Minion_C_1 is pending kill
+[2017.06.06-21.36.45:789][714]LogScript:Warning: Attempted to access Minion_C_1 via property K2Node_Event_AttackTarget, but Minion_C_1 is pending kill
+	BaseUnit_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter6
+	Function /Game/MOBA_Minion_AI/Units/Friendly/BaseUnit.BaseUnit_C:ExecuteUbergraph_BaseUnit:0F33
+[2017.06.06-21.36.45:790][714]PIE:Error: Error Blueprint Runtime Error: Attempted to access Minion_C_1 via property K2Node_Event_AttackTarget, but Minion_C_1 is pending kill from function: 'ExecuteUbergraph_BaseUnit' from node: LineTraceByChannel in graph: EventGraph in object: BaseUnit with description: Attempted to access Minion_C_1 via property K2Node_Event_AttackTarget, but Minion_C_1 is pending kill
+[2017.06.06-21.36.46:284][766]LogScript:Warning: Attempted to access Minion_C_1 via property K2Node_Event_AttackTarget, but Minion_C_1 is pending kill
+	BaseUnit_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter6
+	Function /Game/MOBA_Minion_AI/Units/Friendly/BaseUnit.BaseUnit_C:ExecuteUbergraph_BaseUnit:0F33
+[2017.06.06-21.36.46:285][766]PIE:Error: Error Blueprint Runtime Error: Attempted to access Minion_C_1 via property K2Node_Event_AttackTarget, but Minion_C_1 is pending kill from function: 'ExecuteUbergraph_BaseUnit' from node: LineTraceByChannel in graph: EventGraph in object: BaseUnit with description: Attempted to access Minion_C_1 via property K2Node_Event_AttackTarget, but Minion_C_1 is pending kill
+[2017.06.06-21.36.46:782][818]LogScript:Warning: Attempted to access Minion_C_1 via property K2Node_Event_AttackTarget, but Minion_C_1 is pending kill
+	BaseUnit_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter6
+	Function /Game/MOBA_Minion_AI/Units/Friendly/BaseUnit.BaseUnit_C:ExecuteUbergraph_BaseUnit:0F33
+[2017.06.06-21.36.46:783][818]PIE:Error: Error Blueprint Runtime Error: Attempted to access Minion_C_1 via property K2Node_Event_AttackTarget, but Minion_C_1 is pending kill from function: 'ExecuteUbergraph_BaseUnit' from node: LineTraceByChannel in graph: EventGraph in object: BaseUnit with description: Attempted to access Minion_C_1 via property K2Node_Event_AttackTarget, but Minion_C_1 is pending kill
+[2017.06.06-21.37.07:555][ 31]LogScript:Warning: Accessed None trying to read property CallFunc_GetController_ReturnValue
+	Minion_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Minion_C_7
+	Function /Game/MOBA_Minion_AI/Units/Enemy/Minion.Minion_C:ExecuteUbergraph_Minion:0225
+[2017.06.06-21.37.07:555][ 31]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetController_ReturnValue from function: 'ExecuteUbergraph_Minion' from node: Un Possess in graph: EventGraph in object: Minion with description: Accessed None trying to read property CallFunc_GetController_ReturnValue
+[2017.06.06-21.37.08:252][106]LogScript:Warning: Attempted to access Minion_C_7 via property K2Node_Event_AttackTarget, but Minion_C_7 is pending kill
+	BaseUnit_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter6
+	Function /Game/MOBA_Minion_AI/Units/Friendly/BaseUnit.BaseUnit_C:ExecuteUbergraph_BaseUnit:0F33
+[2017.06.06-21.37.08:253][106]PIE:Error: Error Blueprint Runtime Error: Attempted to access Minion_C_7 via property K2Node_Event_AttackTarget, but Minion_C_7 is pending kill from function: 'ExecuteUbergraph_BaseUnit' from node: LineTraceByChannel in graph: EventGraph in object: BaseUnit with description: Attempted to access Minion_C_7 via property K2Node_Event_AttackTarget, but Minion_C_7 is pending kill
+[2017.06.06-21.37.08:754][160]LogScript:Warning: Attempted to access Minion_C_7 via property K2Node_Event_AttackTarget, but Minion_C_7 is pending kill
+	BaseUnit_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter6
+	Function /Game/MOBA_Minion_AI/Units/Friendly/BaseUnit.BaseUnit_C:ExecuteUbergraph_BaseUnit:0F33
+[2017.06.06-21.37.08:755][160]PIE:Error: Error Blueprint Runtime Error: Attempted to access Minion_C_7 via property K2Node_Event_AttackTarget, but Minion_C_7 is pending kill from function: 'ExecuteUbergraph_BaseUnit' from node: LineTraceByChannel in graph: EventGraph in object: BaseUnit with description: Attempted to access Minion_C_7 via property K2Node_Event_AttackTarget, but Minion_C_7 is pending kill
+[2017.06.06-21.37.09:250][213]LogScript:Warning: Attempted to access Minion_C_7 via property K2Node_Event_AttackTarget, but Minion_C_7 is pending kill
+	BaseUnit_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter6
+	Function /Game/MOBA_Minion_AI/Units/Friendly/BaseUnit.BaseUnit_C:ExecuteUbergraph_BaseUnit:0F33
+[2017.06.06-21.37.09:250][213]PIE:Error: Error Blueprint Runtime Error: Attempted to access Minion_C_7 via property K2Node_Event_AttackTarget, but Minion_C_7 is pending kill from function: 'ExecuteUbergraph_BaseUnit' from node: LineTraceByChannel in graph: EventGraph in object: BaseUnit with description: Attempted to access Minion_C_7 via property K2Node_Event_AttackTarget, but Minion_C_7 is pending kill
+[2017.06.06-21.37.09:749][266]LogScript:Warning: Attempted to access Minion_C_7 via property K2Node_Event_AttackTarget, but Minion_C_7 is pending kill
+	BaseUnit_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter6
+	Function /Game/MOBA_Minion_AI/Units/Friendly/BaseUnit.BaseUnit_C:ExecuteUbergraph_BaseUnit:0F33
+[2017.06.06-21.37.09:749][266]PIE:Error: Error Blueprint Runtime Error: Attempted to access Minion_C_7 via property K2Node_Event_AttackTarget, but Minion_C_7 is pending kill from function: 'ExecuteUbergraph_BaseUnit' from node: LineTraceByChannel in graph: EventGraph in object: BaseUnit with description: Attempted to access Minion_C_7 via property K2Node_Event_AttackTarget, but Minion_C_7 is pending kill
+[2017.06.06-21.37.10:245][318]LogScript:Warning: Attempted to access Minion_C_7 via property K2Node_Event_AttackTarget, but Minion_C_7 is pending kill
+	BaseUnit_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter6
+	Function /Game/MOBA_Minion_AI/Units/Friendly/BaseUnit.BaseUnit_C:ExecuteUbergraph_BaseUnit:0F33
+[2017.06.06-21.37.10:245][318]PIE:Error: Error Blueprint Runtime Error: Attempted to access Minion_C_7 via property K2Node_Event_AttackTarget, but Minion_C_7 is pending kill from function: 'ExecuteUbergraph_BaseUnit' from node: LineTraceByChannel in graph: EventGraph in object: BaseUnit with description: Attempted to access Minion_C_7 via property K2Node_Event_AttackTarget, but Minion_C_7 is pending kill
+[2017.06.06-21.37.10:753][371]LogScript:Warning: Attempted to access Minion_C_7 via property K2Node_Event_AttackTarget, but Minion_C_7 is pending kill
+	BaseUnit_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter6
+	Function /Game/MOBA_Minion_AI/Units/Friendly/BaseUnit.BaseUnit_C:ExecuteUbergraph_BaseUnit:0F33
+[2017.06.06-21.37.10:754][371]PIE:Error: Error Blueprint Runtime Error: Attempted to access Minion_C_7 via property K2Node_Event_AttackTarget, but Minion_C_7 is pending kill from function: 'ExecuteUbergraph_BaseUnit' from node: LineTraceByChannel in graph: EventGraph in object: BaseUnit with description: Attempted to access Minion_C_7 via property K2Node_Event_AttackTarget, but Minion_C_7 is pending kill
+[2017.06.06-21.37.11:245][424]LogScript:Warning: Attempted to access Minion_C_7 via property K2Node_Event_AttackTarget, but Minion_C_7 is pending kill
+	BaseUnit_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter6
+	Function /Game/MOBA_Minion_AI/Units/Friendly/BaseUnit.BaseUnit_C:ExecuteUbergraph_BaseUnit:0F33
+[2017.06.06-21.37.11:245][424]PIE:Error: Error Blueprint Runtime Error: Attempted to access Minion_C_7 via property K2Node_Event_AttackTarget, but Minion_C_7 is pending kill from function: 'ExecuteUbergraph_BaseUnit' from node: LineTraceByChannel in graph: EventGraph in object: BaseUnit with description: Attempted to access Minion_C_7 via property K2Node_Event_AttackTarget, but Minion_C_7 is pending kill
+[2017.06.06-21.37.11:750][478]LogScript:Warning: Attempted to access Minion_C_7 via property K2Node_Event_AttackTarget, but Minion_C_7 is pending kill
+	BaseUnit_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter6
+	Function /Game/MOBA_Minion_AI/Units/Friendly/BaseUnit.BaseUnit_C:ExecuteUbergraph_BaseUnit:0F33
+[2017.06.06-21.37.11:751][478]PIE:Error: Error Blueprint Runtime Error: Attempted to access Minion_C_7 via property K2Node_Event_AttackTarget, but Minion_C_7 is pending kill from function: 'ExecuteUbergraph_BaseUnit' from node: LineTraceByChannel in graph: EventGraph in object: BaseUnit with description: Attempted to access Minion_C_7 via property K2Node_Event_AttackTarget, but Minion_C_7 is pending kill
+[2017.06.06-21.37.12:246][531]LogScript:Warning: Attempted to access Minion_C_7 via property K2Node_Event_AttackTarget, but Minion_C_7 is pending kill
+	BaseUnit_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter6
+	Function /Game/MOBA_Minion_AI/Units/Friendly/BaseUnit.BaseUnit_C:ExecuteUbergraph_BaseUnit:0F33
+[2017.06.06-21.37.12:246][531]PIE:Error: Error Blueprint Runtime Error: Attempted to access Minion_C_7 via property K2Node_Event_AttackTarget, but Minion_C_7 is pending kill from function: 'ExecuteUbergraph_BaseUnit' from node: LineTraceByChannel in graph: EventGraph in object: BaseUnit with description: Attempted to access Minion_C_7 via property K2Node_Event_AttackTarget, but Minion_C_7 is pending kill
+[2017.06.06-21.37.12:750][584]LogScript:Warning: Attempted to access Minion_C_7 via property K2Node_Event_AttackTarget, but Minion_C_7 is pending kill
+	BaseUnit_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter6
+	Function /Game/MOBA_Minion_AI/Units/Friendly/BaseUnit.BaseUnit_C:ExecuteUbergraph_BaseUnit:0F33
+[2017.06.06-21.37.12:751][584]PIE:Error: Error Blueprint Runtime Error: Attempted to access Minion_C_7 via property K2Node_Event_AttackTarget, but Minion_C_7 is pending kill from function: 'ExecuteUbergraph_BaseUnit' from node: LineTraceByChannel in graph: EventGraph in object: BaseUnit with description: Attempted to access Minion_C_7 via property K2Node_Event_AttackTarget, but Minion_C_7 is pending kill
+[2017.06.06-21.37.14:261][742]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.06-21.37.14:315][742]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.06-21.38.01:163][411]BlueprintLog: New page: Compile Minion
+[2017.06.06-21.38.01:691][438]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MOBA_Minion_AI/Units/Enemy/Minion" FILE="../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/Units/Enemy/Minion.uasset" SILENT=true
+[2017.06.06-21.38.01:728][438]LogSavePackage: Save=34.05ms
+[2017.06.06-21.38.01:728][438]LogSavePackage: Moving '../../../../UE4 projects/TowerDefence3/Saved/MinionF5ED67CF47016CBCC0F48DBA5E27F186.tmp' to '../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/Units/Enemy/Minion.uasset'
+[2017.06.06-21.38.01:729][438]LogSavePackage:Display: Finished SavePackage ../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/Units/Enemy/Minion.uasset
+[2017.06.06-21.38.02:663][531]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.06-21.38.02:683][531]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.06-21.38.02:684][531]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.06-21.38.02:684][531]PIE: New page: PIE session: ThirdPersonExampleMap (6 Jun 2017 23:38:02)
+[2017.06.06-21.38.02:684][531]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.06.06-21.38.02:700][531]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016047s)
+[2017.06.06-21.38.02:701][531]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.06.06-21.38.02:701][531]LogPlayLevel: PIE: World Init took: (0.000784s)
+[2017.06.06-21.38.02:701][531]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.017339s)
+[2017.06.06-21.38.02:737][531]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.06-21.38.02:745][531]LogInit: FAudioDevice initialized.
+[2017.06.06-21.38.02:774][531]LogLoad: Game class is 'GDG_GameMode_C'
+[2017.06.06-21.38.02:777][531]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.06.06-22.38.02
+[2017.06.06-21.38.02:777][531]LogWorld: Bringing up level for play took: 0.002064
+[2017.06.06-21.38.02:778][531]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.877
+[2017.06.06-21.38.02:779][531]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.06-21.38.22:262][456]LogScript:Warning: Attempted to access Minion_C_1 via property K2Node_Event_AttackTarget, but Minion_C_1 is pending kill
+	BaseUnit_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter6
+	Function /Game/MOBA_Minion_AI/Units/Friendly/BaseUnit.BaseUnit_C:ExecuteUbergraph_BaseUnit:0F33
+[2017.06.06-21.38.22:263][456]PIE:Error: Error Blueprint Runtime Error: Attempted to access Minion_C_1 via property K2Node_Event_AttackTarget, but Minion_C_1 is pending kill from function: 'ExecuteUbergraph_BaseUnit' from node: LineTraceByChannel in graph: EventGraph in object: BaseUnit with description: Attempted to access Minion_C_1 via property K2Node_Event_AttackTarget, but Minion_C_1 is pending kill
+[2017.06.06-21.38.22:763][505]LogScript:Warning: Attempted to access Minion_C_1 via property K2Node_Event_AttackTarget, but Minion_C_1 is pending kill
+	BaseUnit_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter6
+	Function /Game/MOBA_Minion_AI/Units/Friendly/BaseUnit.BaseUnit_C:ExecuteUbergraph_BaseUnit:0F33
+[2017.06.06-21.38.22:763][505]PIE:Error: Error Blueprint Runtime Error: Attempted to access Minion_C_1 via property K2Node_Event_AttackTarget, but Minion_C_1 is pending kill from function: 'ExecuteUbergraph_BaseUnit' from node: LineTraceByChannel in graph: EventGraph in object: BaseUnit with description: Attempted to access Minion_C_1 via property K2Node_Event_AttackTarget, but Minion_C_1 is pending kill
+[2017.06.06-21.38.23:263][554]LogScript:Warning: Attempted to access Minion_C_1 via property K2Node_Event_AttackTarget, but Minion_C_1 is pending kill
+	BaseUnit_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter6
+	Function /Game/MOBA_Minion_AI/Units/Friendly/BaseUnit.BaseUnit_C:ExecuteUbergraph_BaseUnit:0F33
+[2017.06.06-21.38.23:263][554]PIE:Error: Error Blueprint Runtime Error: Attempted to access Minion_C_1 via property K2Node_Event_AttackTarget, but Minion_C_1 is pending kill from function: 'ExecuteUbergraph_BaseUnit' from node: LineTraceByChannel in graph: EventGraph in object: BaseUnit with description: Attempted to access Minion_C_1 via property K2Node_Event_AttackTarget, but Minion_C_1 is pending kill
+[2017.06.06-21.38.23:762][603]PIE:Error: Error Blueprint Runtime Error: Attempted to access Minion_C_1 via property K2Node_Event_AttackTarget, but Minion_C_1 is pending kill from function: 'ExecuteUbergraph_BaseUnit' from node: LineTraceByChannel in graph: EventGraph in object: BaseUnit with description: Attempted to access Minion_C_1 via property K2Node_Event_AttackTarget, but Minion_C_1 is pending kill
+[2017.06.06-21.38.25:385][750]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.06-21.38.25:420][750]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.06-21.39.50:291][353]BlueprintLog: New page: Compile BaseUnit
+[2017.06.06-21.39.51:007][393]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MOBA_Minion_AI/Units/Friendly/BaseUnit" FILE="../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/Units/Friendly/BaseUnit.uasset" SILENT=true
+[2017.06.06-21.39.51:079][393]LogSavePackage: Save=64.95ms
+[2017.06.06-21.39.51:079][393]LogSavePackage: Moving '../../../../UE4 projects/TowerDefence3/Saved/BaseUnitFFEC932048DA43C0E459EAA9DA00B897.tmp' to '../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/Units/Friendly/BaseUnit.uasset'
+[2017.06.06-21.39.51:081][393]LogSavePackage:Display: Finished SavePackage ../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/Units/Friendly/BaseUnit.uasset
+[2017.06.06-21.39.58:007][930]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.06-21.39.58:030][930]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.06-21.39.58:036][930]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.06-21.39.58:036][930]PIE: New page: PIE session: ThirdPersonExampleMap (6 Jun 2017 23:39:58)
+[2017.06.06-21.39.58:036][930]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.06.06-21.39.58:053][930]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016115s)
+[2017.06.06-21.39.58:053][930]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.06.06-21.39.58:054][930]LogPlayLevel: PIE: World Init took: (0.000670s)
+[2017.06.06-21.39.58:054][930]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.017276s)
+[2017.06.06-21.39.58:086][930]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.06-21.39.58:093][930]LogInit: FAudioDevice initialized.
+[2017.06.06-21.39.58:126][930]LogLoad: Game class is 'GDG_GameMode_C'
+[2017.06.06-21.39.58:128][930]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.06.06-22.39.58
+[2017.06.06-21.39.58:129][930]LogWorld: Bringing up level for play took: 0.001984
+[2017.06.06-21.39.58:130][930]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.475
+[2017.06.06-21.39.58:131][930]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.06-21.40.14:786][459]PIE:Error: Error Blueprint Runtime Error: Attempted to access Minion_C_1 via property K2Node_Event_AttackTarget, but Minion_C_1 is pending kill from function: 'ExecuteUbergraph_BaseUnit' from node: LineTraceByChannel in graph: EventGraph in object: BaseUnit with description: Attempted to access Minion_C_1 via property K2Node_Event_AttackTarget, but Minion_C_1 is pending kill
+[2017.06.06-21.40.16:301][596]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.06-21.40.16:352][596]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.06-21.41.34:156][286]BlueprintLog: New page: Compile BaseUnit
+[2017.06.06-21.41.34:846][324]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MOBA_Minion_AI/Units/Friendly/BaseUnit" FILE="../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/Units/Friendly/BaseUnit.uasset" SILENT=true
+[2017.06.06-21.41.34:916][324]LogSavePackage: Save=65.72ms
+[2017.06.06-21.41.34:916][324]LogSavePackage: Moving '../../../../UE4 projects/TowerDefence3/Saved/BaseUnit71CFBD094B79DF63ECBAD091BF6B97FC.tmp' to '../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/Units/Friendly/BaseUnit.uasset'
+[2017.06.06-21.41.34:917][324]LogSavePackage:Display: Finished SavePackage ../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/Units/Friendly/BaseUnit.uasset
+[2017.06.06-21.42.25:007][357]BlueprintLog: New page: Compile BaseUnit
+[2017.06.06-21.42.25:588][389]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MOBA_Minion_AI/Units/Friendly/BaseUnit" FILE="../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/Units/Friendly/BaseUnit.uasset" SILENT=true
+[2017.06.06-21.42.25:657][389]LogSavePackage: Save=65.76ms
+[2017.06.06-21.42.25:657][389]LogSavePackage: Moving '../../../../UE4 projects/TowerDefence3/Saved/BaseUnitBC36DD7C4F32F5BED0B71A985E416546.tmp' to '../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/Units/Friendly/BaseUnit.uasset'
+[2017.06.06-21.42.25:658][389]LogSavePackage:Display: Finished SavePackage ../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/Units/Friendly/BaseUnit.uasset
+[2017.06.06-21.42.40:441][845]BlueprintLog: New page: Compile Minion
+[2017.06.06-21.42.41:074][895]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MOBA_Minion_AI/Units/Enemy/Minion" FILE="../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/Units/Enemy/Minion.uasset" SILENT=true
+[2017.06.06-21.42.41:116][895]LogSavePackage: Save=33.78ms
+[2017.06.06-21.42.41:116][895]LogSavePackage: Moving '../../../../UE4 projects/TowerDefence3/Saved/MinionCC300FF542054B1D53C41EB76562B77F.tmp' to '../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/Units/Enemy/Minion.uasset'
+[2017.06.06-21.42.41:117][895]LogSavePackage:Display: Finished SavePackage ../../../../UE4 projects/TowerDefence3/Content/MOBA_Minion_AI/Units/Enemy/Minion.uasset
+[2017.06.06-21.42.42:615][ 55]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.06-21.42.42:634][ 55]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.06-21.42.42:640][ 55]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.06-21.42.42:640][ 55]PIE: New page: PIE session: ThirdPersonExampleMap (6 Jun 2017 23:42:42)
+[2017.06.06-21.42.42:641][ 55]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.06.06-21.42.42:657][ 55]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016005s)
+[2017.06.06-21.42.42:658][ 55]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.06.06-21.42.42:658][ 55]LogPlayLevel: PIE: World Init took: (0.001521s)
+[2017.06.06-21.42.42:659][ 55]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.018216s)
+[2017.06.06-21.42.42:691][ 55]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.06-21.42.42:699][ 55]LogInit: FAudioDevice initialized.
+[2017.06.06-21.42.42:733][ 55]LogLoad: Game class is 'GDG_GameMode_C'
+[2017.06.06-21.42.42:736][ 55]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.06.06-22.42.42
+[2017.06.06-21.42.42:736][ 55]LogWorld: Bringing up level for play took: 0.002133
+[2017.06.06-21.42.42:738][ 55]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 1.082
+[2017.06.06-21.42.42:738][ 55]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.06-21.43.13:677][414]PIE:Error: Error Blueprint Runtime Error: Attempted to access Minion_C_4 via property K2Node_Event_AttackTarget, but Minion_C_4 is pending kill from function: 'ExecuteUbergraph_BaseUnit' from node: LineTraceByChannel in graph: EventGraph in object: BaseUnit with description: Attempted to access Minion_C_4 via property K2Node_Event_AttackTarget, but Minion_C_4 is pending kill
+[2017.06.06-21.43.26:442][804]PIE:Error: Error Blueprint Runtime Error: Attempted to access Minion_C_7 via property K2Node_Event_AttackTarget, but Minion_C_7 is pending kill from function: 'ExecuteUbergraph_BaseUnit' from node: LineTraceByChannel in graph: EventGraph in object: BaseUnit with description: Attempted to access Minion_C_7 via property K2Node_Event_AttackTarget, but Minion_C_7 is pending kill
+[2017.06.06-21.43.27:438][913]PIE:Error: Error Blueprint Runtime Error: Attempted to access Minion_C_7 via property K2Node_Event_AttackTarget, but Minion_C_7 is pending kill from function: 'ExecuteUbergraph_BaseUnit' from node: LineTraceByChannel in graph: EventGraph in object: BaseUnit with description: Attempted to access Minion_C_7 via property K2Node_Event_AttackTarget, but Minion_C_7 is pending kill
+[2017.06.06-21.43.28:445][ 22]PIE:Error: Error Blueprint Runtime Error: Attempted to access Minion_C_7 via property K2Node_Event_AttackTarget, but Minion_C_7 is pending kill from function: 'ExecuteUbergraph_BaseUnit' from node: LineTraceByChannel in graph: EventGraph in object: BaseUnit with description: Attempted to access Minion_C_7 via property K2Node_Event_AttackTarget, but Minion_C_7 is pending kill
+[2017.06.06-21.43.29:442][131]PIE:Error: Error Blueprint Runtime Error: Attempted to access Minion_C_7 via property K2Node_Event_AttackTarget, but Minion_C_7 is pending kill from function: 'ExecuteUbergraph_BaseUnit' from node: LineTraceByChannel in graph: EventGraph in object: BaseUnit with description: Attempted to access Minion_C_7 via property K2Node_Event_AttackTarget, but Minion_C_7 is pending kill
+[2017.06.06-21.43.30:441][240]PIE:Error: Error Blueprint Runtime Error: Attempted to access Minion_C_7 via property K2Node_Event_AttackTarget, but Minion_C_7 is pending kill from function: 'ExecuteUbergraph_BaseUnit' from node: LineTraceByChannel in graph: EventGraph in object: BaseUnit with description: Attempted to access Minion_C_7 via property K2Node_Event_AttackTarget, but Minion_C_7 is pending kill
+[2017.06.06-21.43.31:445][348]PIE:Error: Error Blueprint Runtime Error: Attempted to access Minion_C_7 via property K2Node_Event_AttackTarget, but Minion_C_7 is pending kill from function: 'ExecuteUbergraph_BaseUnit' from node: LineTraceByChannel in graph: EventGraph in object: BaseUnit with description: Attempted to access Minion_C_7 via property K2Node_Event_AttackTarget, but Minion_C_7 is pending kill
+[2017.06.06-21.43.32:440][457]PIE:Error: Error Blueprint Runtime Error: Attempted to access Minion_C_7 via property K2Node_Event_AttackTarget, but Minion_C_7 is pending kill from function: 'ExecuteUbergraph_BaseUnit' from node: LineTraceByChannel in graph: EventGraph in object: BaseUnit with description: Attempted to access Minion_C_7 via property K2Node_Event_AttackTarget, but Minion_C_7 is pending kill
+[2017.06.06-21.43.33:438][567]PIE:Error: Error Blueprint Runtime Error: Attempted to access Minion_C_7 via property K2Node_Event_AttackTarget, but Minion_C_7 is pending kill from function: 'ExecuteUbergraph_BaseUnit' from node: LineTraceByChannel in graph: EventGraph in object: BaseUnit with description: Attempted to access Minion_C_7 via property K2Node_Event_AttackTarget, but Minion_C_7 is pending kill
+[2017.06.06-21.43.34:444][677]PIE:Error: Error Blueprint Runtime Error: Attempted to access Minion_C_7 via property K2Node_Event_AttackTarget, but Minion_C_7 is pending kill from function: 'ExecuteUbergraph_BaseUnit' from node: LineTraceByChannel in graph: EventGraph in object: BaseUnit with description: Attempted to access Minion_C_7 via property K2Node_Event_AttackTarget, but Minion_C_7 is pending kill
+[2017.06.06-21.43.35:510][793]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.06-21.43.35:566][793]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.06-21.43.52:889][407]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.06-21.43.52:909][407]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.06-21.43.52:915][407]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.06-21.43.52:915][407]PIE: New page: PIE session: ThirdPersonExampleMap (6 Jun 2017 23:43:52)
+[2017.06.06-21.43.52:915][407]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.06.06-21.43.52:929][407]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013802s)
+[2017.06.06-21.43.52:929][407]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.06.06-21.43.52:930][407]LogPlayLevel: PIE: World Init took: (0.000864s)
+[2017.06.06-21.43.52:930][407]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.015286s)
+[2017.06.06-21.43.52:963][407]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.06-21.43.52:972][407]LogInit: FAudioDevice initialized.
+[2017.06.06-21.43.53:003][407]LogLoad: Game class is 'GDG_GameMode_C'
+[2017.06.06-21.43.53:006][407]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.06.06-22.43.53
+[2017.06.06-21.43.53:007][407]LogWorld: Bringing up level for play took: 0.002385
+[2017.06.06-21.43.53:008][407]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.648
+[2017.06.06-21.43.53:008][407]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.06-21.44.02:815][411]LogEditorViewport: Clicking on Actor (LMB): Minion_C (Minion2)
+[2017.06.06-21.44.05:298][547]LogEditorViewport: Clicking on Actor (LMB): Minion_C (Minion5)
+[2017.06.06-21.44.07:139][646]LogEditorViewport: Clicking on Actor (LMB): Minion_C (Minion1)
+[2017.06.06-21.44.08:978][756]LogEditorViewport: Clicking on Actor (LMB): Minion_C (Minion4)
+[2017.06.06-21.44.29:752][788]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.06-21.44.29:827][788]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.06-21.44.33:062][ 60]LogSavePackage: Save=116.57ms
+[2017.06.06-21.44.33:062][ 60]LogSavePackage: Moving '../../../../UE4 projects/TowerDefence3/Saved/ThirdPersonExampleMap65C091FB46C608A52E9A68BD703FA7B4.tmp' to '../../../../UE4 projects/TowerDefence3/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2017.06.06-21.44.33:064][ 60]LogSavePackage:Display: Finished SavePackage ../../../../UE4 projects/TowerDefence3/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2017.06.06-21.44.33:090][ 60]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.208
+[2017.06.06-21.44.34:116][159]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.06.06-21.44.34:194][159]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.06.06-21.44.34:265][159]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.06.06-21.44.34:346][159]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.06.06-21.44.34:573][160]Cmd: QUIT_EDITOR
+[2017.06.06-21.44.35:293][160]LogExit: Preparing to exit.
+[2017.06.06-21.44.35:725][160]LogDirectoryWatcher: A directory notification for 'E:/Unreal 4/UE4 projects/TowerDefence3/Content/' was aborted.
+[2017.06.06-21.44.35:818][160]LogExit: Editor shut down
+[2017.06.06-21.44.35:819][160]LogExit: Transaction tracking system shut down
+[2017.06.06-21.44.35:967][160]LogObj: Freed 0b from 0 cluster array pools.
+[2017.06.06-21.44.35:967][160]LogExit: Object subsystem successfully closed.
+[2017.06.06-21.44.35:995][160]LogD3D11RHI: Shutdown
+[2017.06.06-21.44.35:995][160]LogD3D11RHI: CleanupD3DDevice
+[2017.06.06-21.44.36:143][160]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.06.06-21.44.36:152][160]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (508)
+[2017.06.06-21.44.36:152][160]LogModuleManager: Shutting down and abandoning module BlueprintGraph (506)
+[2017.06.06-21.44.36:152][160]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (504)
+[2017.06.06-21.44.36:152][160]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (502)
+[2017.06.06-21.44.36:152][160]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (500)
+[2017.06.06-21.44.36:152][160]LogModuleManager: Shutting down and abandoning module CrashTracker (498)
+[2017.06.06-21.44.36:152][160]LogModuleManager: Shutting down and abandoning module SceneOutliner (496)
+[2017.06.06-21.44.36:152][160]LogModuleManager: Shutting down and abandoning module AddContentDialog (494)
+[2017.06.06-21.44.36:152][160]LogDirectoryWatcher: A directory notification for 'E:/Unreal 4/UE_4.15/FeaturePacks/' was aborted.
+[2017.06.06-21.44.36:158][160]LogModuleManager: Shutting down and abandoning module WidgetCarousel (493)
+[2017.06.06-21.44.36:158][160]LogModuleManager: Shutting down and abandoning module EditorWidgets (490)
+[2017.06.06-21.44.36:158][160]LogModuleManager: Shutting down and abandoning module CollectionManager (488)
+[2017.06.06-21.44.36:158][160]LogDirectoryWatcher: A directory notification for 'E:/Unreal 4/UE4 projects/TowerDefence3/Content/Collections/' was aborted.
+[2017.06.06-21.44.36:158][160]LogDirectoryWatcher: A directory notification for 'E:/Unreal 4/UE4 projects/TowerDefence3/Content/Developers/Henry891/Collections/' was aborted.
+[2017.06.06-21.44.36:158][160]LogDirectoryWatcher: A directory notification for 'E:/Unreal 4/UE4 projects/TowerDefence3/Saved/Collections/' was aborted.
+[2017.06.06-21.44.36:158][160]LogModuleManager: Shutting down and abandoning module StatsViewer (486)
+[2017.06.06-21.44.36:158][160]LogModuleManager: Shutting down and abandoning module FoliageEdit (484)
+[2017.06.06-21.44.36:158][160]LogModuleManager: Shutting down and abandoning module LandscapeEditor (482)
+[2017.06.06-21.44.36:158][160]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (480)
+[2017.06.06-21.44.36:158][160]LogModuleManager: Shutting down and abandoning module ActorPickerMode (478)
+[2017.06.06-21.44.36:158][160]LogModuleManager: Shutting down and abandoning module GeometryMode (476)
+[2017.06.06-21.44.36:158][160]LogModuleManager: Shutting down and abandoning module TextureAlignMode (474)
+[2017.06.06-21.44.36:158][160]LogModuleManager: Shutting down and abandoning module BspMode (472)
+[2017.06.06-21.44.36:158][160]LogModuleManager: Shutting down and abandoning module HardwareSurvey (470)
+[2017.06.06-21.44.36:158][160]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (468)
+[2017.06.06-21.44.36:158][160]LogModuleManager: Shutting down and abandoning module AutomationWorker (466)
+[2017.06.06-21.44.36:158][160]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (464)
+[2017.06.06-21.44.36:158][160]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (462)
+[2017.06.06-21.44.36:158][160]LogModuleManager: Shutting down and abandoning module PlacementMode (461)
+[2017.06.06-21.44.36:158][160]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (458)
+[2017.06.06-21.44.36:158][160]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (456)
+[2017.06.06-21.44.36:158][160]LogModuleManager: Shutting down and abandoning module MfMediaFactory (454)
+[2017.06.06-21.44.36:159][160]LogModuleManager: Shutting down and abandoning module MfMediaEditor (452)
+[2017.06.06-21.44.36:159][160]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (450)
+[2017.06.06-21.44.36:159][160]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (448)
+[2017.06.06-21.44.36:159][160]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (446)
+[2017.06.06-21.44.36:159][160]LogModuleManager: Shutting down and abandoning module Media (445)
+[2017.06.06-21.44.36:159][160]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (442)
+[2017.06.06-21.44.36:159][160]LogModuleManager: Shutting down and abandoning module CharacterAI (440)
+[2017.06.06-21.44.36:159][160]LogModuleManager: Shutting down and abandoning module AudioCapture (438)
+[2017.06.06-21.44.36:159][160]LogModuleManager: Shutting down and abandoning module SequenceRecorder (437)
+[2017.06.06-21.44.36:159][160]LogModuleManager: Shutting down and abandoning module SmartSnapping (434)
+[2017.06.06-21.44.36:159][160]LogModuleManager: Shutting down and abandoning module SessionServices (432)
+[2017.06.06-21.44.36:159][160]LogModuleManager: Shutting down and abandoning module ViewportSnapping (430)
+[2017.06.06-21.44.36:159][160]LogModuleManager: Shutting down and abandoning module ViewportInteraction (428)
+[2017.06.06-21.44.36:159][160]LogModuleManager: Shutting down and abandoning module LogVisualizer (426)
+[2017.06.06-21.44.36:159][160]LogModuleManager: Shutting down and abandoning module IntroTutorials (424)
+[2017.06.06-21.44.36:159][160]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (423)
+[2017.06.06-21.44.36:159][160]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (420)
+[2017.06.06-21.44.36:159][160]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (418)
+[2017.06.06-21.44.36:159][160]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (416)
+[2017.06.06-21.44.36:159][160]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (414)
+[2017.06.06-21.44.36:159][160]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (413)
+[2017.06.06-21.44.36:926][160]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (410)
+[2017.06.06-21.44.36:926][160]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (408)
+[2017.06.06-21.44.36:926][160]LogModuleManager: Shutting down and abandoning module InputBindingEditor (406)
+[2017.06.06-21.44.36:926][160]LogModuleManager: Shutting down and abandoning module NiagaraEditor (404)
+[2017.06.06-21.44.36:926][160]LogModuleManager: Shutting down and abandoning module MergeActors (402)
+[2017.06.06-21.44.36:926][160]LogModuleManager: Shutting down and abandoning module SizeMap (400)
+[2017.06.06-21.44.36:926][160]LogModuleManager: Shutting down and abandoning module TreeMap (398)
+[2017.06.06-21.44.36:926][160]LogModuleManager: Shutting down and abandoning module ReferenceViewer (396)
+[2017.06.06-21.44.36:926][160]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (394)
+[2017.06.06-21.44.36:926][160]LogModuleManager: Shutting down and abandoning module LocalizationService (393)
+[2017.06.06-21.44.36:926][160]LogModuleManager: Shutting down and abandoning module HardwareTargeting (390)
+[2017.06.06-21.44.36:926][160]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (388)
+[2017.06.06-21.44.36:926][160]LogModuleManager: Shutting down and abandoning module UndoHistory (386)
+[2017.06.06-21.44.36:926][160]LogModuleManager: Shutting down and abandoning module UserFeedback (384)
+[2017.06.06-21.44.36:926][160]LogModuleManager: Shutting down and abandoning module XmlParser (382)
+[2017.06.06-21.44.36:926][160]LogModuleManager: Shutting down and abandoning module Blutility (380)
+[2017.06.06-21.44.36:926][160]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (378)
+[2017.06.06-21.44.36:926][160]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (377)
+[2017.06.06-21.44.36:927][160]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (374)
+[2017.06.06-21.44.36:927][160]LogModuleManager: Shutting down and abandoning module SettingsEditor (372)
+[2017.06.06-21.44.36:927][160]LogModuleManager: Shutting down and abandoning module ProjectLauncher (370)
+[2017.06.06-21.44.36:927][160]LogModuleManager: Shutting down and abandoning module SessionFrontend (368)
+[2017.06.06-21.44.36:927][160]LogModuleManager: Shutting down and abandoning module ProfilerClient (366)
+[2017.06.06-21.44.36:927][160]LogModuleManager: Shutting down and abandoning module DeviceManager (364)
+[2017.06.06-21.44.36:927][160]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (363)
+[2017.06.06-21.44.36:978][160]LogModuleManager: Shutting down and abandoning module AutomationController (360)
+[2017.06.06-21.44.36:978][160]LogModuleManager: Shutting down and abandoning module AutomationWindow (358)
+[2017.06.06-21.44.36:978][160]LogModuleManager: Shutting down and abandoning module Layers (356)
+[2017.06.06-21.44.36:978][160]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (354)
+[2017.06.06-21.44.36:978][160]LogModuleManager: Shutting down and abandoning module DetailCustomizations (352)
+[2017.06.06-21.44.36:978][160]LogModuleManager: Shutting down and abandoning module PackagesDialog (350)
+[2017.06.06-21.44.36:978][160]LogModuleManager: Shutting down and abandoning module Persona (348)
+[2017.06.06-21.44.36:978][160]LogModuleManager: Shutting down and abandoning module AnimGraph (347)
+[2017.06.06-21.44.36:978][160]LogModuleManager: Shutting down and abandoning module Kismet (344)
+[2017.06.06-21.44.36:985][160]LogModuleManager: Shutting down and abandoning module GraphEditor (342)
+[2017.06.06-21.44.36:985][160]LogModuleManager: Shutting down and abandoning module ClassViewer (340)
+[2017.06.06-21.44.36:985][160]LogModuleManager: Shutting down and abandoning module Toolbox (338)
+[2017.06.06-21.44.36:985][160]LogModuleManager: Shutting down and abandoning module ModuleUI (336)
+[2017.06.06-21.44.36:985][160]LogModuleManager: Shutting down and abandoning module MovieSceneTools (334)
+[2017.06.06-21.44.36:985][160]LogModuleManager: Shutting down and abandoning module OutputLog (332)
+[2017.06.06-21.44.36:985][160]LogModuleManager: Shutting down and abandoning module GammaUI (330)
+[2017.06.06-21.44.36:985][160]LogModuleManager: Shutting down and abandoning module Documentation (328)
+[2017.06.06-21.44.36:985][160]LogModuleManager: Shutting down and abandoning module Niagara (326)
+[2017.06.06-21.44.36:985][160]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (324)
+[2017.06.06-21.44.36:985][160]LogModuleManager: Shutting down and abandoning module AnalyticsET (322)
+[2017.06.06-21.44.36:985][160]LogModuleManager: Shutting down and abandoning module PortalServices (320)
+[2017.06.06-21.44.36:985][160]LogModuleManager: Shutting down and abandoning module PortalRpc (318)
+[2017.06.06-21.44.36:985][160]LogModuleManager: Shutting down and abandoning module MessagingRpc (316)
+[2017.06.06-21.44.36:986][160]LogModuleManager: Shutting down and abandoning module AIModule (314)
+[2017.06.06-21.44.36:986][160]LogModuleManager: Shutting down and abandoning module GameplayDebugger (313)
+[2017.06.06-21.44.36:986][160]LogModuleManager: Shutting down and abandoning module AITestSuite (311)
+[2017.06.06-21.44.36:986][160]LogModuleManager: Shutting down and abandoning module ProfilerService (308)
+[2017.06.06-21.44.37:116][160]LogModuleManager: Shutting down and abandoning module TaskGraph (306)
+[2017.06.06-21.44.37:116][160]LogModuleManager: Shutting down and abandoning module SteamVRController (304)
+[2017.06.06-21.44.37:116][160]LogModuleManager: Shutting down and abandoning module SteamVR (302)
+[2017.06.06-21.44.37:116][160]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (300)
+[2017.06.06-21.44.37:116][160]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (298)
+[2017.06.06-21.44.37:116][160]LogModuleManager: Shutting down and abandoning module OculusLibrary (296)
+[2017.06.06-21.44.37:116][160]LogModuleManager: Shutting down and abandoning module OculusInput (294)
+[2017.06.06-21.44.37:116][160]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (292)
+[2017.06.06-21.44.37:116][160]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (290)
+[2017.06.06-21.44.37:116][160]LogModuleManager: Shutting down and abandoning module CableComponent (288)
+[2017.06.06-21.44.37:116][160]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (286)
+[2017.06.06-21.44.37:116][160]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (282)
+[2017.06.06-21.44.37:116][160]LogModuleManager: Shutting down and abandoning module HTML5Networking (280)
+[2017.06.06-21.44.37:116][160]LogModuleManager: Shutting down and abandoning module AlembicImporter (278)
+[2017.06.06-21.44.37:116][160]LogModuleManager: Shutting down and abandoning module AlembicLibrary (277)
+[2017.06.06-21.44.37:116][160]LogModuleManager: Shutting down and abandoning module GeometryCache (276)
+[2017.06.06-21.44.37:116][160]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (275)
+[2017.06.06-21.44.37:116][160]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (270)
+[2017.06.06-21.44.37:116][160]LogModuleManager: Shutting down and abandoning module SuperSearch (269)
+[2017.06.06-21.44.37:116][160]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (266)
+[2017.06.06-21.44.37:116][160]LogModuleManager: Shutting down and abandoning module PluginBrowser (264)
+[2017.06.06-21.44.37:116][160]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (262)
+[2017.06.06-21.44.37:116][160]LogModuleManager: Shutting down and abandoning module EpicSurvey (260)
+[2017.06.06-21.44.37:116][160]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (258)
+[2017.06.06-21.44.37:116][160]LogModuleManager: Shutting down and abandoning module DesktopPlatform (257)
+[2017.06.06-21.44.37:116][160]LogModuleManager: Shutting down and abandoning module UObjectPlugin (254)
+[2017.06.06-21.44.37:116][160]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (252)
+[2017.06.06-21.44.37:116][160]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (250)
+[2017.06.06-21.44.37:116][160]LogModuleManager: Shutting down and abandoning module GitSourceControl (248)
+[2017.06.06-21.44.37:116][160]LogModuleManager: Shutting down and abandoning module SourceControl (247)
+[2017.06.06-21.44.37:116][160]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (244)
+[2017.06.06-21.44.37:116][160]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (242)
+[2017.06.06-21.44.37:116][160]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (240)
+[2017.06.06-21.44.37:117][160]LogModuleManager: Shutting down and abandoning module Paper2DEditor (238)
+[2017.06.06-21.44.37:117][160]LogModuleManager: Shutting down and abandoning module MeshPaint (237)
+[2017.06.06-21.44.37:117][160]LogModuleManager: Shutting down and abandoning module LevelEditor (235)
+[2017.06.06-21.44.37:117][160]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (234)
+[2017.06.06-21.44.37:117][160]LogModuleManager: Shutting down and abandoning module MainFrame (232)
+[2017.06.06-21.44.37:117][160]LogModuleManager: Shutting down and abandoning module HotReload (231)
+[2017.06.06-21.44.37:118][160]LogModuleManager: Shutting down and abandoning module ContentBrowser (227)
+[2017.06.06-21.44.37:119][160]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (224)
+[2017.06.06-21.44.37:119][160]LogModuleManager: Shutting down and abandoning module PhysXVehicles (222)
+[2017.06.06-21.44.37:119][160]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (220)
+[2017.06.06-21.44.37:119][160]LogModuleManager: Shutting down and abandoning module UdpMessaging (218)
+[2017.06.06-21.44.37:220][160]LogModuleManager: Shutting down and abandoning module TcpMessaging (216)
+[2017.06.06-21.44.37:321][160]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (214)
+[2017.06.06-21.44.37:321][160]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (212)
+[2017.06.06-21.44.37:321][160]LogModuleManager: Shutting down and abandoning module FacialAnimation (210)
+[2017.06.06-21.44.37:321][160]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (208)
+[2017.06.06-21.44.37:321][160]LogModuleManager: Shutting down and abandoning module Paper2D (206)
+[2017.06.06-21.44.37:321][160]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (204)
+[2017.06.06-21.44.37:321][160]LogModuleManager: Shutting down and abandoning module WmfMedia (202)
+[2017.06.06-21.44.37:321][160]LogModuleManager: Shutting down and abandoning module MfMedia (200)
+[2017.06.06-21.44.37:321][160]LogModuleManager: Shutting down and abandoning module MediaAssets (198)
+[2017.06.06-21.44.37:321][160]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (196)
+[2017.06.06-21.44.37:321][160]LogModuleManager: Shutting down and abandoning module EnvironmentQueryEditor (194)
+[2017.06.06-21.44.37:321][160]LogModuleManager: Shutting down and abandoning module VREditor (192)
+[2017.06.06-21.44.37:321][160]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (190)
+[2017.06.06-21.44.37:321][160]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (188)
+[2017.06.06-21.44.37:321][160]LogModuleManager: Shutting down and abandoning module FunctionalTesting (186)
+[2017.06.06-21.44.37:321][160]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (184)
+[2017.06.06-21.44.37:321][160]LogModuleManager: Shutting down and abandoning module UMG (182)
+[2017.06.06-21.44.37:321][160]LogModuleManager: Shutting down and abandoning module UMGEditor (181)
+[2017.06.06-21.44.37:321][160]LogModuleManager: Shutting down and abandoning module Sequencer (180)
+[2017.06.06-21.44.37:321][160]LogModuleManager: Shutting down and abandoning module AssetTools (178)
+[2017.06.06-21.44.37:321][160]LogModuleManager: Shutting down and abandoning module MessageLog (177)
+[2017.06.06-21.44.37:321][160]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (176)
+[2017.06.06-21.44.37:321][160]LogModuleManager: Shutting down and abandoning module SlateReflector (170)
+[2017.06.06-21.44.37:321][160]LogModuleManager: Shutting down and abandoning module Slate (168)
+[2017.06.06-21.44.37:321][160]LogModuleManager: Shutting down and abandoning module EditorStyle (166)
+[2017.06.06-21.44.37:323][160]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (164)
+[2017.06.06-21.44.37:323][160]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (162)
+[2017.06.06-21.44.37:323][160]LogModuleManager: Shutting down and abandoning module XAudio2 (160)
+[2017.06.06-21.44.37:323][160]LogModuleManager: Shutting down and abandoning module Networking (158)
+[2017.06.06-21.44.37:323][160]LogModuleManager: Shutting down and abandoning module Core (154)
+[2017.06.06-21.44.37:323][160]LogModuleManager: Shutting down and abandoning module AssetRegistry (152)
+[2017.06.06-21.44.37:527][160]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.06.06-21.44.37:527][160]LogDirectoryWatcher: A directory notification for '../../../../UE4 projects/TowerDefence3/Content/' was aborted.
+[2017.06.06-21.44.37:527][160]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.06.06-21.44.37:528][160]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (151)
+[2017.06.06-21.44.37:531][160]LogModuleManager: Shutting down and abandoning module KismetCompiler (148)
+[2017.06.06-21.44.37:531][160]LogModuleManager: Shutting down and abandoning module PhysXFormats (146)
+[2017.06.06-21.44.37:531][160]LogModuleManager: Shutting down and abandoning module MeshUtilities (144)
+[2017.06.06-21.44.37:531][160]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (143)
+[2017.06.06-21.44.37:531][160]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (141)
+[2017.06.06-21.44.37:531][160]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (139)
+[2017.06.06-21.44.37:531][160]LogModuleManager: Shutting down and abandoning module PropertyEditor (137)
+[2017.06.06-21.44.37:531][160]LogModuleManager: Shutting down and abandoning module DerivedDataCache (134)
+[2017.06.06-21.44.37:540][160]LogDerivedDataCache: Shutdown
+[2017.06.06-21.44.37:540][160]LogModuleManager: Shutting down and abandoning module TargetPlatform (132)
+[2017.06.06-21.44.37:541][160]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (131)
+[2017.06.06-21.44.37:541][160]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (129)
+[2017.06.06-21.44.37:541][160]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (127)
+[2017.06.06-21.44.37:541][160]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (125)
+[2017.06.06-21.44.37:541][160]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (123)
+[2017.06.06-21.44.37:541][160]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (121)
+[2017.06.06-21.44.37:541][160]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (119)
+[2017.06.06-21.44.37:541][160]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (117)
+[2017.06.06-21.44.37:541][160]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (115)
+[2017.06.06-21.44.37:541][160]LogModuleManager: Shutting down and abandoning module ImageWrapper (114)
+[2017.06.06-21.44.37:541][160]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (111)
+[2017.06.06-21.44.37:541][160]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (109)
+[2017.06.06-21.44.37:541][160]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (107)
+[2017.06.06-21.44.37:541][160]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (105)
+[2017.06.06-21.44.37:541][160]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (103)
+[2017.06.06-21.44.37:541][160]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (101)
+[2017.06.06-21.44.37:541][160]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (99)
+[2017.06.06-21.44.37:541][160]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (97)
+[2017.06.06-21.44.37:541][160]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (95)
+[2017.06.06-21.44.37:541][160]LogModuleManager: Shutting down and abandoning module Messaging (93)
+[2017.06.06-21.44.37:541][160]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (91)
+[2017.06.06-21.44.37:541][160]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (89)
+[2017.06.06-21.44.37:541][160]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (87)
+[2017.06.06-21.44.37:541][160]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (85)
+[2017.06.06-21.44.37:541][160]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (83)
+[2017.06.06-21.44.37:541][160]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (81)
+[2017.06.06-21.44.37:541][160]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (79)
+[2017.06.06-21.44.37:541][160]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (77)
+[2017.06.06-21.44.37:541][160]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (75)
+[2017.06.06-21.44.37:541][160]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (73)
+[2017.06.06-21.44.37:541][160]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (71)
+[2017.06.06-21.44.37:541][160]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (69)
+[2017.06.06-21.44.37:541][160]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (67)
+[2017.06.06-21.44.37:541][160]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (65)
+[2017.06.06-21.44.37:541][160]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (63)
+[2017.06.06-21.44.37:541][160]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (61)
+[2017.06.06-21.44.37:541][160]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (59)
+[2017.06.06-21.44.37:542][160]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (57)
+[2017.06.06-21.44.37:542][160]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (55)
+[2017.06.06-21.44.37:542][160]LogModuleManager: Shutting down and abandoning module InputCore (52)
+[2017.06.06-21.44.37:542][160]LogModuleManager: Shutting down and abandoning module Settings (50)
+[2017.06.06-21.44.37:542][160]LogModuleManager: Shutting down and abandoning module OculusRift (48)
+[2017.06.06-21.44.37:542][160]LogModuleManager: Shutting down and abandoning module GearVR (46)
+[2017.06.06-21.44.37:542][160]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (44)
+[2017.06.06-21.44.37:542][160]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (42)
+[2017.06.06-21.44.37:542][160]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (38)
+[2017.06.06-21.44.37:542][160]LogOnline:Display: Unloading online subsystem: NULL
+[2017.06.06-21.44.37:542][160]LogModuleManager: Shutting down and abandoning module XMPP (37)
+[2017.06.06-21.44.37:542][160]LogModuleManager: Shutting down and abandoning module HTTP (35)
+[2017.06.06-21.44.37:542][160]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.06.06-21.44.37:542][160]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B32C73A31-4E67-435C-6914-1397161FB718%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.2-3416026%2B%2B%2BUE4%2BRelease-4.15&UserID=792a68a44fbb11f39c5b928b0a92b453%7C1c2770170c974dea87ad2b41ec4a65ab%7C76525198-daab-451b-b1f3-7338e1d38b7d&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.06.06-21.44.37:563][160]LogModuleManager: Shutting down and abandoning module SSL (34)
+[2017.06.06-21.44.37:565][160]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.06.06-21.44.37:565][160]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.06.06-21.44.37:565][160]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.06.06-21.44.37:565][160]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.06.06-21.44.37:565][160]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.06.06-21.44.37:574][160]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.06.06-21.44.37:574][160]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.06.06-21.44.37:574][160]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.06.06-21.44.37:574][160]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.06.06-21.44.37:574][160]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.06.06-21.44.37:574][160]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.06.06-21.44.37:574][160]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.06.06-21.44.37:574][160]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.06.06-21.44.37:574][160]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.06.06-21.44.37:574][160]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.06.06-21.44.37:576][160]LogExit: Exiting.
+[2017.06.06-21.44.37:580][160]Log file closed, 06/06/17 22:44:37
