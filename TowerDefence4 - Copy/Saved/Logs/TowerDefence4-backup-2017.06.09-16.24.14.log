@@ -1,0 +1,762 @@
+﻿Log file open, 06/09/17 15:55:12
+LogInit:Display: Running engine for game: TowerDefence4
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-697011264) SRandInit(-697011264).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.064549
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3416026
+LogInit: Engine Version: 4.15.2-3416026+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): May  1 2017 13:11:28
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line:  
+LogInit: Base directory: E:/Unreal 4/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.06.09-14.55.13:318][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.09-14.55.13:318][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.06.09-14.55.13:328][  0]LogInit: Computer: PCBOI
+[2017.06.09-14.55.13:328][  0]LogInit: User: Henry891
+[2017.06.09-14.55.13:328][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.06.09-14.55.13:328][  0]LogInit: High frequency timer resolution =3.903989 MHz
+[2017.06.09-14.55.13:329][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.06.09-14.55.13:329][  0]LogMemory: Platform Memory Stats for Windows
+[2017.06.09-14.55.13:329][  0]LogMemory: Process Physical Memory: 263.96 MB used, 263.96 MB peak
+[2017.06.09-14.55.13:329][  0]LogMemory: Process Virtual Memory: 262.80 MB used, 262.80 MB peak
+[2017.06.09-14.55.13:329][  0]LogMemory: Physical Memory: 6704.94 MB used,  9621.80 MB free, 16326.74 MB total
+[2017.06.09-14.55.13:329][  0]LogMemory: Virtual Memory: 644.97 MB used,  9621.80 MB free, 134217728.00 MB total
+[2017.06.09-14.55.13:386][  0]LogTextLocalizationManager: No specific translations for ('en-GB') exist, so ('en') translations will be used.
+[2017.06.09-14.55.13:863][  0]LogD3D11RHI: D3D11 adapters:
+[2017.06.09-14.55.14:347][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
+[2017.06.09-14.55.14:347][  0]LogD3D11RHI:       8110/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.06.09-14.55.14:348][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.06.09-14.55.14:348][  0]LogD3D11RHI:       0/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.06.09-14.55.14:348][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.06.09-14.55.14:352][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.06.09-14.55.14:352][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
+[2017.06.09-14.55.14:352][  0]LogWindows: EnumDisplayDevices:
+[2017.06.09-14.55.14:352][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
+[2017.06.09-14.55.14:352][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:0 D:1)
+[2017.06.09-14.55.14:352][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2017.06.09-14.55.14:352][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2017.06.09-14.55.14:352][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.06.09-14.55.14:352][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
+[2017.06.09-14.55.14:352][  0]LogD3D11RHI:   Driver Version: 382.33 (internal:22.21.13.8233, unified:382.33)
+[2017.06.09-14.55.14:352][  0]LogD3D11RHI:      Driver Date: 5-17-2017
+[2017.06.09-14.55.14:352][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.06.09-14.55.14:810][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2017.06.09-14.55.14:810][  0]LogD3D11RHI: Async texture creation enabled
+[2017.06.09-14.55.14:839][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.06.09-14.55.14:930][  0]LogShaderCompilers: Guid format shader working directory is -9 characters bigger than the processId version (../../../../UE4 projects/ohwowrepo/TowerDefence4 - Copy/Intermediate/Shaders/WorkingDirectory/6848/).
+[2017.06.09-14.55.14:930][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Henry/AppData/Local/Temp/UnrealShaderWorkingDir/F8E71EE24BDCF841908334B9E6413589/'.
+[2017.06.09-14.55.14:930][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.06.09-14.55.15:722][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.06.09-14.55.15:755][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.06.09-14.55.15:789][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.06.09-14.55.15:821][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.06.09-14.55.15:855][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.06.09-14.55.15:888][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.06.09-14.55.15:923][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.06.09-14.55.15:956][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.06.09-14.55.15:981][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.06.09-14.55.16:014][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.06.09-14.55.16:046][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.06.09-14.55.16:078][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.06.09-14.55.16:110][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.06.09-14.55.16:143][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.06.09-14.55.16:175][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.06.09-14.55.16:238][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.06.09-14.55.16:238][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.06.09-14.55.16:258][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.06.09-14.55.16:322][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.06.09-14.55.16:344][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.06.09-14.55.16:376][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.06.09-14.55.16:409][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.06.09-14.55.16:440][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.06.09-14.55.16:472][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.06.09-14.55.16:472][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.06.09-14.55.16:700][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.06.09-14.55.16:743][  0]LogDerivedDataCache: Loaded boot cache 0.04s 50MB C:/Users/Henry/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.06.09-14.55.16:743][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Henry/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.06.09-14.55.16:743][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../UE4 projects/ohwowrepo/TowerDefence4 - Copy/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.06.09-14.55.16:743][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.06.09-14.55.16:743][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../UE4 projects/ohwowrepo/TowerDefence4 - Copy/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.06.09-14.55.16:743][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.06.09-14.55.16:758][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.06.09-14.55.16:770][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Henry/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.06.09-14.55.16:778][  0]LogSlate: Using Freetype 2.6.0
+[2017.06.09-14.55.16:778][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.09-14.55.16:779][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.09-14.55.17:005][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.09-14.55.17:007][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.06.09-14.55.17:140][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.06.09-14.55.17:162][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.06.09-14.55.17:185][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.06.09-14.55.17:185][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.06.09-14.55.17:185][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.06.09-14.55.17:548][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: towerdefence4, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 3786553673
+[2017.06.09-14.55.17:582][  0]LogAssetRegistry: FAssetRegistry took 0.0220 seconds to start up
+[2017.06.09-14.55.17:608][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.014940 seconds
+[2017.06.09-14.55.17:612][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2017.06.09-14.55.17:612][  0]LogUObjectAllocator: 7077032 out of 0 bytes used by permanent object pool.
+[2017.06.09-14.55.17:612][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.06.09-14.55.17:643][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.06.09-14.55.18:614][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.06.09-14.55.18:640][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.06.09-14.55.18:907][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.06.09-14.55.19:116][  0]SourceControl: Info Source control is disabled
+[2017.06.09-14.55.19:135][  0]SourceControl: Info Source control is disabled
+[2017.06.09-14.55.19:160][  0]SourceControl: Info Source control is disabled
+[2017.06.09-14.55.19:183][  0]SourceControl: Info Source control is disabled
+[2017.06.09-14.55.19:337][  0]LogLinker:Warning: Can't find file '/Game/TopDownBP/TopDownOverview'
+[2017.06.09-14.55.19:337][  0]LogLinker:Warning: Can't find file '/Game/TopDownBP/TopDownOverview'
+[2017.06.09-14.55.19:337][  0]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/TopDownBP/TopDownOverview.TopDownOverview_C'
+[2017.06.09-14.55.19:828][  0]LogEngine: Initializing Engine...
+[2017.06.09-14.55.19:828][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.06.09-14.55.19:909][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.06.09-14.55.19:909][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.06.09-14.55.19:972][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.06.09-14.55.19:989][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.09-14.55.19:999][  0]LogInit: FAudioDevice initialized.
+[2017.06.09-14.55.20:021][  0]LogDerivedDataCache: Saved boot cache 0.02s 50MB C:/Users/Henry/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.06.09-14.55.20:026][  0]LogInit: Texture streaming: Enabled
+[2017.06.09-14.55.20:073][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.06.09-14.55.20:122][  0]LogInit: Transaction tracking system initialized
+[2017.06.09-14.55.20:301][  0]BlueprintLog: New page: Editor Load
+[2017.06.09-14.55.20:747][  0]LocalizationService: Info Localization service is disabled
+[2017.06.09-14.55.21:093][  0]LogConsoleResponse:Display: 
+[2017.06.09-14.55.21:177][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.06.09-14.55.21:177][  0]LogCook:Display: Mobile HDR setting 1
+[2017.06.09-14.55.21:676][  0]LogFileCache: Scanning file cache for directory 'E:/Unreal 4/UE4 projects/ohwowrepo/TowerDefence4 - Copy/Content/' took 0.01s
+[2017.06.09-14.55.21:699][  0]SourceControl: Info Source control is disabled
+[2017.06.09-14.55.21:699][  0]Cmd: MAP LOAD FILE="../../../../UE4 projects/ohwowrepo/TowerDefence4 - Copy/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.06.09-14.55.21:699][  0]LightingResults: New page: Lighting Build
+[2017.06.09-14.55.21:720][  0]MapCheck: New page: Map Check
+[2017.06.09-14.55.21:720][  0]LightingResults: New page: Lighting Build
+[2017.06.09-14.55.22:483][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.06.09-14.55.22:506][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.06.09-14.55.22:506][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.06.09-14.55.22:537][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 30.869ms to complete.
+[2017.06.09-14.55.22:537][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.838
+[2017.06.09-14.55.22:602][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.06.09-14.55.22:629][  0]LogCollectionManager: Loaded 0 collections in 0.000669 seconds
+[2017.06.09-14.55.22:690][  0]LogFileCache: Scanning file cache for directory 'E:/Unreal 4/UE4 projects/ohwowrepo/TowerDefence4 - Copy/Saved/Collections/' took 0.01s
+[2017.06.09-14.55.22:690][  0]LogFileCache: Scanning file cache for directory 'E:/Unreal 4/UE4 projects/ohwowrepo/TowerDefence4 - Copy/Content/Developers/Henry891/Collections/' took 0.01s
+[2017.06.09-14.55.22:690][  0]LogFileCache: Scanning file cache for directory 'E:/Unreal 4/UE4 projects/ohwowrepo/TowerDefence4 - Copy/Content/Collections/' took 0.01s
+[2017.06.09-14.55.22:690][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.06.09-14.55.22:697][  0]LogContentBrowser: Native class hierarchy populated in 0.0068 seconds. Added 2252 classes and 455 folders.
+[2017.06.09-14.55.22:732][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.06.09-14.55.22:760][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.06.09-14.55.22:847][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.06.09-14.55.22:879][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.06.09-14.55.22:886][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.06.09-14.55.22:932][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.06.09-14.55.22:933][  0]LogLoad: (Engine Initialization) Total time: 10.89 seconds
+[2017.06.09-14.55.22:933][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.32 seconds
+[2017.06.09-14.55.22:933][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.06.09-14.55.22:941][  0]LogOcInput: OculusInput pre-init called
+[2017.06.09-14.55.22:957][  0]LogAssetRegistry: Asset discovery search completed in 5.3965 seconds
+[2017.06.09-14.55.22:957][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000003 seconds (found 0 objects)
+[2017.06.09-14.55.22:957][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000016 seconds (updated 0 objects)
+[2017.06.09-14.55.22:961][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.06.09-14.55.22:970][  0]LogSlate: Took 0.000168 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.06.09-14.55.22:973][  0]LogSlate: Took 0.000207 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.06.09-14.55.22:974][  0]LogSlate: Took 0.000168 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.06.09-14.55.23:116][  0]LogRenderer: Reallocating scene render targets to support 1128x924 NumSamples 1 (Frame:2).
+[2017.06.09-14.55.50:892][506]LogRenderer: Reallocating scene render targets to support 1128x976 NumSamples 1 (Frame:1424).
+[2017.06.09-14.55.56:393][670]LogRenderer: Reallocating scene render targets to support 1508x1284 NumSamples 1 (Frame:1578).
+[2017.06.09-14.55.58:850][959]LogSlate: Took 0.000132 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.09-14.55.59:210][959]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 112 classes and 0 folders.
+[2017.06.09-14.55.59:700][959]LogSlate: Took 0.000147 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.06.09-14.55.59:773][959]LogSlate: Took 0.000205 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.06.09-14.56.00:229][960]LogSlate: Took 0.000233 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.06.09-14.57.35:490][361]LogSlate: Took 0.000150 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.09-14.59.56:254][123]BlueprintLog: New page: Compile BaseUnit
+[2017.06.09-14.59.57:051][150]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MOBA_Minion_AI/Units/Friendly/BaseUnit" FILE="../../../../UE4 projects/ohwowrepo/TowerDefence4 - Copy/Content/MOBA_Minion_AI/Units/Friendly/BaseUnit.uasset" SILENT=true
+[2017.06.09-14.59.57:203][150]LogSavePackage: Save=93.92ms
+[2017.06.09-14.59.57:203][150]LogSavePackage: Moving '../../../../UE4 projects/ohwowrepo/TowerDefence4 - Copy/Saved/BaseUnit314296CA41B819CFEB141693FA78EB6A.tmp' to '../../../../UE4 projects/ohwowrepo/TowerDefence4 - Copy/Content/MOBA_Minion_AI/Units/Friendly/BaseUnit.uasset'
+[2017.06.09-14.59.57:204][150]LogSavePackage:Display: Finished SavePackage ../../../../UE4 projects/ohwowrepo/TowerDefence4 - Copy/Content/MOBA_Minion_AI/Units/Friendly/BaseUnit.uasset
+[2017.06.09-15.00.59:640][119]LogSlate: Took 0.021438 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.06.09-15.01.29:565][679]BlueprintLog: New page: Compile Clickable
+[2017.06.09-15.01.30:267][744]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MOBA_Minion_AI/Interfaces/Clickable" FILE="../../../../UE4 projects/ohwowrepo/TowerDefence4 - Copy/Content/MOBA_Minion_AI/Interfaces/Clickable.uasset" SILENT=true
+[2017.06.09-15.01.30:280][744]LogSavePackage: Save=5.86ms
+[2017.06.09-15.01.30:280][744]LogSavePackage: Moving '../../../../UE4 projects/ohwowrepo/TowerDefence4 - Copy/Saved/Clickable476F406A463522F2EE59B98BC57710E0.tmp' to '../../../../UE4 projects/ohwowrepo/TowerDefence4 - Copy/Content/MOBA_Minion_AI/Interfaces/Clickable.uasset'
+[2017.06.09-15.01.30:301][744]LogSavePackage:Display: Finished SavePackage ../../../../UE4 projects/ohwowrepo/TowerDefence4 - Copy/Content/MOBA_Minion_AI/Interfaces/Clickable.uasset
+[2017.06.09-15.02.03:727][224]LogBlueprint:Warning: [Compiler ] Warning Pasted node  CustomEvent   conflicted with  Event Attack Move to Command  and was replaced as a Custom Event!
+[2017.06.09-15.02.03:779][224]BlueprintEditorCompileResults:Warning: Warning Pasted node  CustomEvent   conflicted with  Event Attack Move to Command  and was replaced as a Custom Event!
+[2017.06.09-15.03.40:218][157]BlueprintEditorCompileResults:Warning: Warning Pasted node  CustomEvent   conflicted with  Event Attack Move to Command  and was replaced as a Custom Event!
+[2017.06.09-15.04.19:715][600]BlueprintLog: New page: Compile BaseUnit
+[2017.06.09-15.04.20:728][635]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MOBA_Minion_AI/Units/Friendly/BaseUnit" FILE="../../../../UE4 projects/ohwowrepo/TowerDefence4 - Copy/Content/MOBA_Minion_AI/Units/Friendly/BaseUnit.uasset" SILENT=true
+[2017.06.09-15.04.20:828][635]LogSavePackage: Save=97.61ms
+[2017.06.09-15.04.20:828][635]LogSavePackage: Moving '../../../../UE4 projects/ohwowrepo/TowerDefence4 - Copy/Saved/BaseUnit71CD377044BDEEFA3C74718FDB33B47F.tmp' to '../../../../UE4 projects/ohwowrepo/TowerDefence4 - Copy/Content/MOBA_Minion_AI/Units/Friendly/BaseUnit.uasset'
+[2017.06.09-15.04.20:829][635]LogSavePackage:Display: Finished SavePackage ../../../../UE4 projects/ohwowrepo/TowerDefence4 - Copy/Content/MOBA_Minion_AI/Units/Friendly/BaseUnit.uasset
+[2017.06.09-15.05.31:151][120]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.06.09-15.05.31:225][121]LogTemp:Display: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.TowerDefence4
+
+[2017.06.09-15.05.31:225][121]LogTemp:Display: CWD: E:\Unreal 4\UE_4.15\Engine\Binaries\DotNET\IOS
+
+[2017.06.09-15.05.31:225][121]LogTemp:Display: Initial Dir: E:\Unreal 4\UE_4.15
+
+[2017.06.09-15.05.31:225][121]LogTemp:Display: Env CWD: E:\Unreal 4\UE_4.15\Engine\Binaries\DotNET\IOS
+
+[2017.06.09-15.05.31:225][121]LogTemp:Display: BranchPath = PCBOI/E/Unreal 4/UE_4.15/Engine/Binaries --- GameBranchPath = PCBOI/E/Unreal 4/UE_4.15/Engine/Binaries
+
+[2017.06.09-15.05.31:225][121]LogTemp:Display: IPP ERROR: Application exception: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\Henry\AppData\Local\Apple Computer\MobileDevice\Provisioning Profiles'.
+
+[2017.06.09-15.05.31:225][121]LogTemp:Display:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+
+[2017.06.09-15.05.31:225][121]LogTemp:Display:    at System.IO.FileSystemEnumerableIterator`1.CommonInit()
+
+[2017.06.09-15.05.31:225][121]LogTemp:Display:    at System.IO.Directory.EnumerateFiles(String path, String searchPattern)
+
+[2017.06.09-15.05.31:225][121]LogTemp:Display:    at iPhonePackager.CodeSignatureBuilder.FindProvisions(String CFBundleIdentifier)
+
+[2017.06.09-15.05.31:225][121]LogTemp:Display:    at iPhonePackager.Program.Main(String[] args)
+
+[2017.06.09-15.06.13:213][938]LogSavePackage: Save=135.10ms
+[2017.06.09-15.06.13:213][938]LogSavePackage: Moving '../../../../UE4 projects/ohwowrepo/TowerDefence4 - Copy/Saved/ThirdPersonExampleMap_Auto1E28BBB8944F2926A3CE05787AA85611C.tmp' to '../../../../UE4 projects/ohwowrepo/TowerDefence4 - Copy/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto1.umap'
+[2017.06.09-15.06.13:224][938]LogSavePackage:Display: Finished SavePackage ../../../../UE4 projects/ohwowrepo/TowerDefence4 - Copy/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto1.umap
+[2017.06.09-15.06.13:227][938]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.242
+[2017.06.09-15.06.13:227][938]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.242
+[2017.06.09-15.06.13:229][938]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MOBA_Minion_AI/Units/Friendly/BaseUnit] ([1] browsable assets)...
+[2017.06.09-15.06.13:243][938]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/MOBA_Minion_AI/Units/Friendly/BaseUnit.BaseUnit]
+[2017.06.09-15.06.13:243][938]OBJ SavePackage: Finished generating thumbnails for package [/Game/MOBA_Minion_AI/Units/Friendly/BaseUnit]
+[2017.06.09-15.06.13:373][938]LogSavePackage: Save=121.74ms
+[2017.06.09-15.06.13:373][938]LogSavePackage: Moving '../../../../UE4 projects/ohwowrepo/TowerDefence4 - Copy/Saved/BaseUnit_Auto159E137BA40534E01A7BBAFACFAEB3E9B.tmp' to '../../../../UE4 projects/ohwowrepo/TowerDefence4 - Copy/Saved/Autosaves/Game/MOBA_Minion_AI/Units/Friendly/BaseUnit_Auto1.uasset'
+[2017.06.09-15.06.13:393][938]LogSavePackage:Display: Finished SavePackage ../../../../UE4 projects/ohwowrepo/TowerDefence4 - Copy/Saved/Autosaves/Game/MOBA_Minion_AI/Units/Friendly/BaseUnit_Auto1.uasset
+[2017.06.09-15.06.13:393][938]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/MOBA_Minion_AI/Game/GDG_PlayerController] ([1] browsable assets)...
+[2017.06.09-15.06.13:393][938]OBJ SavePackage: Finished generating thumbnails for package [/Game/MOBA_Minion_AI/Game/GDG_PlayerController]
+[2017.06.09-15.06.13:475][938]LogSavePackage: Save=55.83ms
+[2017.06.09-15.06.13:475][938]LogSavePackage: Moving '../../../../UE4 projects/ohwowrepo/TowerDefence4 - Copy/Saved/GDG_PlayerController_Auto1B9D9897B43F1826663346F8F52FC39FF.tmp' to '../../../../UE4 projects/ohwowrepo/TowerDefence4 - Copy/Saved/Autosaves/Game/MOBA_Minion_AI/Game/GDG_PlayerController_Auto1.uasset'
+[2017.06.09-15.06.13:483][938]LogSavePackage:Display: Finished SavePackage ../../../../UE4 projects/ohwowrepo/TowerDefence4 - Copy/Saved/Autosaves/Game/MOBA_Minion_AI/Game/GDG_PlayerController_Auto1.uasset
+[2017.06.09-15.06.13:483][938]LogFileHelpers: Auto-saving content packages took 0.254
+[2017.06.09-15.07.07:959][583]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_5:PersistentLevel.TwinStickProjectile_C_0.StaticMesh) Not currently registered. Aborting.
+[2017.06.09-15.07.07:959][583]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_8:PersistentLevel.TwinStickProjectile_C_1.StaticMesh) Not currently registered. Aborting.
+[2017.06.09-15.07.10:640][843]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_5:PersistentLevel.TwinStickProjectile_C_0.StaticMesh) Not currently registered. Aborting.
+[2017.06.09-15.07.10:640][843]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_8:PersistentLevel.TwinStickProjectile_C_1.StaticMesh) Not currently registered. Aborting.
+[2017.06.09-15.07.21:358][913]BlueprintLog: New page: Compile TwinStickProjectile
+[2017.06.09-15.07.21:896][940]LogSavePackage: Save=32.18ms
+[2017.06.09-15.07.21:896][940]LogSavePackage: Moving '../../../../UE4 projects/ohwowrepo/TowerDefence4 - Copy/Saved/TwinStickProjectileFAB636074CDCCCC6B73921BB1CB9F3AA.tmp' to '../../../../UE4 projects/ohwowrepo/TowerDefence4 - Copy/Content/MOBA_Minion_AI/Units/Friendly/Gun/TwinStickProjectile.uasset'
+[2017.06.09-15.07.21:897][940]LogSavePackage:Display: Finished SavePackage ../../../../UE4 projects/ohwowrepo/TowerDefence4 - Copy/Content/MOBA_Minion_AI/Units/Friendly/Gun/TwinStickProjectile.uasset
+[2017.06.09-15.07.57:416][120]LogActorComponent: ReregisterComponent: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter6.CharacterMesh0) Not currently registered. Aborting.
+[2017.06.09-15.07.57:416][120]LogActorComponent: ReregisterComponent: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter7.CharacterMesh0) Not currently registered. Aborting.
+[2017.06.09-15.07.57:416][120]LogActorComponent: ReregisterComponent: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter8.CharacterMesh0) Not currently registered. Aborting.
+[2017.06.09-15.07.57:416][120]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_0:PersistentLevel.BaseUnit_C_0.CharacterMesh0) Not currently registered. Aborting.
+[2017.06.09-15.07.57:416][120]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_1:PersistentLevel.BaseUnit_C_1.CharacterMesh0) Not currently registered. Aborting.
+[2017.06.09-15.08.00:559][309]LogActorComponent: ReregisterComponent: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter6.CharacterMesh0) Not currently registered. Aborting.
+[2017.06.09-15.08.00:559][309]LogActorComponent: ReregisterComponent: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter7.CharacterMesh0) Not currently registered. Aborting.
+[2017.06.09-15.08.00:559][309]LogActorComponent: ReregisterComponent: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter8.CharacterMesh0) Not currently registered. Aborting.
+[2017.06.09-15.08.00:559][309]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_0:PersistentLevel.BaseUnit_C_0.CharacterMesh0) Not currently registered. Aborting.
+[2017.06.09-15.08.00:559][309]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_1:PersistentLevel.BaseUnit_C_1.CharacterMesh0) Not currently registered. Aborting.
+[2017.06.09-15.08.01:685][375]LogActorComponent: ReregisterComponent: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter6.CharacterMesh0) Not currently registered. Aborting.
+[2017.06.09-15.08.01:685][375]LogActorComponent: ReregisterComponent: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter7.CharacterMesh0) Not currently registered. Aborting.
+[2017.06.09-15.08.01:685][375]LogActorComponent: ReregisterComponent: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter8.CharacterMesh0) Not currently registered. Aborting.
+[2017.06.09-15.08.01:685][375]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_0:PersistentLevel.BaseUnit_C_0.CharacterMesh0) Not currently registered. Aborting.
+[2017.06.09-15.08.01:685][375]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_1:PersistentLevel.BaseUnit_C_1.CharacterMesh0) Not currently registered. Aborting.
+[2017.06.09-15.08.02:161][402]LogActorComponent: ReregisterComponent: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter6.CharacterMesh0) Not currently registered. Aborting.
+[2017.06.09-15.08.02:161][402]LogActorComponent: ReregisterComponent: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter7.CharacterMesh0) Not currently registered. Aborting.
+[2017.06.09-15.08.02:161][402]LogActorComponent: ReregisterComponent: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter8.CharacterMesh0) Not currently registered. Aborting.
+[2017.06.09-15.08.02:161][402]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_0:PersistentLevel.BaseUnit_C_0.CharacterMesh0) Not currently registered. Aborting.
+[2017.06.09-15.08.02:161][402]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_1:PersistentLevel.BaseUnit_C_1.CharacterMesh0) Not currently registered. Aborting.
+[2017.06.09-15.08.04:816][561]LogActorComponent: ReregisterComponent: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter6.CharacterMesh0) Not currently registered. Aborting.
+[2017.06.09-15.08.04:816][561]LogActorComponent: ReregisterComponent: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter7.CharacterMesh0) Not currently registered. Aborting.
+[2017.06.09-15.08.04:816][561]LogActorComponent: ReregisterComponent: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter8.CharacterMesh0) Not currently registered. Aborting.
+[2017.06.09-15.08.04:816][561]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_0:PersistentLevel.BaseUnit_C_0.CharacterMesh0) Not currently registered. Aborting.
+[2017.06.09-15.08.04:816][561]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_1:PersistentLevel.BaseUnit_C_1.CharacterMesh0) Not currently registered. Aborting.
+[2017.06.09-15.08.11:238][947]BlueprintLog: New page: Compile BaseUnit
+[2017.06.09-15.08.12:284][976]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MOBA_Minion_AI/Units/Friendly/BaseUnit" FILE="../../../../UE4 projects/ohwowrepo/TowerDefence4 - Copy/Content/MOBA_Minion_AI/Units/Friendly/BaseUnit.uasset" SILENT=true
+[2017.06.09-15.08.12:411][976]LogSavePackage: Save=123.88ms
+[2017.06.09-15.08.12:411][976]LogSavePackage: Moving '../../../../UE4 projects/ohwowrepo/TowerDefence4 - Copy/Saved/BaseUnit6CC95647468BC4BE6D6D1CBD28B9A901.tmp' to '../../../../UE4 projects/ohwowrepo/TowerDefence4 - Copy/Content/MOBA_Minion_AI/Units/Friendly/BaseUnit.uasset'
+[2017.06.09-15.08.12:416][976]LogSavePackage:Display: Finished SavePackage ../../../../UE4 projects/ohwowrepo/TowerDefence4 - Copy/Content/MOBA_Minion_AI/Units/Friendly/BaseUnit.uasset
+[2017.06.09-15.08.19:905][428]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_1:PersistentLevel.BaseUnit_C_1.CollisionCylinder) Not currently registered. Aborting.
+[2017.06.09-15.08.19:905][428]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_0:PersistentLevel.BaseUnit_C_0.CollisionCylinder) Not currently registered. Aborting.
+[2017.06.09-15.08.19:905][428]LogActorComponent: ReregisterComponent: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter8.CollisionCylinder) Not currently registered. Aborting.
+[2017.06.09-15.08.19:905][428]LogActorComponent: ReregisterComponent: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter7.CollisionCylinder) Not currently registered. Aborting.
+[2017.06.09-15.08.19:905][428]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_0:PersistentLevel.BaseUnit_C_6.CollisionCylinder) Not currently registered. Aborting.
+[2017.06.09-15.08.19:905][428]LogActorComponent: ReregisterComponent: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter6.CollisionCylinder) Not currently registered. Aborting.
+[2017.06.09-15.08.21:183][503]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_1:PersistentLevel.BaseUnit_C_1.CollisionCylinder) Not currently registered. Aborting.
+[2017.06.09-15.08.21:183][503]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_0:PersistentLevel.BaseUnit_C_0.CollisionCylinder) Not currently registered. Aborting.
+[2017.06.09-15.08.21:183][503]LogActorComponent: ReregisterComponent: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter8.CollisionCylinder) Not currently registered. Aborting.
+[2017.06.09-15.08.21:183][503]LogActorComponent: ReregisterComponent: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter7.CollisionCylinder) Not currently registered. Aborting.
+[2017.06.09-15.08.21:183][503]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_0:PersistentLevel.BaseUnit_C_6.CollisionCylinder) Not currently registered. Aborting.
+[2017.06.09-15.08.21:183][503]LogActorComponent: ReregisterComponent: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter6.CollisionCylinder) Not currently registered. Aborting.
+[2017.06.09-15.08.23:568][641]BlueprintLog: New page: Compile BaseUnit
+[2017.06.09-15.08.24:668][672]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MOBA_Minion_AI/Units/Friendly/BaseUnit" FILE="../../../../UE4 projects/ohwowrepo/TowerDefence4 - Copy/Content/MOBA_Minion_AI/Units/Friendly/BaseUnit.uasset" SILENT=true
+[2017.06.09-15.08.24:770][672]LogSavePackage: Save=99.85ms
+[2017.06.09-15.08.24:771][672]LogSavePackage: Moving '../../../../UE4 projects/ohwowrepo/TowerDefence4 - Copy/Saved/BaseUnitA43770614C701B43CEB7F6B89F2D442F.tmp' to '../../../../UE4 projects/ohwowrepo/TowerDefence4 - Copy/Content/MOBA_Minion_AI/Units/Friendly/BaseUnit.uasset'
+[2017.06.09-15.08.24:772][672]LogSavePackage:Display: Finished SavePackage ../../../../UE4 projects/ohwowrepo/TowerDefence4 - Copy/Content/MOBA_Minion_AI/Units/Friendly/BaseUnit.uasset
+[2017.06.09-15.08.39:068][528]BlueprintLog: New page: Compile BaseUnit
+[2017.06.09-15.08.39:649][548]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MOBA_Minion_AI/Units/Friendly/BaseUnit" FILE="../../../../UE4 projects/ohwowrepo/TowerDefence4 - Copy/Content/MOBA_Minion_AI/Units/Friendly/BaseUnit.uasset" SILENT=true
+[2017.06.09-15.08.39:756][548]LogSavePackage: Save=103.94ms
+[2017.06.09-15.08.39:756][548]LogSavePackage: Moving '../../../../UE4 projects/ohwowrepo/TowerDefence4 - Copy/Saved/BaseUnitA3DC882D48AB7B126DF9808421E557D4.tmp' to '../../../../UE4 projects/ohwowrepo/TowerDefence4 - Copy/Content/MOBA_Minion_AI/Units/Friendly/BaseUnit.uasset'
+[2017.06.09-15.08.39:757][548]LogSavePackage:Display: Finished SavePackage ../../../../UE4 projects/ohwowrepo/TowerDefence4 - Copy/Content/MOBA_Minion_AI/Units/Friendly/BaseUnit.uasset
+[2017.06.09-15.09.02:189][495]BlueprintLog: New page: Compile Task_UnitAutoAttack
+[2017.06.09-15.09.02:892][544]LogSavePackage: Save=24.28ms
+[2017.06.09-15.09.02:892][544]LogSavePackage: Moving '../../../../UE4 projects/ohwowrepo/TowerDefence4 - Copy/Saved/Task_UnitAutoAttack0EDC1C404DE6631A99A985AD81905FDF.tmp' to '../../../../UE4 projects/ohwowrepo/TowerDefence4 - Copy/Content/MOBA_Minion_AI/AI/Tasks/Task_UnitAutoAttack.uasset'
+[2017.06.09-15.09.02:894][544]LogSavePackage:Display: Finished SavePackage ../../../../UE4 projects/ohwowrepo/TowerDefence4 - Copy/Content/MOBA_Minion_AI/AI/Tasks/Task_UnitAutoAttack.uasset
+[2017.06.09-15.10.01:454][499]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MOBA_Minion_AI/AI/BaseUnit_BB" FILE="../../../../UE4 projects/ohwowrepo/TowerDefence4 - Copy/Content/MOBA_Minion_AI/AI/BaseUnit_BB.uasset" SILENT=true
+[2017.06.09-15.10.01:460][499]LogSavePackage: Save=3.12ms
+[2017.06.09-15.10.01:460][499]LogSavePackage: Moving '../../../../UE4 projects/ohwowrepo/TowerDefence4 - Copy/Saved/BaseUnit_BB0B2D398541560D97DB1B19BF8BDF8711.tmp' to '../../../../UE4 projects/ohwowrepo/TowerDefence4 - Copy/Content/MOBA_Minion_AI/AI/BaseUnit_BB.uasset'
+[2017.06.09-15.10.01:461][499]LogSavePackage:Display: Finished SavePackage ../../../../UE4 projects/ohwowrepo/TowerDefence4 - Copy/Content/MOBA_Minion_AI/AI/BaseUnit_BB.uasset
+[2017.06.09-15.10.28:033][965]LogBlueprint:Warning: [BaseUnitController] 'MoveToLocKey' variable not found. Base class was probably changed.
+[2017.06.09-15.10.28:034][965]LogBlueprint:Warning: [BaseUnitController] 'MoveToLocActive' variable not found. Base class was probably changed.
+[2017.06.09-15.10.28:034][965]LogBlueprint:Warning: [BaseUnitController] 'MoveToLocKey' variable not found. Base class was probably changed.
+[2017.06.09-15.10.28:034][965]LogBlueprint:Warning: [BaseUnitController] 'MoveToLocActive' variable not found. Base class was probably changed.
+[2017.06.09-15.11.53:762][179]BlueprintLog: New page: Compile Clickable
+[2017.06.09-15.11.54:230][213]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MOBA_Minion_AI/Interfaces/Clickable" FILE="../../../../UE4 projects/ohwowrepo/TowerDefence4 - Copy/Content/MOBA_Minion_AI/Interfaces/Clickable.uasset" SILENT=true
+[2017.06.09-15.11.54:266][213]LogSavePackage: Save=30.54ms
+[2017.06.09-15.11.54:266][213]LogSavePackage: Moving '../../../../UE4 projects/ohwowrepo/TowerDefence4 - Copy/Saved/ClickableADAA46214040A622F2F340B49A82B090.tmp' to '../../../../UE4 projects/ohwowrepo/TowerDefence4 - Copy/Content/MOBA_Minion_AI/Interfaces/Clickable.uasset'
+[2017.06.09-15.11.54:266][213]LogSavePackage:Display: Finished SavePackage ../../../../UE4 projects/ohwowrepo/TowerDefence4 - Copy/Content/MOBA_Minion_AI/Interfaces/Clickable.uasset
+[2017.06.09-15.11.56:591][486]BlueprintLog: New page: Compile BaseUnitController
+[2017.06.09-15.11.56:597][486]LogBlueprint:Warning: [Compiler BaseUnitController] Warning Could not find a variable named "MoveToLocActive" in 'BaseUnitController_C'.
+Make sure 'BaseUnitController_C' has been compiled for  Get MoveToLocActive
+[2017.06.09-15.11.56:597][486]LogBlueprint:Warning: [Compiler BaseUnitController] Warning Could not find a variable named "MoveToLocKey" in 'BaseUnitController_C'.
+Make sure 'BaseUnitController_C' has been compiled for  Get MoveToLocKey
+[2017.06.09-15.11.56:597][486]LogBlueprint:Error: [Compiler BaseUnitController] Error The property associated with  Move to Loc Active  could not be found
+[2017.06.09-15.11.56:597][486]LogBlueprint:Error: [Compiler BaseUnitController] Error The property associated with  Move to Loc Key  could not be found
+[2017.06.09-15.11.56:761][486]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "MoveToLocActive" in 'BaseUnitController_C'.
+Make sure 'BaseUnitController_C' has been compiled for  Get MoveToLocActive
+[2017.06.09-15.11.56:761][486]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "MoveToLocKey" in 'BaseUnitController_C'.
+Make sure 'BaseUnitController_C' has been compiled for  Get MoveToLocKey
+[2017.06.09-15.11.56:761][486]BlueprintEditorCompileResults:Error: Error The property associated with  Move to Loc Active  could not be found
+[2017.06.09-15.11.56:761][486]BlueprintEditorCompileResults:Error: Error The property associated with  Move to Loc Key  could not be found
+[2017.06.09-15.11.56:762][486]LogBlueprint:Warning: [Compiler BaseUnitController] Warning [1004.72] Compile of BaseUnitController failed. 2 Fatal Issue(s) 2 Warning(s) [in 170 ms] (/Game/MOBA_Minion_AI/Units/Friendly/BaseUnitController.BaseUnitController)
+[2017.06.09-15.11.57:135][524]LogSavePackage: Save=13.48ms
+[2017.06.09-15.11.57:135][524]LogSavePackage: Moving '../../../../UE4 projects/ohwowrepo/TowerDefence4 - Copy/Saved/BaseUnitControllerC00F5EAD450FDAF6C12599A2D20CDE4C.tmp' to '../../../../UE4 projects/ohwowrepo/TowerDefence4 - Copy/Content/MOBA_Minion_AI/Units/Friendly/BaseUnitController.uasset'
+[2017.06.09-15.11.57:187][524]LogSavePackage:Display: Finished SavePackage ../../../../UE4 projects/ohwowrepo/TowerDefence4 - Copy/Content/MOBA_Minion_AI/Units/Friendly/BaseUnitController.uasset
+[2017.06.09-15.12.01:631][998]BlueprintLog: New page: Compile BaseUnit
+[2017.06.09-15.12.02:035][ 16]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MOBA_Minion_AI/Units/Friendly/BaseUnit" FILE="../../../../UE4 projects/ohwowrepo/TowerDefence4 - Copy/Content/MOBA_Minion_AI/Units/Friendly/BaseUnit.uasset" SILENT=true
+[2017.06.09-15.12.02:139][ 16]LogSavePackage: Save=97.29ms
+[2017.06.09-15.12.02:139][ 16]LogSavePackage: Moving '../../../../UE4 projects/ohwowrepo/TowerDefence4 - Copy/Saved/BaseUnit28D0B1B24FA17623A6549E867A05C6CC.tmp' to '../../../../UE4 projects/ohwowrepo/TowerDefence4 - Copy/Content/MOBA_Minion_AI/Units/Friendly/BaseUnit.uasset'
+[2017.06.09-15.12.02:141][ 16]LogSavePackage:Display: Finished SavePackage ../../../../UE4 projects/ohwowrepo/TowerDefence4 - Copy/Content/MOBA_Minion_AI/Units/Friendly/BaseUnit.uasset
+[2017.06.09-15.13.24:134][955]BlueprintLog: New page: Compile BaseUnitController
+[2017.06.09-15.13.38:244][402]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.06.09-15.14.20:392][601]BlueprintLog: New page: Compile BaseUnitController
+[2017.06.09-15.14.20:896][639]LogSavePackage: Save=14.07ms
+[2017.06.09-15.14.20:896][639]LogSavePackage: Moving '../../../../UE4 projects/ohwowrepo/TowerDefence4 - Copy/Saved/BaseUnitController6734EABC47B214214A22E5BF7544B769.tmp' to '../../../../UE4 projects/ohwowrepo/TowerDefence4 - Copy/Content/MOBA_Minion_AI/Units/Friendly/BaseUnitController.uasset'
+[2017.06.09-15.14.20:897][639]LogSavePackage:Display: Finished SavePackage ../../../../UE4 projects/ohwowrepo/TowerDefence4 - Copy/Content/MOBA_Minion_AI/Units/Friendly/BaseUnitController.uasset
+[2017.06.09-15.14.26:010][157]BlueprintLog: New page: Compile BaseUnit
+[2017.06.09-15.14.26:608][189]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MOBA_Minion_AI/Units/Friendly/BaseUnit" FILE="../../../../UE4 projects/ohwowrepo/TowerDefence4 - Copy/Content/MOBA_Minion_AI/Units/Friendly/BaseUnit.uasset" SILENT=true
+[2017.06.09-15.14.26:708][189]LogSavePackage: Save=97.34ms
+[2017.06.09-15.14.26:708][189]LogSavePackage: Moving '../../../../UE4 projects/ohwowrepo/TowerDefence4 - Copy/Saved/BaseUnit71023A7447A112DCA34FF1A005277F98.tmp' to '../../../../UE4 projects/ohwowrepo/TowerDefence4 - Copy/Content/MOBA_Minion_AI/Units/Friendly/BaseUnit.uasset'
+[2017.06.09-15.14.26:709][189]LogSavePackage:Display: Finished SavePackage ../../../../UE4 projects/ohwowrepo/TowerDefence4 - Copy/Content/MOBA_Minion_AI/Units/Friendly/BaseUnit.uasset
+[2017.06.09-15.15.22:384][443]LogLinker:Warning: Can't find file '/Game/MOBA_Minion_AI/AI/Services/NearMinion'
+[2017.06.09-15.15.22:385][443]LogLinker:Warning: Can't find file '/Game/MOBA_Minion_AI/AI/Services/NearMinion'
+[2017.06.09-15.15.22:385][443]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/MOBA_Minion_AI/AI/Services/NearMinion.NearMinion'
+[2017.06.09-15.15.46:305][805]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/MOBA_Minion_AI/AI/Services/NearMinion.
+[2017.06.09-15.15.54:401][688]LogBlueprint:Warning: [NearMinion] 'TargetActorActiveKey' variable not found. Base class was probably changed.
+[2017.06.09-15.15.54:401][688]LogBlueprint:Warning: [NearMinion] 'TargetActorActiveKey' variable not found. Base class was probably changed.
+[2017.06.09-15.15.57:644][ 54]BlueprintLog: New page: Compile NearMinion
+[2017.06.09-15.15.57:652][ 54]LogBlueprint:Warning: [Compiler NearMinion] Warning Could not find a variable named "TargetActorActiveKey" in 'NearMinion_C'.
+Make sure 'NearMinion_C' has been compiled for  Get TargetActorActiveKey
+[2017.06.09-15.15.57:652][ 54]LogBlueprint:Warning: [Compiler NearMinion] Warning Could not find a variable named "TargetActorActiveKey" in 'NearMinion_C'.
+Make sure 'NearMinion_C' has been compiled for  Get TargetActorActiveKey
+[2017.06.09-15.15.57:653][ 54]LogBlueprint:Error: [Compiler NearMinion] Error The property associated with  Target Actor Active Key  could not be found
+[2017.06.09-15.15.57:653][ 54]LogBlueprint:Error: [Compiler NearMinion] Error The property associated with  Target Actor Active Key  could not be found
+[2017.06.09-15.15.57:819][ 54]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "TargetActorActiveKey" in 'NearMinion_C'.
+Make sure 'NearMinion_C' has been compiled for  Get TargetActorActiveKey
+[2017.06.09-15.15.57:819][ 54]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "TargetActorActiveKey" in 'NearMinion_C'.
+Make sure 'NearMinion_C' has been compiled for  Get TargetActorActiveKey
+[2017.06.09-15.15.57:819][ 54]BlueprintEditorCompileResults:Error: Error The property associated with  Target Actor Active Key  could not be found
+[2017.06.09-15.15.57:819][ 54]BlueprintEditorCompileResults:Error: Error The property associated with  Target Actor Active Key  could not be found
+[2017.06.09-15.15.57:819][ 54]LogBlueprint:Warning: [Compiler NearMinion] Warning [1245.78] Compile of NearMinion failed. 2 Fatal Issue(s) 2 Warning(s) [in 174 ms] (/Game/MOBA_Minion_AI/AI/Services/NearMinion.NearMinion)
+[2017.06.09-15.16.08:689][186]BlueprintLog: New page: Compile NearMinion
+[2017.06.09-15.16.09:196][222]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MOBA_Minion_AI/AI/Services/NearMinion" FILE="../../../../UE4 projects/ohwowrepo/TowerDefence4 - Copy/Content/MOBA_Minion_AI/AI/Services/NearMinion.uasset" SILENT=true
+[2017.06.09-15.16.09:210][222]LogSavePackage: Save=12.88ms
+[2017.06.09-15.16.09:210][222]LogSavePackage: Moving '../../../../UE4 projects/ohwowrepo/TowerDefence4 - Copy/Saved/NearMinion28E6FC7B47644616848BF6B97685AA1B.tmp' to '../../../../UE4 projects/ohwowrepo/TowerDefence4 - Copy/Content/MOBA_Minion_AI/AI/Services/NearMinion.uasset'
+[2017.06.09-15.16.09:211][222]LogSavePackage:Display: Finished SavePackage ../../../../UE4 projects/ohwowrepo/TowerDefence4 - Copy/Content/MOBA_Minion_AI/AI/Services/NearMinion.uasset
+[2017.06.09-15.16.09:292][230]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/MOBA_Minion_AI/AI/Services/NearMinion.
+[2017.06.09-15.16.18:458][141]BlueprintLog: New page: Compile NearMinion
+[2017.06.09-15.16.18:932][179]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MOBA_Minion_AI/AI/Services/NearMinion" FILE="../../../../UE4 projects/ohwowrepo/TowerDefence4 - Copy/Content/MOBA_Minion_AI/AI/Services/NearMinion.uasset" SILENT=true
+[2017.06.09-15.16.19:000][179]LogSavePackage: Save=62.05ms
+[2017.06.09-15.16.19:000][179]LogSavePackage: Moving '../../../../UE4 projects/ohwowrepo/TowerDefence4 - Copy/Saved/NearMinion5913CB4B4F105494834A03901FE4B6E2.tmp' to '../../../../UE4 projects/ohwowrepo/TowerDefence4 - Copy/Content/MOBA_Minion_AI/AI/Services/NearMinion.uasset'
+[2017.06.09-15.16.19:001][179]LogSavePackage:Display: Finished SavePackage ../../../../UE4 projects/ohwowrepo/TowerDefence4 - Copy/Content/MOBA_Minion_AI/AI/Services/NearMinion.uasset
+[2017.06.09-15.16.33:122][958]BlueprintLog: New page: Compile NearMinion
+[2017.06.09-15.16.33:519][989]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MOBA_Minion_AI/AI/Services/NearMinion" FILE="../../../../UE4 projects/ohwowrepo/TowerDefence4 - Copy/Content/MOBA_Minion_AI/AI/Services/NearMinion.uasset" SILENT=true
+[2017.06.09-15.16.33:535][989]LogSavePackage: Save=12.12ms
+[2017.06.09-15.16.33:535][989]LogSavePackage: Moving '../../../../UE4 projects/ohwowrepo/TowerDefence4 - Copy/Saved/NearMinionC4B7C80C451AFA697D7B659F4707CD0F.tmp' to '../../../../UE4 projects/ohwowrepo/TowerDefence4 - Copy/Content/MOBA_Minion_AI/AI/Services/NearMinion.uasset'
+[2017.06.09-15.16.33:535][989]LogSavePackage:Display: Finished SavePackage ../../../../UE4 projects/ohwowrepo/TowerDefence4 - Copy/Content/MOBA_Minion_AI/AI/Services/NearMinion.uasset
+[2017.06.09-15.18.11:422][995]LogPropertyNode:Warning: Property BTTask_MoveTo::bObserveBlackboardValue is an editcondition for BTTask_MoveTo::ObservedBlackboardValueTolerance, but is not marked as EditAnywhere.
+[2017.06.09-15.18.13:074][183]LogPropertyNode:Warning: Property BTTask_MoveTo::bObserveBlackboardValue is an editcondition for BTTask_MoveTo::ObservedBlackboardValueTolerance, but is not marked as EditAnywhere.
+[2017.06.09-15.18.24:633][526]LogPropertyNode:Warning: Property BTTask_MoveTo::bObserveBlackboardValue is an editcondition for BTTask_MoveTo::ObservedBlackboardValueTolerance, but is not marked as EditAnywhere.
+[2017.06.09-15.19.18:107][ 46]LogSavePackage: Save=146.18ms
+[2017.06.09-15.19.18:107][ 46]LogSavePackage: Moving '../../../../UE4 projects/ohwowrepo/TowerDefence4 - Copy/Saved/ThirdPersonExampleMap_Auto2BAD90FAC426592B501E3DAABA9D40C47.tmp' to '../../../../UE4 projects/ohwowrepo/TowerDefence4 - Copy/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto2.umap'
+[2017.06.09-15.19.18:108][ 46]LogSavePackage:Display: Finished SavePackage ../../../../UE4 projects/ohwowrepo/TowerDefence4 - Copy/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto2.umap
+[2017.06.09-15.19.18:113][ 46]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.208
+[2017.06.09-15.19.18:113][ 46]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.208
+[2017.06.09-15.19.18:115][ 46]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/MOBA_Minion_AI/Game/GDG_PlayerController] ([1] browsable assets)...
+[2017.06.09-15.19.18:115][ 46]OBJ SavePackage: Finished generating thumbnails for package [/Game/MOBA_Minion_AI/Game/GDG_PlayerController]
+[2017.06.09-15.19.18:191][ 46]LogSavePackage: Save=60.48ms
+[2017.06.09-15.19.18:191][ 46]LogSavePackage: Moving '../../../../UE4 projects/ohwowrepo/TowerDefence4 - Copy/Saved/GDG_PlayerController_Auto2F55C9A32421B196ACD4D949E88214E65.tmp' to '../../../../UE4 projects/ohwowrepo/TowerDefence4 - Copy/Saved/Autosaves/Game/MOBA_Minion_AI/Game/GDG_PlayerController_Auto2.uasset'
+[2017.06.09-15.19.18:192][ 46]LogSavePackage:Display: Finished SavePackage ../../../../UE4 projects/ohwowrepo/TowerDefence4 - Copy/Saved/Autosaves/Game/MOBA_Minion_AI/Game/GDG_PlayerController_Auto2.uasset
+[2017.06.09-15.19.18:193][ 46]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/MOBA_Minion_AI/AI/BaseUnit_BT] ([1] browsable assets)...
+[2017.06.09-15.19.18:193][ 46]OBJ SavePackage: Finished generating thumbnails for package [/Game/MOBA_Minion_AI/AI/BaseUnit_BT]
+[2017.06.09-15.19.18:207][ 46]LogSavePackage: Save=8.57ms
+[2017.06.09-15.19.18:207][ 46]LogSavePackage: Moving '../../../../UE4 projects/ohwowrepo/TowerDefence4 - Copy/Saved/BaseUnit_BT_Auto2D30B593A459602E4B2B5299947D55BC4.tmp' to '../../../../UE4 projects/ohwowrepo/TowerDefence4 - Copy/Saved/Autosaves/Game/MOBA_Minion_AI/AI/BaseUnit_BT_Auto2.uasset'
+[2017.06.09-15.19.18:208][ 46]LogSavePackage:Display: Finished SavePackage ../../../../UE4 projects/ohwowrepo/TowerDefence4 - Copy/Saved/Autosaves/Game/MOBA_Minion_AI/AI/BaseUnit_BT_Auto2.uasset
+[2017.06.09-15.19.18:208][ 46]LogFileHelpers: Auto-saving content packages took 0.093
+[2017.06.09-15.19.20:240][ 53]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MOBA_Minion_AI/AI/BaseUnit_BT" FILE="../../../../UE4 projects/ohwowrepo/TowerDefence4 - Copy/Content/MOBA_Minion_AI/AI/BaseUnit_BT.uasset" SILENT=true
+[2017.06.09-15.19.20:248][ 53]LogSavePackage: Save=5.74ms
+[2017.06.09-15.19.20:248][ 53]LogSavePackage: Moving '../../../../UE4 projects/ohwowrepo/TowerDefence4 - Copy/Saved/BaseUnit_BT908DD84143BECC0CBA0E48BF0D2D5273.tmp' to '../../../../UE4 projects/ohwowrepo/TowerDefence4 - Copy/Content/MOBA_Minion_AI/AI/BaseUnit_BT.uasset'
+[2017.06.09-15.19.20:253][ 53]LogSavePackage:Display: Finished SavePackage ../../../../UE4 projects/ohwowrepo/TowerDefence4 - Copy/Content/MOBA_Minion_AI/AI/BaseUnit_BT.uasset
+[2017.06.09-15.20.28:869][183]BlueprintLog: New page: Compile BaseUnitController
+[2017.06.09-15.20.29:344][218]LogSavePackage: Save=14.24ms
+[2017.06.09-15.20.29:344][218]LogSavePackage: Moving '../../../../UE4 projects/ohwowrepo/TowerDefence4 - Copy/Saved/BaseUnitController3D379DE2428A9135D169D2BED4E23F4F.tmp' to '../../../../UE4 projects/ohwowrepo/TowerDefence4 - Copy/Content/MOBA_Minion_AI/Units/Friendly/BaseUnitController.uasset'
+[2017.06.09-15.20.29:345][218]LogSavePackage:Display: Finished SavePackage ../../../../UE4 projects/ohwowrepo/TowerDefence4 - Copy/Content/MOBA_Minion_AI/Units/Friendly/BaseUnitController.uasset
+[2017.06.09-15.20.34:409][735]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.06.09-15.20.36:380][930]LogSavePackage: Save=153.89ms
+[2017.06.09-15.20.36:380][930]LogSavePackage: Moving '../../../../UE4 projects/ohwowrepo/TowerDefence4 - Copy/Saved/ThirdPersonExampleMap051F3B0A4A267B2AD5491A8E98A10E86.tmp' to '../../../../UE4 projects/ohwowrepo/TowerDefence4 - Copy/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2017.06.09-15.20.36:385][930]LogSavePackage:Display: Finished SavePackage ../../../../UE4 projects/ohwowrepo/TowerDefence4 - Copy/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2017.06.09-15.20.36:414][930]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.240
+[2017.06.09-15.20.36:465][930]LogSavePackage: Save=45.49ms
+[2017.06.09-15.20.36:465][930]LogSavePackage: Moving '../../../../UE4 projects/ohwowrepo/TowerDefence4 - Copy/Saved/GDG_PlayerController561669A9480DC2E9E0276F86798BAB52.tmp' to '../../../../UE4 projects/ohwowrepo/TowerDefence4 - Copy/Content/MOBA_Minion_AI/Game/GDG_PlayerController.uasset'
+[2017.06.09-15.20.36:468][930]LogSavePackage:Display: Finished SavePackage ../../../../UE4 projects/ohwowrepo/TowerDefence4 - Copy/Content/MOBA_Minion_AI/Game/GDG_PlayerController.uasset
+[2017.06.09-15.20.37:484][ 50]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.09-15.20.37:502][ 50]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.09-15.20.37:502][ 50]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.06.09-15.20.37:502][ 50]LogPlayLevel: [PlayLevel] Compiling GDG_PlayerController before play...
+[2017.06.09-15.20.37:649][ 50]LogPlayLevel: PlayLevel: Blueprint regeneration took 146 ms (1 blueprints)
+[2017.06.09-15.20.37:649][ 50]PIE: New page: PIE session: ThirdPersonExampleMap (9 Jun 2017 17:20:37)
+[2017.06.09-15.20.37:649][ 50]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.06.09-15.20.37:664][ 50]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015055s)
+[2017.06.09-15.20.37:664][ 50]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.06.09-15.20.37:665][ 50]LogPlayLevel: PIE: World Init took: (0.000590s)
+[2017.06.09-15.20.37:665][ 50]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.015930s)
+[2017.06.09-15.20.37:693][ 50]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.09-15.20.37:702][ 50]LogInit: FAudioDevice initialized.
+[2017.06.09-15.20.37:744][ 50]LogLoad: Game class is 'GDG_GameMode_C'
+[2017.06.09-15.20.37:747][ 50]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.06.09-16.20.37
+[2017.06.09-15.20.37:748][ 50]LogWorld: Bringing up level for play took: 0.003534
+[2017.06.09-15.20.37:772][ 50]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 11 classes and 0 folders.
+[2017.06.09-15.20.37:774][ 50]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.137
+[2017.06.09-15.20.37:774][ 50]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.09-15.21.23:166][490]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.09-15.21.23:203][490]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.09-15.22.23:571][763]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.09-15.22.23:586][763]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.09-15.22.23:586][763]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.09-15.22.23:586][763]PIE: New page: PIE session: ThirdPersonExampleMap (9 Jun 2017 17:22:23)
+[2017.06.09-15.22.23:587][763]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.06.09-15.22.23:601][763]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014747s)
+[2017.06.09-15.22.23:602][763]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.06.09-15.22.23:602][763]LogPlayLevel: PIE: World Init took: (0.000652s)
+[2017.06.09-15.22.23:602][763]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.015630s)
+[2017.06.09-15.22.23:632][763]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.09-15.22.23:640][763]LogInit: FAudioDevice initialized.
+[2017.06.09-15.22.23:668][763]LogLoad: Game class is 'GDG_GameMode_C'
+[2017.06.09-15.22.23:671][763]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.06.09-16.22.23
+[2017.06.09-15.22.23:672][763]LogWorld: Bringing up level for play took: 0.002826
+[2017.06.09-15.22.23:674][763]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.237
+[2017.06.09-15.22.23:674][763]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.09-15.23.04:039][ 19]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.09-15.23.04:098][ 19]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.09-15.23.21:857][417]Cmd: QUIT_EDITOR
+[2017.06.09-15.23.22:101][417]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.06.09-15.23.22:121][417]LogExit: Preparing to exit.
+[2017.06.09-15.23.23:184][417]LogDirectoryWatcher: A directory notification for 'E:/Unreal 4/UE4 projects/ohwowrepo/TowerDefence4 - Copy/Content/' was aborted.
+[2017.06.09-15.23.23:216][417]LogExit: Editor shut down
+[2017.06.09-15.23.23:216][417]LogExit: Transaction tracking system shut down
+[2017.06.09-15.23.23:309][417]LogObj: Freed 0b from 0 cluster array pools.
+[2017.06.09-15.23.23:309][417]LogExit: Object subsystem successfully closed.
+[2017.06.09-15.23.23:327][417]LogD3D11RHI: Shutdown
+[2017.06.09-15.23.23:327][417]LogD3D11RHI: CleanupD3DDevice
+[2017.06.09-15.23.23:404][417]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.06.09-15.23.23:410][417]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (508)
+[2017.06.09-15.23.23:410][417]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (506)
+[2017.06.09-15.23.23:410][417]LogModuleManager: Shutting down and abandoning module BlueprintGraph (504)
+[2017.06.09-15.23.23:410][417]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (502)
+[2017.06.09-15.23.23:410][417]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (500)
+[2017.06.09-15.23.23:410][417]LogModuleManager: Shutting down and abandoning module CrashTracker (498)
+[2017.06.09-15.23.23:410][417]LogModuleManager: Shutting down and abandoning module SceneOutliner (496)
+[2017.06.09-15.23.23:410][417]LogModuleManager: Shutting down and abandoning module AddContentDialog (494)
+[2017.06.09-15.23.23:410][417]LogDirectoryWatcher: A directory notification for 'E:/Unreal 4/UE_4.15/FeaturePacks/' was aborted.
+[2017.06.09-15.23.23:411][417]LogModuleManager: Shutting down and abandoning module WidgetCarousel (493)
+[2017.06.09-15.23.23:411][417]LogModuleManager: Shutting down and abandoning module EditorWidgets (490)
+[2017.06.09-15.23.23:411][417]LogModuleManager: Shutting down and abandoning module CollectionManager (488)
+[2017.06.09-15.23.23:411][417]LogDirectoryWatcher: A directory notification for 'E:/Unreal 4/UE4 projects/ohwowrepo/TowerDefence4 - Copy/Content/Collections/' was aborted.
+[2017.06.09-15.23.23:411][417]LogDirectoryWatcher: A directory notification for 'E:/Unreal 4/UE4 projects/ohwowrepo/TowerDefence4 - Copy/Content/Developers/Henry891/Collections/' was aborted.
+[2017.06.09-15.23.23:411][417]LogDirectoryWatcher: A directory notification for 'E:/Unreal 4/UE4 projects/ohwowrepo/TowerDefence4 - Copy/Saved/Collections/' was aborted.
+[2017.06.09-15.23.23:411][417]LogModuleManager: Shutting down and abandoning module StatsViewer (486)
+[2017.06.09-15.23.23:411][417]LogModuleManager: Shutting down and abandoning module FoliageEdit (484)
+[2017.06.09-15.23.23:411][417]LogModuleManager: Shutting down and abandoning module LandscapeEditor (482)
+[2017.06.09-15.23.23:411][417]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (480)
+[2017.06.09-15.23.23:411][417]LogModuleManager: Shutting down and abandoning module ActorPickerMode (478)
+[2017.06.09-15.23.23:411][417]LogModuleManager: Shutting down and abandoning module GeometryMode (476)
+[2017.06.09-15.23.23:411][417]LogModuleManager: Shutting down and abandoning module TextureAlignMode (474)
+[2017.06.09-15.23.23:411][417]LogModuleManager: Shutting down and abandoning module BspMode (472)
+[2017.06.09-15.23.23:411][417]LogModuleManager: Shutting down and abandoning module HardwareSurvey (470)
+[2017.06.09-15.23.23:411][417]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (468)
+[2017.06.09-15.23.23:411][417]LogModuleManager: Shutting down and abandoning module AutomationWorker (466)
+[2017.06.09-15.23.23:411][417]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (464)
+[2017.06.09-15.23.23:411][417]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (462)
+[2017.06.09-15.23.23:411][417]LogModuleManager: Shutting down and abandoning module PlacementMode (461)
+[2017.06.09-15.23.23:411][417]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (458)
+[2017.06.09-15.23.23:411][417]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (456)
+[2017.06.09-15.23.23:411][417]LogModuleManager: Shutting down and abandoning module MfMediaFactory (454)
+[2017.06.09-15.23.23:411][417]LogModuleManager: Shutting down and abandoning module MfMediaEditor (452)
+[2017.06.09-15.23.23:411][417]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (450)
+[2017.06.09-15.23.23:411][417]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (448)
+[2017.06.09-15.23.23:411][417]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (446)
+[2017.06.09-15.23.23:411][417]LogModuleManager: Shutting down and abandoning module Media (445)
+[2017.06.09-15.23.23:411][417]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (442)
+[2017.06.09-15.23.23:411][417]LogModuleManager: Shutting down and abandoning module CharacterAI (440)
+[2017.06.09-15.23.23:411][417]LogModuleManager: Shutting down and abandoning module AudioCapture (438)
+[2017.06.09-15.23.23:411][417]LogModuleManager: Shutting down and abandoning module SequenceRecorder (437)
+[2017.06.09-15.23.23:411][417]LogModuleManager: Shutting down and abandoning module SmartSnapping (434)
+[2017.06.09-15.23.23:411][417]LogModuleManager: Shutting down and abandoning module SessionServices (432)
+[2017.06.09-15.23.23:411][417]LogModuleManager: Shutting down and abandoning module ViewportSnapping (430)
+[2017.06.09-15.23.23:411][417]LogModuleManager: Shutting down and abandoning module ViewportInteraction (428)
+[2017.06.09-15.23.23:411][417]LogModuleManager: Shutting down and abandoning module LogVisualizer (426)
+[2017.06.09-15.23.23:411][417]LogModuleManager: Shutting down and abandoning module IntroTutorials (424)
+[2017.06.09-15.23.23:411][417]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (423)
+[2017.06.09-15.23.23:411][417]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (420)
+[2017.06.09-15.23.23:411][417]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (418)
+[2017.06.09-15.23.23:411][417]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (416)
+[2017.06.09-15.23.23:411][417]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (414)
+[2017.06.09-15.23.23:411][417]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (413)
+[2017.06.09-15.23.24:379][417]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (410)
+[2017.06.09-15.23.24:379][417]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (408)
+[2017.06.09-15.23.24:379][417]LogModuleManager: Shutting down and abandoning module InputBindingEditor (406)
+[2017.06.09-15.23.24:379][417]LogModuleManager: Shutting down and abandoning module NiagaraEditor (404)
+[2017.06.09-15.23.24:379][417]LogModuleManager: Shutting down and abandoning module MergeActors (402)
+[2017.06.09-15.23.24:379][417]LogModuleManager: Shutting down and abandoning module SizeMap (400)
+[2017.06.09-15.23.24:379][417]LogModuleManager: Shutting down and abandoning module TreeMap (398)
+[2017.06.09-15.23.24:380][417]LogModuleManager: Shutting down and abandoning module ReferenceViewer (396)
+[2017.06.09-15.23.24:380][417]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (394)
+[2017.06.09-15.23.24:380][417]LogModuleManager: Shutting down and abandoning module LocalizationService (393)
+[2017.06.09-15.23.24:380][417]LogModuleManager: Shutting down and abandoning module HardwareTargeting (390)
+[2017.06.09-15.23.24:380][417]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (388)
+[2017.06.09-15.23.24:380][417]LogModuleManager: Shutting down and abandoning module UndoHistory (386)
+[2017.06.09-15.23.24:380][417]LogModuleManager: Shutting down and abandoning module UserFeedback (384)
+[2017.06.09-15.23.24:380][417]LogModuleManager: Shutting down and abandoning module XmlParser (382)
+[2017.06.09-15.23.24:380][417]LogModuleManager: Shutting down and abandoning module Blutility (380)
+[2017.06.09-15.23.24:380][417]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (378)
+[2017.06.09-15.23.24:380][417]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (377)
+[2017.06.09-15.23.24:380][417]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (374)
+[2017.06.09-15.23.24:380][417]LogModuleManager: Shutting down and abandoning module SettingsEditor (372)
+[2017.06.09-15.23.24:380][417]LogModuleManager: Shutting down and abandoning module ProjectLauncher (370)
+[2017.06.09-15.23.24:380][417]LogModuleManager: Shutting down and abandoning module SessionFrontend (368)
+[2017.06.09-15.23.24:380][417]LogModuleManager: Shutting down and abandoning module ProfilerClient (366)
+[2017.06.09-15.23.24:380][417]LogModuleManager: Shutting down and abandoning module DeviceManager (364)
+[2017.06.09-15.23.24:380][417]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (363)
+[2017.06.09-15.23.24:433][417]LogModuleManager: Shutting down and abandoning module AutomationController (360)
+[2017.06.09-15.23.24:433][417]LogModuleManager: Shutting down and abandoning module AutomationWindow (358)
+[2017.06.09-15.23.24:433][417]LogModuleManager: Shutting down and abandoning module Layers (356)
+[2017.06.09-15.23.24:433][417]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (354)
+[2017.06.09-15.23.24:433][417]LogModuleManager: Shutting down and abandoning module DetailCustomizations (352)
+[2017.06.09-15.23.24:433][417]LogModuleManager: Shutting down and abandoning module PackagesDialog (350)
+[2017.06.09-15.23.24:433][417]LogModuleManager: Shutting down and abandoning module Persona (348)
+[2017.06.09-15.23.24:433][417]LogModuleManager: Shutting down and abandoning module AnimGraph (347)
+[2017.06.09-15.23.24:433][417]LogModuleManager: Shutting down and abandoning module Kismet (344)
+[2017.06.09-15.23.24:439][417]LogModuleManager: Shutting down and abandoning module GraphEditor (342)
+[2017.06.09-15.23.24:439][417]LogModuleManager: Shutting down and abandoning module ClassViewer (340)
+[2017.06.09-15.23.24:441][417]LogModuleManager: Shutting down and abandoning module Toolbox (338)
+[2017.06.09-15.23.24:441][417]LogModuleManager: Shutting down and abandoning module ModuleUI (336)
+[2017.06.09-15.23.24:441][417]LogModuleManager: Shutting down and abandoning module MovieSceneTools (334)
+[2017.06.09-15.23.24:441][417]LogModuleManager: Shutting down and abandoning module OutputLog (332)
+[2017.06.09-15.23.24:441][417]LogModuleManager: Shutting down and abandoning module GammaUI (330)
+[2017.06.09-15.23.24:441][417]LogModuleManager: Shutting down and abandoning module Documentation (328)
+[2017.06.09-15.23.24:441][417]LogModuleManager: Shutting down and abandoning module Niagara (326)
+[2017.06.09-15.23.24:441][417]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (324)
+[2017.06.09-15.23.24:441][417]LogModuleManager: Shutting down and abandoning module AnalyticsET (322)
+[2017.06.09-15.23.24:441][417]LogModuleManager: Shutting down and abandoning module PortalServices (320)
+[2017.06.09-15.23.24:441][417]LogModuleManager: Shutting down and abandoning module PortalRpc (318)
+[2017.06.09-15.23.24:441][417]LogModuleManager: Shutting down and abandoning module MessagingRpc (316)
+[2017.06.09-15.23.24:441][417]LogModuleManager: Shutting down and abandoning module AIModule (314)
+[2017.06.09-15.23.24:441][417]LogModuleManager: Shutting down and abandoning module GameplayDebugger (313)
+[2017.06.09-15.23.24:441][417]LogModuleManager: Shutting down and abandoning module AITestSuite (311)
+[2017.06.09-15.23.24:441][417]LogModuleManager: Shutting down and abandoning module ProfilerService (308)
+[2017.06.09-15.23.24:575][417]LogModuleManager: Shutting down and abandoning module TaskGraph (306)
+[2017.06.09-15.23.24:575][417]LogModuleManager: Shutting down and abandoning module SteamVRController (304)
+[2017.06.09-15.23.24:575][417]LogModuleManager: Shutting down and abandoning module SteamVR (302)
+[2017.06.09-15.23.24:575][417]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (300)
+[2017.06.09-15.23.24:575][417]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (298)
+[2017.06.09-15.23.24:575][417]LogModuleManager: Shutting down and abandoning module OculusLibrary (296)
+[2017.06.09-15.23.24:575][417]LogModuleManager: Shutting down and abandoning module OculusInput (294)
+[2017.06.09-15.23.24:575][417]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (292)
+[2017.06.09-15.23.24:575][417]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (290)
+[2017.06.09-15.23.24:575][417]LogModuleManager: Shutting down and abandoning module CableComponent (288)
+[2017.06.09-15.23.24:575][417]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (286)
+[2017.06.09-15.23.24:575][417]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (282)
+[2017.06.09-15.23.24:575][417]LogModuleManager: Shutting down and abandoning module HTML5Networking (280)
+[2017.06.09-15.23.24:575][417]LogModuleManager: Shutting down and abandoning module AlembicImporter (278)
+[2017.06.09-15.23.24:575][417]LogModuleManager: Shutting down and abandoning module AlembicLibrary (277)
+[2017.06.09-15.23.24:575][417]LogModuleManager: Shutting down and abandoning module GeometryCache (276)
+[2017.06.09-15.23.24:575][417]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (275)
+[2017.06.09-15.23.24:575][417]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (270)
+[2017.06.09-15.23.24:575][417]LogModuleManager: Shutting down and abandoning module SuperSearch (269)
+[2017.06.09-15.23.24:575][417]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (266)
+[2017.06.09-15.23.24:575][417]LogModuleManager: Shutting down and abandoning module PluginBrowser (264)
+[2017.06.09-15.23.24:575][417]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (262)
+[2017.06.09-15.23.24:575][417]LogModuleManager: Shutting down and abandoning module EpicSurvey (260)
+[2017.06.09-15.23.24:575][417]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (258)
+[2017.06.09-15.23.24:575][417]LogModuleManager: Shutting down and abandoning module DesktopPlatform (257)
+[2017.06.09-15.23.24:575][417]LogModuleManager: Shutting down and abandoning module UObjectPlugin (254)
+[2017.06.09-15.23.24:575][417]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (252)
+[2017.06.09-15.23.24:575][417]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (250)
+[2017.06.09-15.23.24:575][417]LogModuleManager: Shutting down and abandoning module GitSourceControl (248)
+[2017.06.09-15.23.24:575][417]LogModuleManager: Shutting down and abandoning module SourceControl (247)
+[2017.06.09-15.23.24:575][417]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (244)
+[2017.06.09-15.23.24:575][417]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (242)
+[2017.06.09-15.23.24:575][417]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (240)
+[2017.06.09-15.23.24:575][417]LogModuleManager: Shutting down and abandoning module Paper2DEditor (238)
+[2017.06.09-15.23.24:575][417]LogModuleManager: Shutting down and abandoning module MeshPaint (237)
+[2017.06.09-15.23.24:575][417]LogModuleManager: Shutting down and abandoning module LevelEditor (235)
+[2017.06.09-15.23.24:575][417]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (234)
+[2017.06.09-15.23.24:575][417]LogModuleManager: Shutting down and abandoning module MainFrame (232)
+[2017.06.09-15.23.24:576][417]LogModuleManager: Shutting down and abandoning module HotReload (231)
+[2017.06.09-15.23.24:576][417]LogModuleManager: Shutting down and abandoning module ContentBrowser (227)
+[2017.06.09-15.23.24:577][417]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (224)
+[2017.06.09-15.23.24:577][417]LogModuleManager: Shutting down and abandoning module PhysXVehicles (222)
+[2017.06.09-15.23.24:577][417]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (220)
+[2017.06.09-15.23.24:577][417]LogModuleManager: Shutting down and abandoning module UdpMessaging (218)
+[2017.06.09-15.23.24:677][417]LogModuleManager: Shutting down and abandoning module TcpMessaging (216)
+[2017.06.09-15.23.24:777][417]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (214)
+[2017.06.09-15.23.24:777][417]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (212)
+[2017.06.09-15.23.24:777][417]LogModuleManager: Shutting down and abandoning module FacialAnimation (210)
+[2017.06.09-15.23.24:777][417]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (208)
+[2017.06.09-15.23.24:777][417]LogModuleManager: Shutting down and abandoning module Paper2D (206)
+[2017.06.09-15.23.24:777][417]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (204)
+[2017.06.09-15.23.24:777][417]LogModuleManager: Shutting down and abandoning module WmfMedia (202)
+[2017.06.09-15.23.24:777][417]LogModuleManager: Shutting down and abandoning module MfMedia (200)
+[2017.06.09-15.23.24:777][417]LogModuleManager: Shutting down and abandoning module MediaAssets (198)
+[2017.06.09-15.23.24:777][417]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (196)
+[2017.06.09-15.23.24:777][417]LogModuleManager: Shutting down and abandoning module EnvironmentQueryEditor (194)
+[2017.06.09-15.23.24:777][417]LogModuleManager: Shutting down and abandoning module VREditor (192)
+[2017.06.09-15.23.24:777][417]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (190)
+[2017.06.09-15.23.24:777][417]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (188)
+[2017.06.09-15.23.24:777][417]LogModuleManager: Shutting down and abandoning module FunctionalTesting (186)
+[2017.06.09-15.23.24:777][417]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (184)
+[2017.06.09-15.23.24:777][417]LogModuleManager: Shutting down and abandoning module UMG (182)
+[2017.06.09-15.23.24:777][417]LogModuleManager: Shutting down and abandoning module UMGEditor (181)
+[2017.06.09-15.23.24:778][417]LogModuleManager: Shutting down and abandoning module Sequencer (180)
+[2017.06.09-15.23.24:778][417]LogModuleManager: Shutting down and abandoning module AssetTools (178)
+[2017.06.09-15.23.24:778][417]LogModuleManager: Shutting down and abandoning module MessageLog (177)
+[2017.06.09-15.23.24:778][417]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (176)
+[2017.06.09-15.23.24:778][417]LogModuleManager: Shutting down and abandoning module SlateReflector (170)
+[2017.06.09-15.23.24:778][417]LogModuleManager: Shutting down and abandoning module Slate (168)
+[2017.06.09-15.23.24:778][417]LogModuleManager: Shutting down and abandoning module EditorStyle (166)
+[2017.06.09-15.23.24:781][417]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (164)
+[2017.06.09-15.23.24:781][417]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (162)
+[2017.06.09-15.23.24:781][417]LogModuleManager: Shutting down and abandoning module XAudio2 (160)
+[2017.06.09-15.23.24:781][417]LogModuleManager: Shutting down and abandoning module Networking (158)
+[2017.06.09-15.23.24:781][417]LogModuleManager: Shutting down and abandoning module Core (154)
+[2017.06.09-15.23.24:781][417]LogModuleManager: Shutting down and abandoning module AssetRegistry (152)
+[2017.06.09-15.23.24:885][417]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.06.09-15.23.24:886][417]LogDirectoryWatcher: A directory notification for '../../../../UE4 projects/ohwowrepo/TowerDefence4 - Copy/Content/' was aborted.
+[2017.06.09-15.23.24:886][417]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.06.09-15.23.24:886][417]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (151)
+[2017.06.09-15.23.24:886][417]LogModuleManager: Shutting down and abandoning module KismetCompiler (148)
+[2017.06.09-15.23.24:886][417]LogModuleManager: Shutting down and abandoning module PhysXFormats (146)
+[2017.06.09-15.23.24:886][417]LogModuleManager: Shutting down and abandoning module MeshUtilities (144)
+[2017.06.09-15.23.24:886][417]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (143)
+[2017.06.09-15.23.24:886][417]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (141)
+[2017.06.09-15.23.24:886][417]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (139)
+[2017.06.09-15.23.24:886][417]LogModuleManager: Shutting down and abandoning module PropertyEditor (137)
+[2017.06.09-15.23.24:886][417]LogModuleManager: Shutting down and abandoning module DerivedDataCache (134)
+[2017.06.09-15.23.24:909][417]LogDerivedDataCache: Shutdown
+[2017.06.09-15.23.24:909][417]LogModuleManager: Shutting down and abandoning module TargetPlatform (132)
+[2017.06.09-15.23.24:909][417]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (131)
+[2017.06.09-15.23.24:909][417]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (129)
+[2017.06.09-15.23.24:909][417]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (127)
+[2017.06.09-15.23.24:909][417]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (125)
+[2017.06.09-15.23.24:909][417]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (123)
+[2017.06.09-15.23.24:909][417]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (121)
+[2017.06.09-15.23.24:909][417]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (119)
+[2017.06.09-15.23.24:909][417]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (117)
+[2017.06.09-15.23.24:909][417]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (115)
+[2017.06.09-15.23.24:909][417]LogModuleManager: Shutting down and abandoning module ImageWrapper (114)
+[2017.06.09-15.23.24:909][417]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (111)
+[2017.06.09-15.23.24:909][417]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (109)
+[2017.06.09-15.23.24:909][417]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (107)
+[2017.06.09-15.23.24:909][417]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (105)
+[2017.06.09-15.23.24:909][417]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (103)
+[2017.06.09-15.23.24:909][417]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (101)
+[2017.06.09-15.23.24:909][417]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (99)
+[2017.06.09-15.23.24:909][417]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (97)
+[2017.06.09-15.23.24:909][417]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (95)
+[2017.06.09-15.23.24:909][417]LogModuleManager: Shutting down and abandoning module Messaging (93)
+[2017.06.09-15.23.24:909][417]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (91)
+[2017.06.09-15.23.24:909][417]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (89)
+[2017.06.09-15.23.24:909][417]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (87)
+[2017.06.09-15.23.24:909][417]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (85)
+[2017.06.09-15.23.24:909][417]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (83)
+[2017.06.09-15.23.24:909][417]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (81)
+[2017.06.09-15.23.24:909][417]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (79)
+[2017.06.09-15.23.24:909][417]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (77)
+[2017.06.09-15.23.24:909][417]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (75)
+[2017.06.09-15.23.24:909][417]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (73)
+[2017.06.09-15.23.24:909][417]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (71)
+[2017.06.09-15.23.24:909][417]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (69)
+[2017.06.09-15.23.24:909][417]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (67)
+[2017.06.09-15.23.24:909][417]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (65)
+[2017.06.09-15.23.24:909][417]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (63)
+[2017.06.09-15.23.24:909][417]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (61)
+[2017.06.09-15.23.24:909][417]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (59)
+[2017.06.09-15.23.24:909][417]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (57)
+[2017.06.09-15.23.24:909][417]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (55)
+[2017.06.09-15.23.24:909][417]LogModuleManager: Shutting down and abandoning module InputCore (52)
+[2017.06.09-15.23.24:909][417]LogModuleManager: Shutting down and abandoning module Settings (50)
+[2017.06.09-15.23.24:910][417]LogModuleManager: Shutting down and abandoning module OculusRift (48)
+[2017.06.09-15.23.24:910][417]LogModuleManager: Shutting down and abandoning module GearVR (46)
+[2017.06.09-15.23.24:910][417]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (44)
+[2017.06.09-15.23.24:910][417]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (42)
+[2017.06.09-15.23.24:910][417]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (38)
+[2017.06.09-15.23.24:910][417]LogOnline:Display: Unloading online subsystem: NULL
+[2017.06.09-15.23.24:910][417]LogModuleManager: Shutting down and abandoning module XMPP (37)
+[2017.06.09-15.23.24:910][417]LogModuleManager: Shutting down and abandoning module HTTP (35)
+[2017.06.09-15.23.24:910][417]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.06.09-15.23.24:910][417]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B104435ED-4CF3-DC70-B1C7-958D7D6CFF0D%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.2-3416026%2B%2B%2BUE4%2BRelease-4.15&UserID=792a68a44fbb11f39c5b928b0a92b453%7C1c2770170c974dea87ad2b41ec4a65ab%7C76525198-daab-451b-b1f3-7338e1d38b7d&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.06.09-15.23.24:918][417]LogModuleManager: Shutting down and abandoning module SSL (34)
+[2017.06.09-15.23.24:920][417]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.06.09-15.23.24:920][417]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.06.09-15.23.24:920][417]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.06.09-15.23.24:920][417]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.06.09-15.23.24:920][417]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.06.09-15.23.24:922][417]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.06.09-15.23.24:922][417]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.06.09-15.23.24:922][417]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.06.09-15.23.24:922][417]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.06.09-15.23.24:922][417]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.06.09-15.23.24:922][417]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.06.09-15.23.24:922][417]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.06.09-15.23.24:922][417]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.06.09-15.23.24:922][417]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.06.09-15.23.24:922][417]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.06.09-15.23.24:924][417]LogExit: Exiting.
+[2017.06.09-15.23.24:940][417]Log file closed, 06/09/17 16:23:24
